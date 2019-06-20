@@ -1,0 +1,9 @@
+<header class="container-fluid nav-container sticky-top">
+    <nav aria-atomic="true" class="main-nav float-right d-none d-lg-block">
+        <ul>
+            {% for item in site.data.navigation %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

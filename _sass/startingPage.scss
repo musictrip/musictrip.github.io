@@ -1,0 +1,168 @@
+.container-fluid {
+    padding: 15% 10%;
+}
+
+.row {
+    margin: 20px;
+
+}
+
+.titel {
+    color: darkslategrey;
+    font-family: Microsoft JhengHei, serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.space {
+    margin-right: 20px;
+}
+
+/*Masterclass info*/
+
+
+.concert-container {
+    margin-top: 20%;
+}
+
+
+.row {
+    margin: 20px;
+}
+
+
+.card {
+    color: white;
+}
+
+
+.masterclass-card {
+    margin-bottom: 50px;
+
+}
+
+
+.card-gray {
+    background: #7b7b7a;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+
+
+}
+
+.card-gray-below {
+    background: #fefffb;
+    color: #60605f;
+    border-style: dotted;
+    border-color: #60605f;
+    border-width: medium;
+
+}
+
+
+.card-gray:hover {
+    background: #384037;
+}
+
+
+.card-lila {
+    background: #9a5d88;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+
+
+}
+
+.card-lila-below {
+    background: #fefffb;
+    color: #9a5d88;
+    border-style: dotted;
+    border-color: #9a5d88;
+    border-width: medium;
+
+
+}
+
+
+.card-lila:hover {
+    background: #58354e;
+}
+
+.card-blue {
+    background: #6463a2;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+
+
+}
+
+.card-blue-below {
+    background: #fefffb;
+    color: #51508c;
+    border-style: dotted;
+    border-color: #51508c;
+    border-width: medium;
+}
+
+.card-blue:hover {
+    background: #434274;
+}
+
+
+.date {
+    font-style: 22px;
+    font-family: Microsoft JhengHei, serif;
+
+}
+
+.date-month {
+    font-weight: bold;
+    font-size: 28px;
+    inset-block: 20px;
+    font-family: Microsoft JhengHei, serif;
+
+}
+
+
+.concert-type {
+    font-weight: 500;
+}
+
+.concert-name {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Microsoft JhengHei, serif;
+    margin-bottom: 30%;
+
+
+}
+
+.orchestra-cast {
+    padding-bottom: 40px;
+    font-family: Microsoft JhengHei, serif;
+    margin-bottom: auto;
+    letter-spacing: 1.5px;
+}
+
+
+.card-deck {
+    margin: 20px;
+}
+
+.location {
+    font-family: Microsoft JhengHei, serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.date-day {
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 85%;
+    font-family: Microsoft JhengHei, serif;
+
+}
