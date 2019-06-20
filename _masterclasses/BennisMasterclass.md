@@ -1,14 +1,14 @@
 ---
-name: Yatings Cello Fest
+name: Bennis Masterclass
 teachers:
-    - name: Yating Chen
+    - name: Benni
       link: bla
 fee: 200
 startDate: 2019-07-06
 endDate: 2019-07-12
 city: Graz
 country: 奧地利
-type: festival
+type: masterclass
 ---
 
-Yatings großes Cello-Fest.
+Bennis Masterclass

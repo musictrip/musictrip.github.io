@@ -7,17 +7,27 @@ title: Music trip
     <div class="row">
 
         {% for masterclass in site.masterclasses %}
+            {% if masterclass.type == 'masterclass'%}
+                {% assign card-style = "masterclass"%}
+                {% assign lesson-style = "大師班"%}
+        {% else %}
+                {% assign card-style = "festival"%}
+                {% assign lesson-style = "音樂節"%}
+        {% endif %}
+
+
+
+
         <div class="col-lg-4 col-md-6 masterclass-card">
-            <div class="card card-gray">
+            <div class="card card-{{ card-style }}-top">
                 <div class="card-body position-relative">
-                    <div class="concert-type">大師班</div>
+                    <div class="concert-type">{{ lesson-style }}</div>
                     <div class="concert-name">{{ masterclass.name }}</div>
                     <div class="orchestra-cast">Prof.Yating Chen, Prof. Benjamin Wagner,Prof.Liangyu Chen
                     </div>
-                    <a href="{{ masterclass.url }}" class="stretched-link"></a>
                 </div>
             </div>
-            <div class="card card-gray-below">
+            <div class="card card-below card-{{ card-style }}-bottom">
                 <div class="card-body position-relative">
                     <div class="date">
                         <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
@@ -26,9 +36,10 @@ title: Music trip
                         <span class="date-month">{{ masterclass.endDate }}</span>
                     </div>
 
-                    <a href="{{ masterclass.url }}" class="stretched-link"></a>
                 </div>
             </div>
+            <a href="{{ masterclass.url }}" class="stretched-link"></a>
+
         </div>
         {% endfor %}
 

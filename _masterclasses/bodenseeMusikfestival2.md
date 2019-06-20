@@ -1,5 +1,5 @@
 ---
-name: Bodensee Musikfestival
+name: Bodensee Musikfestival 2
 teachers:
     - name: Yating Chen
       link: bla
@@ -10,6 +10,7 @@ startDate: 2019-06-06
 endDate: 2019-07-30
 city: Friedrichshafen
 country: 德國
+type: festival
 ---
 
 Das Bodensee-Musikfestival ist ein tolles Musikfestival am Bodensee.

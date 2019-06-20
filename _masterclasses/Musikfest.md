@@ -8,6 +8,7 @@ startDate: 2019-07-06
 endDate: 2019-07-12
 city: Brescia
 country: 意大利
+type: festival
 ---
 
 Banbans Musikfest
