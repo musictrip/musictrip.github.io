@@ -17,16 +17,28 @@
     <!-- Main Stylesheet File -->
     <link type="text/css" rel="stylesheet" href="css/startingpageAndNavigation.css">
     <link rel="stylesheet" type="text/css" href="css/page2.css">
+    <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 
 </head>
 
 <body>
 
-
 <header style="" class="container-fluid nav-container sticky-top">
     <nav aria-atomic="true" class="main-nav float-right d-none d-lg-block">
         <ul>
-            <li><a href="#">首頁</a></li>
+            <li>
+
+                <a href="#">
+                    <img src="img/home/home-button-darkblue.png" style="width: 24px;"
+                         onmouseout="this.src='img/home/home-button-darkblue.png'"
+                         onmouseover="this.src='img/home/home-button-blue.png'"
+                          onclick="setBanner(); showFlag();"/>
+
+
+
+                </a>
+            
+            </li>
             <li><a href="#">關於我們</a></li>
             <li class="drop-down "><a href="">最新消息</a>
                 <ul>
