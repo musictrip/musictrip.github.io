@@ -22,8 +22,15 @@ title: Music trip
             <div class="card card-{{ card-style }}-top">
                 <div class="card-body position-relative">
                     <div class="concert-type">{{ lesson-style }}</div>
-                    <div class="concert-name">{{ masterclass.name }}</div>
-                    <div class="orchestra-cast">Prof.Yating Chen, Prof. Benjamin Wagner,Prof.Liangyu Chen
+                    <div class="concert-name py-4">{{ masterclass.name }}</div>
+                    <div class="orchestra-cast">
+                        {% for teacher in masterclass.teachers%}
+                            {% if forloop.length == 1 or forloop.last %}
+                                {{ teacher.name }}
+                            {% else %}
+                                {{ teacher.name }},
+                            {% endif %}
+                        {%endfor%}
                     </div>
                 </div>
             </div>

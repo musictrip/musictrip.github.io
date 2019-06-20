@@ -1,14 +1,19 @@
+$cardBackgroundColor: white;
+
+* {
+  font-family: "Noto Sans CJK TC Regular", sans-serif;
+}
 
 .titel {
   color: darkslategrey;
-  font-family: Microsoft JhengHei, serif;
+
   font-size: 32px;
   margin-bottom: 10px;
 }
 
 
 .card {
-  color: white;
+  color: $cardBackgroundColor;
 }
 
 /*Masterclass cards*/
@@ -35,7 +40,7 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
   }
 
   .card-#{$colorName}-bottom {
-    background: #fefffb;
+    background: $cardBackgroundColor;
     color: $color;
     border-style: dotted;
     border-color: $color;
@@ -61,16 +66,12 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
 
 .date {
   font-style: 22px;
-  font-family: Microsoft JhengHei, serif;
-
 }
 
 .date-month {
   font-weight: bold;
   font-size: 28px;
   inset-block: 20px;
-  font-family: Microsoft JhengHei, serif;
-
 }
 
 
@@ -79,17 +80,12 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
 }
 
 .concert-name {
-  font-weight: bold;
-  font-size: 200%;
-  font-family: Microsoft JhengHei, serif;
-  margin-bottom: 30%;
-
-
+  font-family: 'Playfair Display', serif;
+  font-size: 250%;
 }
 
 .orchestra-cast {
   padding-bottom: 40px;
-  font-family: Microsoft JhengHei, serif;
   margin-bottom: auto;
   letter-spacing: 1.5px;
 }
@@ -100,7 +96,6 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
 }
 
 .location {
-  font-family: Microsoft JhengHei, serif;
   margin-top: 15px;
   margin-bottom: 15px;
 
@@ -110,6 +105,4 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
   font-weight: 700;
   font-size: 300%;
   line-height: 85%;
-  font-family: Microsoft JhengHei, serif;
-
 }
