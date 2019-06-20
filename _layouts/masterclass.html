@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h2>{{ page.startDate }} - {{page.endDate}}</h2>
+<h3>{{ page.fee }}€</h3>
+
+<h2>Teachers</h2>
+
+<ul>
+    {% for teacher in page.teachers %}
+    <li><a href="{{teacher.link}}">{{ teacher.name }}</a></li>
+    {% endfor %}
+</ul>
+
+{{ content }}

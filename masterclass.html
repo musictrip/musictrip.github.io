@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>Masterclasses</h1>
+
+<ul>
+    {% for masterclass in site.masterclasses %}
+    <li>
+        <h2><a href="{{ masterclass.url }}">{{ masterclass.name }}</a></h2>
+        <p>{{ masterclass.content | markdownify }}</p>
+    </li>
+    {% endfor %}
+</ul>

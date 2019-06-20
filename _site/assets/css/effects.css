@@ -1,0 +1,235 @@
+/* general styling for the hover page */
+
+/*body {
+  font-family: 'colaborate-thinregular', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-image: url("../images/back3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFF;
+}*/
+
+ 
+h1 {
+  font-size: 50px;
+}
+
+pre {
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.titlep {
+  letter-spacing: 0px;
+  padding-bottom: 60px;
+  font-size: 18px;
+}
+
+.breath {
+  padding-top: 80px;
+}
+
+.topinfo {
+  position: absolute;
+  bottom: 1px;
+  left: 96px;
+}
+
+.page-header {
+	/*display: inline-block;
+	padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 12px*/
+}
+
+.modal-content{
+color: #000;
+}
+
+.modal-body p 
+{
+letter-spacing: 0px;
+text-transform: none;
+font-size: 16px;
+}
+
+.navbar-inverse {
+	color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    border-bottom: 1px solid #fff;
+}
+
+ul.nav.navbar-nav {
+float: right;
+}
+
+.navbar-inverse .navbar-brand , .navbar-inverse .navbar-nav>li>a {
+color: #fff;
+}
+
+
+
+/* remove bootstrap padding so images sit right next to each other with no gaps */
+
+.col-lg-3, .col-md-4, .col-sm-6, .col-xs-12 {
+  padding: 0px;
+}
+
+
+/* general styling for all the hovers */
+	
+.hover {
+  width: 80%;
+  height: 90%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hover img {
+  display: block;
+  position: relative;
+}
+
+.hover h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hover button.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.hover button.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+/* styling to remove box shadow and border from buttons for last few effects */
+
+.hover button.nullbutton {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hover button.nullbutton:hover {
+  box-shadow: none;
+}
+
+/* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+.modal-open .modal, button:focus {
+    outline:none!important
+}
+
+/* styling so when hovering over a div that opens a modal the cursor changes to a pointer */
+.point {
+cursor: pointer;
+}
+
+
+/* effect 12 */
+
+.ehover12 {
+	background: #7170b6;
+    margin-left: 30px;
+}
+
+.ehover12 img {
+	max-width: 100%;
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  background: #6f42c1;
+}
+
+.ehover12:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.ehover12 .overlay {
+	padding: 50px 20px;
+}
+
+.ehover12 h2 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+	background-color: transparent;
+}
+
+.ehover12 h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+.ehover12:hover h2::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.ehover12 button {
+	color:	#FFF;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+.ehover12:hover button{
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
