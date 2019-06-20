@@ -1,9 +1,21 @@
-<header class="container-fluid nav-container sticky-top">
-    <nav aria-atomic="true" class="main-nav float-right d-none d-lg-block">
-        <ul>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light justify-content-between">
+
+    <div class="navbar-header">
+        <a class="navbar-brand pl-5" href="#"><strong>{{site.title}}</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav ml-auto px-5">
             {% for item in site.data.navigation %}
-            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            <li class="nav-item px-3">
+                <a class="nav-link {% if page.url == item.link %} active {% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
             {% endfor %}
         </ul>
-    </nav>
-</header>
+    </div>
+</nav>
+
