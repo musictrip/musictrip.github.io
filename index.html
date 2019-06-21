@@ -11,6 +11,8 @@ title: Music trip
     <button class="button" data-filter="ium">name ends with &ndash;ium</button>
 </div>
 
+<p><input type="text" class="quicksearch" placeholder="Search" /></p>
+
 <div class="container my-4 animated fadeIn delay-1s">
     <div class="filterable">
 
@@ -32,7 +34,7 @@ title: Music trip
         {% assign lesson-style = "音樂節"%}
         {% endif %}
 
-        <div class="col-lg-4 my-4  drop-shadow filter-item {{ masterclass.type }}">
+        <div class="col-lg-4 col-md-6 my-4  drop-shadow filter-item {{ masterclass.type }}">
                 <div class="card  card-{{ masterclass.type }}-top ">
                     <div class="card-body position-relative">
                         <div class="concert-type">{{ lesson-style }}</div>
