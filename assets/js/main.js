@@ -4,7 +4,8 @@ $(document).ready(function () {
 
     // quick search regex
     var qsRegex;
-    var buttonFilter;
+    var buttonFilter = [];
+    var chosenFilters = {};
 
     var $grid = $('.filterable').isotope({
         // options
@@ -12,9 +13,13 @@ $(document).ready(function () {
         percentPosition: true,
         layoutMode: 'fitRows',
         filter: function () {
-            var $this = $(this);
-            var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
-            var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+            var searchResult = qsRegex ? $(this).text().match(qsRegex) : true;
+
+            console.log("buttonFilter in individual call", buttonFilter);
+            buttonResults = buttonFilter.map(x =>  $(this).is(x));
+            console.log("buttonResults", buttonResults);
+            var buttonResult = buttonResults.every(x => x);
+            console.log(buttonResult);
             return searchResult && buttonResult;
         }
     });
@@ -24,28 +29,31 @@ $(document).ready(function () {
         // show if number is greater than 50
         numberGreaterThan50: function () {
             var number = $(this).find('#fee').val();
-            console.log(number);
             return number > 500;
         },
-        // show if name ends with -ium
-        ium: function () {
-            var name = $(this).find('.name').text();
-            return name.match(/ium$/);
-        }
+
     };
 
 // bind filter button click
-    $('.filters-button-group').on('click', 'button', function () {
-        buttonFilter = $(this).attr('data-filter');
-        buttonFilter = filterFns[buttonFilter] || buttonFilter;
+    $('.filters-button-group').on('click', 'button', function (event) {
+        var $button = $(event.currentTarget);
+        var $buttonGroup = $button.parents('.button-group');
+        var filterGroup = $buttonGroup.attr('data-filter-group');
+        chosenFilters[filterGroup] = filterFns[$button.attr('data-filter')] || $button.attr('data-filter');
+
+
+        buttonFilter = concatValues(chosenFilters);
+
         $grid.isotope();
     });
+
 
     // use value of search field to filter
     var $quicksearch = $('.quicksearch').keyup(debounce(function () {
         qsRegex = new RegExp($quicksearch.val(), 'gi');
         $grid.isotope();
     }, 200));
+
 
 // debounce so filtering doesn't happen every millisecond
     function debounce(fn, threshold) {
@@ -64,14 +72,14 @@ $(document).ready(function () {
         };
     }
 
+    // flatten object by concatting values
+    function concatValues(obj) {
+        var values = [];
+        for (const prop in obj) {
+            values.push(obj[prop]);
+        }
+        return values;
+    }
 
-    $("#searchinput").keyup(function () {
-        $("#searchclear").toggle(Boolean($(this).val()));
-    });
-    $("#searchclear").toggle(Boolean($("#searchinput").val()));
-    $("#searchclear").click(function () {
-        $("#searchinput").val('').focus();
-        $(this).hide();
-    });
 
 });

@@ -18,7 +18,7 @@ $festivalColor: #6463a2;
   color: $cardBackgroundColor;
 }
 
-/*Search bar*/
+/*Search bar and buttons*/
 
 .quicksearch {
   $radius: 20px;
@@ -27,12 +27,19 @@ $festivalColor: #6463a2;
   border-radius: $radius;
 }
 
-.form-control:focus {
-  $shadowColor : lighten($masterclassColor, 35%);
+.light-shadow:focus {
+  $shadowColor: lighten($masterclassColor, 35%);
   border-color: $shadowColor;
   box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
 }
 
+.btn-default {
+  @extend .light-shadow;
+}
+
+.advancedSettingsButton {
+  color: lighten($masterclassColor, 25%);
+}
 
 /*Masterclass cards*/
 
@@ -119,7 +126,5 @@ $colors: ("masterclass": $masterclassColor, "festival": $festivalColor);
   font-size: 300%;
   line-height: 85%;
 }
-
-
 
 
