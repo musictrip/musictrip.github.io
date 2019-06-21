@@ -11,9 +11,16 @@ title: Music trip
     <button class="button" data-filter="ium">name ends with &ndash;ium</button>
 </div>
 
-<p><input type="text" class="quicksearch" placeholder="Search" /></p>
 
 <div class="container my-4 animated fadeIn delay-1s">
+
+    <div class="row justify-content-center py-5 md-form mt-0 ">
+        <div class="input-group  form-sm form-2 pl-0 col-8">
+            <input type="text" class="quicksearch form-control my-0 py-1" placeholder="搜尋"/>
+        </div>
+    </div>
+
+
     <div class="filterable">
 
         <!-- Sort masterclasses ascending by starting date -->
@@ -35,37 +42,37 @@ title: Music trip
         {% endif %}
 
         <div class="col-lg-4 col-md-6 my-4  drop-shadow filter-item {{ masterclass.type }}">
-                <div class="card  card-{{ masterclass.type }}-top ">
-                    <div class="card-body position-relative">
-                        <div class="concert-type">{{ lesson-style }}</div>
-                        <div class="concert-name py-4">{{ masterclass.name }}</div>
-                        <div class="orchestra-cast">
-                            {% for teacher in masterclass.teachers%}
-                            {% if forloop.length == 1 or forloop.last %}
-                            {{ teacher.name }}
-                            {% else %}
-                            {{ teacher.name }},
-                            {% endif %}
-                            {%endfor%}
-                        </div>
+            <div class="card  card-{{ masterclass.type }}-top ">
+                <div class="card-body position-relative">
+                    <div class="concert-type">{{ lesson-style }}</div>
+                    <div class="concert-name py-4">{{ masterclass.name }}</div>
+                    <div class="orchestra-cast">
+                        {% for teacher in masterclass.teachers%}
+                        {% if forloop.length == 1 or forloop.last %}
+                        {{ teacher.name }}
+                        {% else %}
+                        {{ teacher.name }},
+                        {% endif %}
+                        {%endfor%}
                     </div>
                 </div>
-                <div class="card card-below card-{{ masterclass.type }}-bottom">
-                    <div class="card-body position-relative">
-                        <div class="date">
-                            <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
+            </div>
+            <div class="card card-below card-{{ masterclass.type }}-bottom">
+                <div class="card-body position-relative">
+                    <div class="date">
+                        <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
 
-                            <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
-                            <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
+                        <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
+                        <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
 
-                            <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
-                            <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
-                            <input type="hidden" id="fee" value="{{ masterclass.fee}}">
-                        </div>
-
+                        <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
+                        <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
+                        <input type="hidden" id="fee" value="{{ masterclass.fee}}">
                     </div>
+
                 </div>
-                <a href="{{ masterclass.url }}" class="stretched-link"></a>
+            </div>
+            <a href="{{ masterclass.url }}" class="stretched-link"></a>
         </div>
 
         {% endif %} <!-- End if checking for date > now -->

@@ -1,4 +1,6 @@
 $cardBackgroundColor: white;
+$masterclassColor: #7b7b7a;
+$festivalColor: #6463a2;
 
 * {
   font-family: "Noto Sans CJK TC Regular", sans-serif;
@@ -16,6 +18,22 @@ $cardBackgroundColor: white;
   color: $cardBackgroundColor;
 }
 
+/*Search bar*/
+
+.quicksearch {
+  $radius: 20px;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.form-control:focus {
+  $shadowColor : lighten($masterclassColor, 35%);
+  border-color: $shadowColor;
+  box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
+}
+
+
 /*Masterclass cards*/
 
 .drop-shadow {
@@ -23,7 +41,7 @@ $cardBackgroundColor: white;
 }
 
 
-$colors: ("masterclass": #7b7b7a, "festival": #6463a2);
+$colors: ("masterclass": $masterclassColor, "festival": $festivalColor);
 @each $colorName, $color in $colors {
 
   $darkenedColor: darken($color, 10%);
@@ -101,3 +119,7 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
   font-size: 300%;
   line-height: 85%;
 }
+
+
+
+
