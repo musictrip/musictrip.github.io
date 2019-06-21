@@ -6,32 +6,40 @@ title: Music trip
 <div class="container my-5">
     <div class="row px-5">
 
-        {% for masterclass in site.masterclasses %}
-            {% if masterclass.type == "masterclass"%}
-                {% assign card-style = "masterclass"%}
-                {% assign lesson-style = "大師班"%}
-            {% else %}
-                {% assign card-style = "festival"%}
-                {% assign lesson-style = "音樂節"%}
-            {% endif %}
+        <!-- Sort masterclasses ascending by starting date -->
+        {% assign sortedMasterclasses = site.masterclasses | sort: 'startDate' %}
+        {% for masterclass in sortedMasterclasses %}
+
+        <!-- Only display masterclasses with starting date bigger than today -->
+        {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+        {% capture masterclassDate %}{{masterclass.startDate | date: '%s' | plus: 0 }}{% endcapture %}
+        {% if masterclassDate > now %}
+
+
+        <!-- Check which lesson type to display at top of card  -->
+        {% if masterclass.type == "masterclass"%}
+        {% assign lesson-style = "大師班"%}
+        {% else %}
+        {% assign lesson-style = "音樂節"%}
+        {% endif %}
 
         <div class="col-lg-4 col-md-6 masterclass-card">
-            <div class="card card-{{ card-style }}-top">
+            <div class="card card-{{ masterclass.type }}-top">
                 <div class="card-body position-relative">
                     <div class="concert-type">{{ lesson-style }}</div>
                     <div class="concert-name py-4">{{ masterclass.name }}</div>
                     <div class="orchestra-cast">
                         {% for teacher in masterclass.teachers%}
-                            {% if forloop.length == 1 or forloop.last %}
-                                {{ teacher.name }}
-                            {% else %}
-                                {{ teacher.name }},
-                            {% endif %}
+                        {% if forloop.length == 1 or forloop.last %}
+                        {{ teacher.name }}
+                        {% else %}
+                        {{ teacher.name }},
+                        {% endif %}
                         {%endfor%}
                     </div>
                 </div>
             </div>
-            <div class="card card-below card-{{ card-style }}-bottom">
+            <div class="card card-below card-{{ masterclass.type }}-bottom">
                 <div class="card-body position-relative">
                     <div class="date">
                         <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
@@ -48,7 +56,8 @@ title: Music trip
             <a href="{{ masterclass.url }}" class="stretched-link"></a>
 
         </div>
-        {% endfor %}
+        {% endif %} <!-- End if checking for date > now -->
+        {% endfor %} <!-- End for loop over masterclasses -->
 
     </div>
 </div>
