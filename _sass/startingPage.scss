@@ -1,3 +1,4 @@
+
 $cardBackgroundColor: white;
 
 * {
@@ -20,6 +21,8 @@ $cardBackgroundColor: white;
 
 .masterclass-card {
   margin-bottom: 50px;
+  filter: drop-shadow(0 2px 4px rgba(92, 92, 92, 0.24));
+
 }
 
 

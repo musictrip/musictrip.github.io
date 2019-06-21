@@ -4,19 +4,16 @@ title: Music trip
 ---
 
 <div class="container my-5">
-    <div class="row">
+    <div class="row px-5">
 
         {% for masterclass in site.masterclasses %}
-            {% if masterclass.type == 'masterclass'%}
+            {% if masterclass.type == "masterclass"%}
                 {% assign card-style = "masterclass"%}
                 {% assign lesson-style = "大師班"%}
-        {% else %}
+            {% else %}
                 {% assign card-style = "festival"%}
                 {% assign lesson-style = "音樂節"%}
-        {% endif %}
-
-
-
+            {% endif %}
 
         <div class="col-lg-4 col-md-6 masterclass-card">
             <div class="card card-{{ card-style }}-top">
@@ -38,9 +35,12 @@ title: Music trip
                 <div class="card-body position-relative">
                     <div class="date">
                         <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
-                        <span class=" date-day">{{ masterclass.startDate }}</span>
-                        -
-                        <span class="date-month">{{ masterclass.endDate }}</span>
+
+                        <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
+                        <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
+
+                        <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
+                        <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
                     </div>
 
                 </div>
