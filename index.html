@@ -3,8 +3,14 @@ layout: default
 title: Music trip
 ---
 
-<div class="container my-5">
-    <div class="row px-5">
+<div class="button-group filters-button-group">
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".masterclass">Masterclass</button>
+    <button class="button" data-filter=".festival">Festival</button>
+</div>
+
+<div class="container my-5 ">
+    <div class="row px-5 filterable">
 
         <!-- Sort masterclasses ascending by starting date -->
         {% assign sortedMasterclasses = site.masterclasses | sort: 'startDate' %}
@@ -23,8 +29,8 @@ title: Music trip
         {% assign lesson-style = "音樂節"%}
         {% endif %}
 
-        <div class="col-lg-4 col-md-6 masterclass-card">
-            <div class="card card-{{ masterclass.type }}-top">
+        <div class="col-lg-4 col-md-6 masterclass-card filter-item {{ masterclass.type }}">
+            <div class="card card-{{ masterclass.type }}-top ">
                 <div class="card-body position-relative">
                     <div class="concert-type">{{ lesson-style }}</div>
                     <div class="concert-name py-4">{{ masterclass.name }}</div>
