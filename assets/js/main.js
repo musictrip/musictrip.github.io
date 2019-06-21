@@ -2,15 +2,18 @@ $(document).ready(function () {
 
     var $grid = $('.filterable').isotope({
         // options
-        itemSelector: '.filter-item'
+        itemSelector: '.filter-item',
+        percentPosition: true,
+        layoutMode: 'fitRows',
     });
 
 // filter functions
     var filterFns = {
         // show if number is greater than 50
         numberGreaterThan50: function () {
-            var number = $(this).find('.number').text();
-            return parseInt(number, 10) > 50;
+            var number = $(this).find('#fee').val();
+            console.log(number);
+            return number > 500;
         },
         // show if name ends with -ium
         ium: function () {
@@ -25,9 +28,7 @@ $(document).ready(function () {
         // use filterFn if matches value
 
         filterValue = filterFns[filterValue] || filterValue;
-        console.log(filterValue);
         $grid.isotope({filter: filterValue});
     });
-
 
 });

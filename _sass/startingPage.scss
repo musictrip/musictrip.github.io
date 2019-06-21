@@ -1,4 +1,3 @@
-
 $cardBackgroundColor: white;
 
 * {
@@ -19,17 +18,15 @@ $cardBackgroundColor: white;
 
 /*Masterclass cards*/
 
-.masterclass-card {
-  margin-bottom: 50px;
+.drop-shadow {
   filter: drop-shadow(0 2px 4px rgba(92, 92, 92, 0.24));
-
 }
 
 
 $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
 @each $colorName, $color in $colors {
 
-  $darkenedColor : darken($color, 10%);
+  $darkenedColor: darken($color, 10%);
 
   .card-#{$colorName}-top {
     background: $color;
@@ -38,7 +35,7 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
     border-radius: 10px 10px 0 0;
   }
 
-  .masterclass-card:hover .card-#{$colorName}-top {
+  .drop-shadow:hover .card-#{$colorName}-top {
     background: $darkenedColor;
   }
 
@@ -55,16 +52,11 @@ $colors: ("masterclass": #7b7b7a, "festival": #6463a2);
 
   }
 
-  .masterclass-card:hover .card-#{$colorName}-bottom {
+  .drop-shadow:hover .card-#{$colorName}-bottom {
     color: $darkenedColor;
     border-color: $darkenedColor;
   }
 }
-
-
-
-
-
 
 
 .date {

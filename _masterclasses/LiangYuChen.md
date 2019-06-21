@@ -4,7 +4,7 @@ teachers:
       - name: Liangyu Chen
         link: bla
 
-fee: 500
+fee: 501
 startDate: 2019-06-22
 endDate: 2019-06-23
 city: Rom

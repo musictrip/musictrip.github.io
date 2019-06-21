@@ -3,14 +3,16 @@ layout: default
 title: Music trip
 ---
 
-<div class="button-group filters-button-group">
+<div class="button-group filters-button-group animated fadeInDown">
     <button class="button is-checked" data-filter="*">show all</button>
     <button class="button" data-filter=".masterclass">Masterclass</button>
     <button class="button" data-filter=".festival">Festival</button>
+    <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+    <button class="button" data-filter="ium">name ends with &ndash;ium</button>
 </div>
 
-<div class="container my-5 ">
-    <div class="row px-5 filterable">
+<div class="container my-4 animated fadeIn delay-1s">
+    <div class="filterable">
 
         <!-- Sort masterclasses ascending by starting date -->
         {% assign sortedMasterclasses = site.masterclasses | sort: 'startDate' %}
@@ -21,47 +23,49 @@ title: Music trip
         {% capture masterclassDate %}{{masterclass.startDate | date: '%s' | plus: 0 }}{% endcapture %}
         {% if masterclassDate > now %}
 
-
-        <!-- Check which lesson type to display at top of card  -->
+        {% comment %}
+        Check which lesson type to display at top of card
+        {% endcomment%}
         {% if masterclass.type == "masterclass"%}
         {% assign lesson-style = "大師班"%}
         {% else %}
         {% assign lesson-style = "音樂節"%}
         {% endif %}
 
-        <div class="col-lg-4 col-md-6 masterclass-card filter-item {{ masterclass.type }}">
-            <div class="card card-{{ masterclass.type }}-top ">
-                <div class="card-body position-relative">
-                    <div class="concert-type">{{ lesson-style }}</div>
-                    <div class="concert-name py-4">{{ masterclass.name }}</div>
-                    <div class="orchestra-cast">
-                        {% for teacher in masterclass.teachers%}
-                        {% if forloop.length == 1 or forloop.last %}
-                        {{ teacher.name }}
-                        {% else %}
-                        {{ teacher.name }},
-                        {% endif %}
-                        {%endfor%}
+        <div class="col-lg-4 my-4  drop-shadow filter-item {{ masterclass.type }}">
+                <div class="card  card-{{ masterclass.type }}-top ">
+                    <div class="card-body position-relative">
+                        <div class="concert-type">{{ lesson-style }}</div>
+                        <div class="concert-name py-4">{{ masterclass.name }}</div>
+                        <div class="orchestra-cast">
+                            {% for teacher in masterclass.teachers%}
+                            {% if forloop.length == 1 or forloop.last %}
+                            {{ teacher.name }}
+                            {% else %}
+                            {{ teacher.name }},
+                            {% endif %}
+                            {%endfor%}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card card-below card-{{ masterclass.type }}-bottom">
-                <div class="card-body position-relative">
-                    <div class="date">
-                        <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
+                <div class="card card-below card-{{ masterclass.type }}-bottom">
+                    <div class="card-body position-relative">
+                        <div class="date">
+                            <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
 
-                        <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
-                        <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
+                            <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
+                            <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
 
-                        <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
-                        <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
+                            <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
+                            <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
+                            <input type="hidden" id="fee" value="{{ masterclass.fee}}">
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
-            <a href="{{ masterclass.url }}" class="stretched-link"></a>
-
+                <a href="{{ masterclass.url }}" class="stretched-link"></a>
         </div>
+
         {% endif %} <!-- End if checking for date > now -->
         {% endfor %} <!-- End for loop over masterclasses -->
 

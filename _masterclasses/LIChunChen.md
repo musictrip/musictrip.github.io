@@ -4,7 +4,7 @@ teachers:
       - name: Li-Chun Chen
         link: bla
 
-fee: 500
+fee: 200
 startDate: 2019-06-20
 endDate: 2019-06-23
 city: Rom
