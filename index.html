@@ -6,15 +6,16 @@ title: Music trip
 
 <div class="container my-4 animated fadeIn delay-1s">
 
-
-    <div class="row justify-content-center py-5 mt-0 ">
+<div class=" mt-0">
+    <div class="row justify-content-center">
         <div class="input-group offset-md-2 form-sm  pl-0 col-8">
             <input type="text" class="quicksearch form-control my-0 py-1 light-shadow" placeholder="搜尋"/>
         </div>
         <div class="col-2">
             <p>
 
-                <button class="btn btn-default advancedSettingsButton light-shadow" type="button" data-toggle="collapse"
+                <button class="btn btn-default advanced-settings-button light-shadow" type="button"
+                        data-toggle="collapse"
                         data-target="#collapseExample"
                         aria-expanded="false" aria-controls="collapseExample">
                     <i class="fas fa-sliders-h" style="vertical-align: middle"></i>
@@ -26,25 +27,26 @@ title: Music trip
     </div>
 
     <div class="row filters">
-        <div class=" btn-group button-group filters-button-group px-3 animated fadeInDown" data-filter-group="type">
-            <button class="btn btn-secondary is-checked" data-filter="*">show all</button>
-            <button class="btn btn-secondary" data-filter=".masterclass">Masterclass</button>
-            <button class="btn btn-secondary" data-filter=".festival">Festival</button>
-        </div>
-
-
-        <div class=" btn-group button-group filters-button-group px-3 animated fadeInDown" data-filter-group="fee">
-            <button class="btn btn-secondary is-checked" data-filter="*">show all</button>
-            <button class="btn btn-secondary" data-filter="numberGreaterThan50">number > 50</button>
-        </div>
-
-        <div class="input-group  form-sm form-2 pl-0 col-8">
+        <div class="input-group my-4 form-sm form-2 pl-0 col-8">
             <div class="collapse" id="collapseExample">
-                <!--                Put buttons here-->
+                <div class=" btn-group button-group filters-button-group px-3 animated fadeInDown"
+                     data-filter-group="type">
+                    <button class="btn btn-light" data-filter=".masterclass">大師班</button>
+                    <button class="btn btn-light" data-filter=".festival">音樂節</button>
+                </div>
+
+
+                <div class=" btn-group button-group filters-button-group px-3 animated fadeInDown"
+                     data-filter-group="fee">
+                    <button class="btn btn-light" data-filter="feeBelow500Euro">500€以內</button>
+                    <button class="btn btn-light" data-filter="fee500to1000Euro">500€-1000€</button>
+                    <button class="btn btn-light" data-filter="feeAbove1000Euro">1000€以上</button>
+                </div>
             </div>
         </div>
     </div>
 
+</div>
 
     <div class="filterable">
 

@@ -27,8 +27,10 @@ $festivalColor: #6463a2;
   border-radius: $radius;
 }
 
+
+$shadowColor: lighten($masterclassColor, 35%);
+
 .light-shadow:focus {
-  $shadowColor: lighten($masterclassColor, 35%);
   border-color: $shadowColor;
   box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
 }
@@ -37,9 +39,23 @@ $festivalColor: #6463a2;
   @extend .light-shadow;
 }
 
-.advancedSettingsButton {
+.advanced-settings-button {
   color: lighten($masterclassColor, 25%);
 }
+
+$buttonColor: $shadowColor;
+.btn-light {
+  background-color: $buttonColor;
+}
+
+.btn-light:hover {
+  background-color: lighten($buttonColor, 10%);
+}
+
+.is-checked {
+  background-color: darken($buttonColor, 10%);
+}
+
 
 /*Masterclass cards*/
 

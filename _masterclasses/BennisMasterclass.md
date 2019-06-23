@@ -3,7 +3,7 @@ name: Bennis Masterclass
 teachers:
     - name: Benni
       link: bla
-fee: 200
+fee: 2000
 startDate: 2019-07-06
 endDate: 2019-07-12
 city: Graz

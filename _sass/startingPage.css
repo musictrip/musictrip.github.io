@@ -19,8 +19,17 @@
   border-color: #d4d4d4;
   box-shadow: inset 0 1px 1px #d4d4d4, 0 0 8px #d4d4d4; }
 
-.advancedSettingsButton {
+.advanced-settings-button {
   color: #bbbbba; }
+
+.btn-light {
+  background-color: #d4d4d4; }
+
+.btn-light:hover {
+  background-color: #ededed; }
+
+.is-checked {
+  background-color: #bbbbba; }
 
 /*Masterclass cards*/
 .drop-shadow {

@@ -2,9 +2,10 @@ $(document).ready(function () {
 
     // TODO Comment
 
-    // quick search regex
+
+    // Holds the regex for free text search
     var qsRegex;
-    var buttonFilter = [];
+    // Remember which filters are currently chosen in the button fields
     var chosenFilters = {};
 
     var $grid = $('.filterable').isotope({
@@ -13,23 +14,32 @@ $(document).ready(function () {
         percentPosition: true,
         layoutMode: 'fitRows',
         filter: function () {
+            // Does the current item match the free search regex?
             var searchResult = qsRegex ? $(this).text().match(qsRegex) : true;
 
-            console.log("buttonFilter in individual call", buttonFilter);
-            buttonResults = buttonFilter.map(x =>  $(this).is(x));
-            console.log("buttonResults", buttonResults);
-            var buttonResult = buttonResults.every(x => x);
-            console.log(buttonResult);
+            // Check if the current element satisfies all button criteria
+            var buttonResult = concatValues(chosenFilters)
+                .map(x => $(this).is(x))
+                .every(x => x);
+
             return searchResult && buttonResult;
         }
     });
 
 // filter functions
     var filterFns = {
-        // show if number is greater than 50
-        numberGreaterThan50: function () {
-            var number = $(this).find('#fee').val();
-            return number > 500;
+        // show if number is greater than 500
+        feeBelow500Euro: function () {
+            var fee = $(this).find('#fee').val();
+            return fee < 500;
+        },
+        fee500to1000Euro: function () {
+            var fee = $(this).find('#fee').val();
+            return fee >= 500 && fee < 1000;
+        },
+        feeAbove1000Euro: function () {
+            var fee = $(this).find('#fee').val();
+            return fee > 1000;
         },
 
     };
@@ -38,11 +48,25 @@ $(document).ready(function () {
     $('.filters-button-group').on('click', 'button', function (event) {
         var $button = $(event.currentTarget);
         var $buttonGroup = $button.parents('.button-group');
-        var filterGroup = $buttonGroup.attr('data-filter-group');
-        chosenFilters[filterGroup] = filterFns[$button.attr('data-filter')] || $button.attr('data-filter');
+        var $filterGroup = $buttonGroup.attr('data-filter-group');
 
 
-        buttonFilter = concatValues(chosenFilters);
+        var newFilter = filterFns[$button.attr('data-filter')] || $button.attr('data-filter');
+        if (chosenFilters.hasOwnProperty($filterGroup)) {
+            if (chosenFilters[$filterGroup] === newFilter) {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                delete chosenFilters[$filterGroup];
+            } else {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $button.addClass('is-checked');
+                chosenFilters[$filterGroup] = newFilter;
+            }
+
+
+        } else {
+            $button.addClass('is-checked');
+            chosenFilters[$filterGroup] = newFilter;
+        }
 
         $grid.isotope();
     });
@@ -73,13 +97,8 @@ $(document).ready(function () {
     }
 
     // flatten object by concatting values
-    function concatValues(obj) {
-        var values = [];
-        for (const prop in obj) {
-            values.push(obj[prop]);
-        }
-        return values;
+    function concatValues(dict) {
+        return Object.values(dict);
     }
-
 
 });
