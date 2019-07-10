@@ -13,6 +13,8 @@ $(document).ready(function () {
     };
 
 
+    // TODO Delete searches when additional search is folded
+
     // Holds the regex for free text search
     var searchInput;
     // Remember which filters are currently chosen in the button fields
@@ -62,16 +64,20 @@ $(document).ready(function () {
         if ("instruments" in chosenFilters && chosenFilters["instruments"].length > 0) {
             const chosenInstruments = chosenFilters["instruments"];
             const cardInstruments = masterclassCard.find("#instruments").val();
-            var atLeastOneCommonInstrument = chosenInstruments
+            var allInstrumentsContained = chosenInstruments
                 .map(x => cardInstruments.includes(x))
-                .some(x => x);
-            if (!atLeastOneCommonInstrument) {
+                .every(x => x);
+            if (!allInstrumentsContained) {
                 return false;
             }
         }
 
         if ("fee" in chosenFilters) {
-            if (!chosenFilters["fee"](masterclassCard)) {
+
+            const masterclassFee = masterclassCard.find("#fee").val();
+            const range = chosenFilters["fee"];
+
+            if( masterclassFee < parseFloat(range["from"]) || masterclassFee > parseFloat(range["to"])) {
                 return false;
             }
         }
@@ -183,5 +189,28 @@ $(document).ready(function () {
             placeholder: '選樂器　'
         });
     });
+
+    var slider = document.getElementById('feeSlider');
+    noUiSlider.create(slider, {
+        start: [0, 1500],
+        step: 50,
+        range: {
+            'min': 0,
+            'max': 1500
+        },
+        margin: 100,
+    });
+
+    var sliderValue = document.getElementById("feeSliderValue");
+
+    slider.noUiSlider.on('update', function (values) {
+        sliderValue.innerHTML = values.join(' - ');
+        chosenFilters["fee"] = {from: values[0], to: values[1]};
+
+        // Delete
+        console.log(chosenFilters);
+        $grid.isotope();
+    });
+
 
 });

@@ -5,7 +5,7 @@ teachers:
       link: bla
     - name: Benjamin Wagner
       link: bli
-fee: 500
+fee: 1500
 startDate: 2019-07-22
 endDate: 2019-07-30
 city: Friedrichshafen

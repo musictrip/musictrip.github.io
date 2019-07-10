@@ -36,20 +36,24 @@ title: Ashanas
                     </div>
 
 
-                    <div class=" btn-group button-group filters-button-group px-3"
-                         data-filter-group="fee">
-                        <button class="btn btn-light" data-filter="feeBelow500Euro">500€以內</button>
-                        <button class="btn btn-light" data-filter="fee500to1000Euro">500€-1000€</button>
-                        <button class="btn btn-light" data-filter="feeAbove1000Euro">1000€以上</button>
-                    </div>
+<!--                    <div class=" btn-group button-group filters-button-group px-3"-->
+<!--                         data-filter-group="fee">-->
+<!--                        <button class="btn btn-light" data-filter="feeBelow500Euro">500€以內</button>-->
+<!--                        <button class="btn btn-light" data-filter="fee500to1000Euro">500€-1000€</button>-->
+<!--                        <button class="btn btn-light" data-filter="feeAbove1000Euro">1000€以上</button>-->
+<!--                    </div>-->
 
 
-                    <!-- TODO Continue writing instument selector-->
-                    <select class="select2-selector filters-select" name="instruments" multiple="multiple" style="width: 20%;">
+                    <select class="select2-selector filters-select" name="instruments" multiple="multiple"
+                            style="width: 20%;">
                         {% for instrument in site.data.instruments %}
                         <option value="{{instrument}}">{{instrument}}</option>
                         {% endfor %}
                     </select>
+
+                    <div id="feeSlider"></div>
+                    <p id="feeSliderValue"></p>
+
                 </div>
             </div>
         </div>
