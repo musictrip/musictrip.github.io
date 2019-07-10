@@ -45,34 +45,68 @@ $(document).ready(function () {
 
 
             // Check if the current element satisfies all button criteria
-            var selectionResults = concatValues(chosenFilters)
-                .map(x => $(this).is(x))
-                .every(x => x);
-
+            var selectionResults = getSelectionResults($(this), chosenFilters);
 
             return searchResult && selectionResults;
         }
     });
 
+    /**
+     * TODO
+     * @param masterclassCard
+     * @param chosenFilters
+     */
+    function getSelectionResults(masterclassCard, chosenFilters) {
+        console.log(chosenFilters);
+
+        if ("instruments" in chosenFilters && chosenFilters["instruments"].length > 0) {
+            const chosenInstruments = chosenFilters["instruments"];
+            const cardInstruments = masterclassCard.find("#instruments").val();
+            var atLeastOneCommonInstrument = chosenInstruments
+                .map(x => cardInstruments.includes(x))
+                .some(x => x);
+            if (!atLeastOneCommonInstrument) {
+                return false;
+            }
+        }
+
+        if ("fee" in chosenFilters) {
+            if (!chosenFilters["fee"](masterclassCard)) {
+                return false;
+            }
+        }
+
+        if ("type" in chosenFilters) {
+            if (!masterclassCard.is(chosenFilters["type"])) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
 // filter functions
     var filterFns = {
         // show if number is greater than 500
-        feeBelow500Euro: function () {
-            var fee = $(this).find('#fee').val();
+        feeBelow500Euro: function (masterclassCard) {
+            var fee = masterclassCard.find('#fee').val();
             return fee < 500;
         },
-        fee500to1000Euro: function () {
-            var fee = $(this).find('#fee').val();
+        fee500to1000Euro: function (masterclassCard) {
+            var fee = masterclassCard.find('#fee').val();
             return fee >= 500 && fee < 1000;
         },
-        feeAbove1000Euro: function () {
-            var fee = $(this).find('#fee').val();
+        feeAbove1000Euro: function (masterclassCard) {
+            var fee = masterclassCard.find('#fee').val();
             return fee > 1000;
         },
 
     };
 
-// bind filter button click
+    /**
+     * TODO
+     */
     $('.filters-button-group').on('click', 'button', function (event) {
         var $button = $(event.currentTarget);
         var $buttonGroup = $button.parents('.button-group');
@@ -107,11 +141,15 @@ $(document).ready(function () {
         $grid.isotope();
     }, 200));
 
-
+    /**
+     * TODO
+     */
     $(".filters-select").on("change", function () {
         var filterValue = $(this).val();
 
         chosenFilters["instruments"] = filterValue;
+
+        $grid.isotope();
 
     });
 
