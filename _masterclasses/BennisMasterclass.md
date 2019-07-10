@@ -9,6 +9,8 @@ endDate: 2019-07-12
 city: Graz
 country: 奧地利
 type: masterclass
+instruments:
+    - 鋼琴
 ---
 
 Bennis Masterclass

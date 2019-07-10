@@ -11,6 +11,11 @@ endDate: 2019-07-30
 city: Friedrichshafen
 country: 德國
 type: festival
+instruments:
+    - 大提琴
+    - 中提琴
+    - 小提琴
+    - 指揮    
 ---
 
 Das Bodensee-Musikfestival ist ein tolles Musikfestival am Bodensee.

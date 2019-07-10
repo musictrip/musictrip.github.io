@@ -1,10 +1,20 @@
 $(document).ready(function () {
 
     // TODO Comment
+    const fuseOptions = {
+        shouldSort: true,
+        includeScore: true,
+        threshold: 0.55,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 1,
+        keys: ["text", "fee", "instruments"]
+    };
 
 
     // Holds the regex for free text search
-    var qsRegex;
+    var searchInput;
     // Remember which filters are currently chosen in the button fields
     var chosenFilters = {};
 
@@ -14,15 +24,33 @@ $(document).ready(function () {
         percentPosition: true,
         layoutMode: 'fitRows',
         filter: function () {
-            // Does the current item match the free search regex?
-            var searchResult = qsRegex ? $(this).text().match(qsRegex) : true;
+            // Does the current item match the search?
+            if (searchInput) {
+                var strippedText = $(this).text().replace(/\s/g, '');
+
+                var searchDict = [{
+                    "text": strippedText,
+                    "fee": $(this).find("#fee").val().toString(),
+                    "instruments": $(this).find("#instruments").val(),
+                }];
+
+
+                var fuse = new Fuse(searchDict, fuseOptions);
+                var fuseResult = fuse.search(searchInput);
+                searchResult = fuseResult.length > 0;
+
+            } else {
+                searchResult = true;
+            }
+
 
             // Check if the current element satisfies all button criteria
-            var buttonResult = concatValues(chosenFilters)
+            var selectionResults = concatValues(chosenFilters)
                 .map(x => $(this).is(x))
                 .every(x => x);
 
-            return searchResult && buttonResult;
+
+            return searchResult && selectionResults;
         }
     });
 
@@ -74,9 +102,18 @@ $(document).ready(function () {
 
     // use value of search field to filter
     var $quicksearch = $('.quicksearch').keyup(debounce(function () {
-        qsRegex = new RegExp($quicksearch.val(), 'gi');
+        searchInput = $quicksearch.val();
+
         $grid.isotope();
     }, 200));
+
+
+    $(".filters-select").on("change", function () {
+        var filterValue = $(this).val();
+
+        chosenFilters["instruments"] = filterValue;
+
+    });
 
 
 // debounce so filtering doesn't happen every millisecond
@@ -100,5 +137,13 @@ $(document).ready(function () {
     function concatValues(dict) {
         return Object.values(dict);
     }
+
+
+    // Activate select2 selector
+    $(document).ready(function () {
+        $(".select2-selector").select2({
+            placeholder: '選樂器　'
+        });
+    });
 
 });
