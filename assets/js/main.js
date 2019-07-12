@@ -59,7 +59,6 @@ $(document).ready(function () {
      * @param chosenFilters
      */
     function getSelectionResults(masterclassCard, chosenFilters) {
-        console.log(chosenFilters);
 
         if ("instruments" in chosenFilters && chosenFilters["instruments"].length > 0) {
             const chosenInstruments = chosenFilters["instruments"];
@@ -77,7 +76,7 @@ $(document).ready(function () {
             const masterclassFee = masterclassCard.find("#fee").val();
             const range = chosenFilters["fee"];
 
-            if( masterclassFee < parseFloat(range["from"]) || masterclassFee > parseFloat(range["to"])) {
+            if (masterclassFee < parseFloat(range["from"]) || masterclassFee > parseFloat(range["to"])) {
                 return false;
             }
         }
@@ -139,6 +138,23 @@ $(document).ready(function () {
         $grid.isotope();
     });
 
+    /**
+     * Reset chosen filters when expanded search is collapsed
+     */
+    $("#collapseExample").on("hidden.bs.collapse", function () {
+        // Clear chosen filters
+        chosenFilters = {};
+
+        // Clear search button, select field and slider
+        $(".filters-button").removeClass("is-checked");
+        $('.filters-select').val(null).trigger('change');
+        slider.noUiSlider.set([sliderStartValue, sliderEndValue]);
+
+        // Show all items
+        $grid.isotope();
+
+    });
+
 
     // use value of search field to filter
     var $quicksearch = $('.quicksearch').keyup(debounce(function () {
@@ -191,12 +207,14 @@ $(document).ready(function () {
     });
 
     var slider = document.getElementById('feeSlider');
+    const sliderStartValue = 0;
+    const sliderEndValue = 1500
     noUiSlider.create(slider, {
-        start: [0, 1500],
+        start: [sliderStartValue, sliderEndValue],
         step: 50,
         range: {
-            'min': 0,
-            'max': 1500
+            'min': sliderStartValue,
+            'max': sliderEndValue
         },
         margin: 100,
     });
@@ -207,8 +225,6 @@ $(document).ready(function () {
         sliderValue.innerHTML = values.join(' - ');
         chosenFilters["fee"] = {from: values[0], to: values[1]};
 
-        // Delete
-        console.log(chosenFilters);
         $grid.isotope();
     });
 

@@ -31,8 +31,8 @@ title: Ashanas
                 <div class="collapse" id="collapseExample">
                     <div class=" btn-group button-group filters-button-group px-3"
                          data-filter-group="type">
-                        <button class="btn btn-light" data-filter=".masterclass">大師班</button>
-                        <button class="btn btn-light" data-filter=".festival">音樂節</button>
+                        <button class="btn btn-light filters-button" data-filter=".masterclass">大師班</button>
+                        <button class="btn btn-light filters-button" data-filter=".festival">音樂節</button>
                     </div>
 
 
@@ -101,11 +101,11 @@ title: Ashanas
                         {%endfor%}
                     </div>
 
-                    <div class="instruments">
-                        {% for instrument in masterclass.instruments %}
-                        {{ instrument }},
-                        {% endfor %}
-                    </div>
+<!--                    <div class="instruments">-->
+<!--                        {% for instrument in masterclass.instruments %}-->
+<!--                        {{ instrument }},-->
+<!--                        {% endfor %}-->
+<!--                    </div>-->
                 </div>
             </div>
             <div class="card card-below card-{{ masterclass.type }}-bottom">
