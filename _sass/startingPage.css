@@ -20,16 +20,39 @@
   box-shadow: inset 0 1px 1px #d4d4d4, 0 0 8px #d4d4d4; }
 
 .advanced-settings-button {
-  color: #bbbbba; }
+  color: #d4d4d4; }
 
-.btn-light {
-  background-color: #d4d4d4; }
+.masterclassButton {
+  border-color: #7b7b7a;
+  border-width: 1px;
+  background-color: white;
+  color: #7b7b7a; }
 
-.btn-light:hover {
-  background-color: #ededed; }
+.masterclassButton:hover {
+  border-color: #7b7b7a;
+  border-width: 1px;
+  background-color: white;
+  color: #7b7b7a; }
 
-.is-checked {
-  background-color: #bbbbba; }
+.masterclassButton.is-checked {
+  background-color: #7b7b7a;
+  color: white; }
+
+.festivalButton {
+  border-color: #6463a2;
+  border-width: 1px;
+  background-color: white;
+  color: #6463a2; }
+
+.festivalButton:hover {
+  border-color: #6463a2;
+  border-width: 1px;
+  background-color: white;
+  color: #6463a2; }
+
+.festivalButton.is-checked {
+  background-color: #6463a2;
+  color: white; }
 
 /*Masterclass cards*/
 .drop-shadow {
@@ -114,5 +137,13 @@
   font-weight: 700;
   font-size: 300%;
   line-height: 85%; }
+
+.extendedSearchLabel {
+  color: #a1a1a0; }
+
+.noUi-handle .noUi-tooltip {
+  bottom: -37px;
+  border-width: 0;
+  color: #a1a1a0; }
 
 /*# sourceMappingURL=startingPage.css.map */

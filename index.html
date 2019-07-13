@@ -28,32 +28,41 @@ title: Ashanas
 
         <div class="filters">
             <div class="input-group my-4 form-sm form-2 pl-0">
-                <div class="collapse" id="collapseExample">
+                <div class="container-fluid ">
+                    <div class="collapse" id="collapseExample">
+                        <div class="row justify-content-center">
 
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-4">
-
-                                <div class="btn-group button-group filters-button-group px-3"
+                            <div class="col-md-2 my-3">
+                                <label class="extendedSearchLabel" for="typeButtons">類型</label>
+                                <div class="btn-group button-group filters-button-group" id="typeButtons"
                                      data-filter-group="type">
-                                    <button class="btn btn-light filters-button" data-filter=".masterclass">大師班</button>
-                                    <button class="btn btn-light filters-button" data-filter=".festival">音樂節</button>
+                                    <button class="btn btn-light filters-button masterclassButton"
+                                            data-filter=".masterclass">大師班
+                                    </button>
+                                    <button class="btn btn-light filters-button festivalButton" data-filter=".festival">
+                                        音樂節
+                                    </button>
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-2 my-3">
+                                <label class="extendedSearchLabel" for="instrumentSelector">樂器</label>
+
                                 <select class="select2-selector filters-select" name="instruments"
-                                        multiple="multiple" style="width: 100%">
+                                        id="instrumentSelector"
+                                        style="width: 100%">
+                                    <option></option>
                                     {% for instrument in site.data.instruments %}
                                     <option value="{{instrument}}">{{instrument}}</option>
                                     {% endfor %}
                                 </select>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-3 mx-4 my-3">
+                                <label class="extendedSearchLabel" for="feeSlider">費用</label>
                                 <div id="feeSlider"></div>
-                                <p id="feeSliderValue"></p>
                             </div>
+
                         </div>
                     </div>
                 </div>

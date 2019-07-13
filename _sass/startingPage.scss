@@ -1,7 +1,10 @@
 $cardBackgroundColor: white;
 $masterclassColor: #7b7b7a;
 $festivalColor: #6463a2;
-
+$shadowColor: lighten($masterclassColor, 35%);
+$advancedSearchButtonColor: $shadowColor;
+$advancedSearchFontColor: darken($advancedSearchButtonColor, 20%);
+$backgroundColor: white;
 * {
   font-family: "Noto Sans CJK TC Regular", sans-serif;
 }
@@ -28,8 +31,6 @@ $festivalColor: #6463a2;
 }
 
 
-$shadowColor: lighten($masterclassColor, 35%);
-
 .light-shadow:focus {
   border-color: $shadowColor;
   box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
@@ -40,21 +41,52 @@ $shadowColor: lighten($masterclassColor, 35%);
 }
 
 .advanced-settings-button {
-  color: lighten($masterclassColor, 25%);
+  color: $advancedSearchButtonColor;
 }
 
-$buttonColor: $shadowColor;
-.btn-light {
-  background-color: $buttonColor;
+
+$buttonBorderWidth: 1px;
+.masterclassButton {
+  border-color: $masterclassColor;
+  border-width: $buttonBorderWidth;
+  background-color: $backgroundColor;
+  color: $masterclassColor;
 }
 
-.btn-light:hover {
-  background-color: lighten($buttonColor, 10%);
+.masterclassButton:hover {
+  border-color: $masterclassColor;
+  border-width: $buttonBorderWidth;
+  background-color: $backgroundColor;
+  color: $masterclassColor;
 }
 
-.is-checked {
-  background-color: darken($buttonColor, 10%);
+.masterclassButton.is-checked {
+  background-color: $masterclassColor;
+  color: $backgroundColor;
 }
+
+.festivalButton {
+  border-color: $festivalColor;
+  border-width: $buttonBorderWidth;
+  background-color: $backgroundColor;
+  color: $festivalColor;
+}
+
+.festivalButton:hover {
+  border-color: $festivalColor;
+  border-width: $buttonBorderWidth;
+  background-color: $backgroundColor;
+  color: $festivalColor;
+}
+
+.festivalButton.is-checked {
+  background-color: $festivalColor;
+  color: $backgroundColor;
+}
+
+//.is-checked .festivalButton {
+//  background-color: darken($festivalColor, 10%);
+//}
 
 
 /*Masterclass cards*/
@@ -142,5 +174,18 @@ $colors: ("masterclass": $masterclassColor, "festival": $festivalColor);
   font-size: 300%;
   line-height: 85%;
 }
+
+
+.extendedSearchLabel {
+  color: $advancedSearchFontColor;
+}
+
+
+.noUi-handle .noUi-tooltip {
+  bottom: -37px;
+  border-width: 0;
+  color: $advancedSearchFontColor;
+}
+
 
 

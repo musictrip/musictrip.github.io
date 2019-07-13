@@ -60,13 +60,12 @@ $(document).ready(function () {
      */
     function getSelectionResults(masterclassCard, chosenFilters) {
 
-        if ("instruments" in chosenFilters && chosenFilters["instruments"].length > 0) {
-            const chosenInstruments = chosenFilters["instruments"];
+        if ("instruments" in chosenFilters) {
+            const chosenInstrument = chosenFilters["instruments"];
             const cardInstruments = masterclassCard.find("#instruments").val();
-            var allInstrumentsContained = chosenInstruments
-                .map(x => cardInstruments.includes(x))
-                .every(x => x);
-            if (!allInstrumentsContained) {
+            var instrumentContained = cardInstruments.includes(chosenInstrument);
+
+            if (!instrumentContained) {
                 return false;
             }
         }
@@ -168,11 +167,8 @@ $(document).ready(function () {
      */
     $(".filters-select").on("change", function () {
         var filterValue = $(this).val();
-
         chosenFilters["instruments"] = filterValue;
-
         $grid.isotope();
-
     });
 
 
@@ -202,7 +198,8 @@ $(document).ready(function () {
     // Activate select2 selector
     $(document).ready(function () {
         $(".select2-selector").select2({
-            placeholder: '選樂器　'
+            placeholder: '選樂器　',
+            allowClear: true
         });
     });
 
@@ -217,12 +214,19 @@ $(document).ready(function () {
             'max': sliderEndValue
         },
         margin: 100,
+        tooltips: true,
+        format:
+            {
+                from: Number,
+                to: function (value) {
+                    return (parseInt(value) + " €");
+                }
+            }
+
     });
 
-    var sliderValue = document.getElementById("feeSliderValue");
 
     slider.noUiSlider.on('update', function (values) {
-        sliderValue.innerHTML = parseInt(values[0]) + "€ - " + parseInt(values[1]) + "€";
         chosenFilters["fee"] = {from: values[0], to: values[1]};
 
         $grid.isotope();
