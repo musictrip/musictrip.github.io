@@ -26,34 +26,36 @@ title: Ashanas
             </div>
         </div>
 
-        <div class="row filters">
-            <div class="input-group my-4 form-sm form-2 pl-0 col-8">
+        <div class="filters">
+            <div class="input-group my-4 form-sm form-2 pl-0">
                 <div class="collapse" id="collapseExample">
-                    <div class=" btn-group button-group filters-button-group px-3"
-                         data-filter-group="type">
-                        <button class="btn btn-light filters-button" data-filter=".masterclass">大師班</button>
-                        <button class="btn btn-light filters-button" data-filter=".festival">音樂節</button>
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+
+                                <div class="btn-group button-group filters-button-group px-3"
+                                     data-filter-group="type">
+                                    <button class="btn btn-light filters-button" data-filter=".masterclass">大師班</button>
+                                    <button class="btn btn-light filters-button" data-filter=".festival">音樂節</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <select class="select2-selector filters-select" name="instruments"
+                                        multiple="multiple" style="width: 100%">
+                                    {% for instrument in site.data.instruments %}
+                                    <option value="{{instrument}}">{{instrument}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div id="feeSlider"></div>
+                                <p id="feeSliderValue"></p>
+                            </div>
+                        </div>
                     </div>
-
-
-<!--                    <div class=" btn-group button-group filters-button-group px-3"-->
-<!--                         data-filter-group="fee">-->
-<!--                        <button class="btn btn-light" data-filter="feeBelow500Euro">500€以內</button>-->
-<!--                        <button class="btn btn-light" data-filter="fee500to1000Euro">500€-1000€</button>-->
-<!--                        <button class="btn btn-light" data-filter="feeAbove1000Euro">1000€以上</button>-->
-<!--                    </div>-->
-
-
-                    <select class="select2-selector filters-select" name="instruments" multiple="multiple"
-                            style="width: 20%;">
-                        {% for instrument in site.data.instruments %}
-                        <option value="{{instrument}}">{{instrument}}</option>
-                        {% endfor %}
-                    </select>
-
-                    <div id="feeSlider"></div>
-                    <p id="feeSliderValue"></p>
-
                 </div>
             </div>
         </div>
@@ -101,11 +103,11 @@ title: Ashanas
                         {%endfor%}
                     </div>
 
-<!--                    <div class="instruments">-->
-<!--                        {% for instrument in masterclass.instruments %}-->
-<!--                        {{ instrument }},-->
-<!--                        {% endfor %}-->
-<!--                    </div>-->
+                    <!--                    <div class="instruments">-->
+                    <!--                        {% for instrument in masterclass.instruments %}-->
+                    <!--                        {{ instrument }},-->
+                    <!--                        {% endfor %}-->
+                    <!--                    </div>-->
                 </div>
             </div>
             <div class="card card-below card-{{ masterclass.type }}-bottom">

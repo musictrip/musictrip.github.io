@@ -222,7 +222,7 @@ $(document).ready(function () {
     var sliderValue = document.getElementById("feeSliderValue");
 
     slider.noUiSlider.on('update', function (values) {
-        sliderValue.innerHTML = values.join(' - ');
+        sliderValue.innerHTML = parseInt(values[0]) + "€ - " + parseInt(values[1]) + "€";
         chosenFilters["fee"] = {from: values[0], to: values[1]};
 
         $grid.isotope();
@@ -230,3 +230,6 @@ $(document).ready(function () {
 
 
 });
+
+
+// TODO Divide active and passive participation

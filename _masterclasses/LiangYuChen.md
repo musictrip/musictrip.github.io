@@ -1,5 +1,5 @@
 ---
-name: Meisterkurs Liangyu Chen
+name: Meisterkurs Liangyu Chen asd
 teachers:
       - name: Liangyu Chen
         link: bla
@@ -17,4 +17,4 @@ instruments:
     - 指揮 
 ---
 
-Meisterkurs
+Meisterkurs lajsöd aödsljf 
