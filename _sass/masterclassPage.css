@@ -1,4 +1,4 @@
-.section-masterclass > * {
+.section-masterclass * {
   transition-duration: 0.63s; }
 
 /*masterclass detail*/
@@ -10,9 +10,6 @@
 .masterclassSiteHeading {
   font-weight: 600;
   margin-bottom: 40px; }
-
-.section-masterclass > p {
-  list-style: none; }
 
 .section-masterclass > hr {
   margin-top: 40px;

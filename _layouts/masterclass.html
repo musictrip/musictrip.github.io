@@ -61,20 +61,16 @@ layout: default
         </div>
     </div>
 
-            <hr/>
-
     <hr/>
+
     <div class="masterclassSiteHeading">費用</div>
-
-            <div class="main-font-size">地點</div>
-            <p>{{ page.city }}, {{ page.country }}</p>
-
- {% for line in page.feeExplanation %}
-                <p> {{ line }}</p>
-            {% endfor %}
+    {% for line in page.feeExplanation %}
+    <p> {{ line }}</p>
+    {% endfor %}
 
     <p class="explanation">
-        <button type="button" class="btn masterclassPageButton mt-4" data-toggle="modal" data-target="#exampleModalCenter">
+        <button type="button" class="btn masterclassPageButton mt-4" data-toggle="modal"
+                data-target="#exampleModalCenter">
             說明
         </button>
     </p>
