@@ -61,19 +61,18 @@ layout: default
         </div>
     </div>
 
+            <hr/>
 
     <hr/>
     <div class="masterclassSiteHeading">費用</div>
 
+            <div class="main-font-size">地點</div>
+            <p>{{ page.city }}, {{ page.country }}</p>
 
-    <p>正式學員
-        25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-    </p>
+ {% for line in page.feeExplanation %}
+                <p> {{ line }}</p>
+            {% endfor %}
 
-    <p>
-        旁聽學員
-        25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-    </p>
     <p class="explanation">
         <button type="button" class="btn masterclassPageButton mt-4" data-toggle="modal" data-target="#exampleModalCenter">
             說明
@@ -106,31 +105,10 @@ layout: default
     <div class="masterclassSiteHeading">內容</div>
     <p>
         {{ content }}
-
-        alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd
-        öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf
-        öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
-        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
-        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
-        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
-        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
-        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
-        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
-        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
-        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
-        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
-        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
-        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
-        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
-        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
-        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
-        aölfjaö
     </p>
     <a type="button" href="{{ page.masterclassLink }}" class="btn btn-primary mt-5 masterclassPageButton">報名連結</a>
 
-    <!--    <p class="masterclassSiteHeading">-->
-    <!--        <a href="#"></a>-->
-    <!--    </p>-->
+
 </div>
 
 
