@@ -28,30 +28,30 @@ layout: default
         <div class="container section-masterclass text-justify" style="padding-left: 40px">
 
 
-            <div class="main-font-size">時間</div>
+            <div class="masterclassSiteHeading">時間</div>
             <p>{{ page.startDate }} - {{page.endDate}}</p>
 
             <hr/>
 
 
-            <div class="main-font-size">地點</div>
+            <div class="masterclassSiteHeading">地點</div>
             <p>{{ page.city }}, {{ page.country }}</p>
 
             <hr/>
 
 
-            <div class="main-font-size">授課教授</div>
-            <ul>
-                {% for teacher in page.teachers %}
-                <li><a href="{{teacher.link}}">{{ teacher.name }}</a></li>
-                {% endfor %}
-            </ul>
+            <div class="masterclassSiteHeading">授課教授</div>
+            <div class="container">
+                <div class="row">
+                    {% for teacher in page.teachers %}
+                    <div class="col-md-4"><a href="{{teacher.link}}">{{ teacher.name }}</a></div>
+                    {% endfor %}
+                </div>
+            </div>
 
 
             <hr/>
-
-
-            <div class="main-font-size">費用</div>
+            <div class="masterclassSiteHeading">費用</div>
 
 
             <p>正式學員
@@ -91,11 +91,11 @@ layout: default
 
             <hr/>
 
-            <div class="main-font-size">內容</div>
+            <div class="masterclassSiteHeading">內容</div>
             <p>
                 {{ content }}
             </p>
-            <p class="main-font-size">報名連結
+            <p class="masterclassSiteHeading">報名連結
                 <a href="#"><img src="/assets/img/noun_link_430927.png" class="web-link"></a>
             </p>
         </div>

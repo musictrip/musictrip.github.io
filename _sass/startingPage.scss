@@ -1,11 +1,11 @@
+@import "colors";
+
 $cardBackgroundColor: white;
-$masterclassColor: #7b7b7a;
-$festivalColor: #6463a2;
 $shadowColor: lighten($masterclassColor, 35%);
 $advancedSearchButtonColor: $shadowColor;
 $advancedSearchFontColor: darken($advancedSearchButtonColor, 20%);
-$backgroundColor: white;
-* {
+
+  * {
   font-family: "Noto Sans CJK TC Regular", sans-serif;
 }
 
@@ -39,6 +39,8 @@ $backgroundColor: white;
 .btn-default {
   @extend .light-shadow;
 }
+
+
 
 .advanced-settings-button {
   color: $advancedSearchButtonColor;
@@ -83,10 +85,6 @@ $buttonBorderWidth: 1px;
   background-color: $festivalColor;
   color: $backgroundColor;
 }
-
-//.is-checked .festivalButton {
-//  background-color: darken($festivalColor, 10%);
-//}
 
 
 /*Masterclass cards*/
@@ -133,7 +131,7 @@ $colors: ("masterclass": $masterclassColor, "festival": $festivalColor);
 
 
 .date {
-  font-style: 22px;
+  font-size: 22px;
 }
 
 .date-month {

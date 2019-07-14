@@ -6,6 +6,7 @@ teachers:
     - name: Bibibaba
       link: #
 fee: 2000
+
 startDate: 2019-07-06
 endDate: 2019-07-12
 city: Graz
