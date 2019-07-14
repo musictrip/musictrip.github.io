@@ -54,14 +54,11 @@ layout: default
             <div class="main-font-size">費用</div>
 
 
-            <p>正式學員
-                25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-            </p>
+            {% for line in page.feeExplanation %}
+                <p> {{ line }}</p>
+            {% endfor %}
 
-            <p>
-                旁聽學員
-                25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-            </p>
+
             <p class="explanation">
                 <button type="button" class="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
                     說明

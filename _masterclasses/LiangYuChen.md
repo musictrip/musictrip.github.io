@@ -1,10 +1,14 @@
 ---
-name: Meisterkurs Liangyu Chen asd
+name: Meisterkurs Liangyu Chen
 teachers:
       - name: Liangyu Chen
         link: bla
 
 fee: 501
+feeExplanation: 
+    - fee explanation line 1
+    - fee explanation line 2
+    - and so on
 startDate: 2019-07-22
 endDate: 2019-06-23
 city: Rom
