@@ -2,105 +2,136 @@
 layout: default
 ---
 
-<div class="container  col-lg-6 col-sm-9" style="padding-bottom: 100px ">
-    <div class="container foto-masterclass">
-        <div class="hover ehover12" style="background: #9a5d88;width: 100%">
-            <img class="img-responsive" style="width:100%;" src="/assets/img/3.png">
-            <div class="overlay">
-                <h2>masterclass</h2>
-                <button class="info nullbutton" data-toggle="modal" data-target="#modal12">Homepage
-                </button>
-            </div>
-            <div id="modal1" class="modal fade">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h2 class="modal-title">Hover effect 1</h2>
-                        </div>
-                        <div class="modal-body"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="container my-5 ">
 
-
-        <div class="container section-masterclass text-justify" style="padding-left: 40px">
-
-
-            <div class="masterclassSiteHeading">時間</div>
-            <p>{{ page.startDate }} - {{page.endDate}}</p>
-
-            <hr/>
-
-
-            <div class="masterclassSiteHeading">地點</div>
-            <p>{{ page.city }}, {{ page.country }}</p>
-
-            <hr/>
-
-
-            <div class="masterclassSiteHeading">授課教授</div>
-            <div class="container">
-                <div class="row">
-                    {% for teacher in page.teachers %}
-                    <div class="col-md-4"><a href="{{teacher.link}}">{{ teacher.name }}</a></div>
-                    {% endfor %}
-                </div>
-            </div>
-
-
-            <hr/>
-            <div class="masterclassSiteHeading">費用</div>
-
-
-            <p>正式學員
-                25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-            </p>
-
-            <p>
-                旁聽學員
-                25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
-            </p>
-            <p class="explanation">
-                <button type="button" class="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
-                    說明
-                </button>
-            </p>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">費用不包含:</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-
-                            <p>旅途中花費(如........)</p>
-                            <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <hr/>
-
-            <div class="masterclassSiteHeading">內容</div>
-            <p>
-                {{ content }}
-            </p>
-            <p class="masterclassSiteHeading">報名連結
-                <a href="#"><img src="/assets/img/noun_link_430927.png" class="web-link"></a>
-            </p>
-        </div>
-
-
+    <div class="masterclassPageImage">
+        <div class="masterclassPageImageText">{{ page.name }}</div>
     </div>
+    <!--    <div class="hover ehover12" style="background: #9a5d88; width: 100%">-->
+    <!--    <img class="img-fluid rounded" src="/assets/img/3.png">-->
+    <!--        <div class="overlay">-->
+    <!--            <h2>masterclass</h2>-->
+    <!--            <button class="info nullbutton" data-toggle="modal" data-target="#modal12">Homepage-->
+    <!--            </button>-->
+    <!--        </div>-->
+    <!--        <div id="modal1" class="modal fade">-->
+    <!--            <div class="modal-dialog modal-lg">-->
+    <!--                <div class="modal-content">-->
+    <!--                    <div class="modal-header">-->
+    <!--                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+    <!--                        <h2 class="modal-title">Hover effect 1</h2>-->
+    <!--                    </div>-->
+    <!--                    <div class="modal-body"></div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
 </div>
+
+
+<div class="container section-masterclass text-justify">
+
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="masterclassSiteHeading">
+                    時間
+                </div>
+                <p>{{ page.startDate }} - {{page.endDate}}</p>
+            </div>
+            <div class="col-md-6">
+                <div class="masterclassSiteHeading">
+                    地點
+                </div>
+                <p>{{ page.city }}, {{ page.country }}</p>
+            </div>
+        </div>
+    </div>
+
+
+    <hr/>
+
+
+    <div class="masterclassSiteHeading">授課教授</div>
+    <div class="container">
+        <div class="row">
+            {% for teacher in page.teachers %}
+            <div class="col-md-3 col-sm-6 col-xs-6 my-1"><a href="{{teacher.link}}">{{ teacher.name }}</a></div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <hr/>
+    <div class="masterclassSiteHeading">費用</div>
+
+
+    <p>正式學員
+        25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
+    </p>
+
+    <p>
+        旁聽學員
+        25,800元整 = 報名費 500元+活動指導費25,300元(含7/8-7/11每日60分鐘鋼琴琴點)
+    </p>
+    <p class="explanation">
+        <button type="button" class="btn masterclassPageButton mt-4" data-toggle="modal" data-target="#exampleModalCenter">
+            說明
+        </button>
+    </p>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">費用不包含:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <p>旅途中花費(如........)</p>
+                    <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr/>
+
+    <div class="masterclassSiteHeading">內容</div>
+    <p>
+        {{ content }}
+
+        alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd
+        öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf
+        öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
+        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
+        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
+        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
+        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
+        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
+        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
+        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
+        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
+        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
+        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
+        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
+        aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf
+        jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf
+        aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd aölfjaö alsdf jaölskfd öalsjdf aölsjdf öaljfd
+        aölfjaö
+    </p>
+    <a type="button" href="{{ page.masterclassLink }}" class="btn btn-primary mt-5 masterclassPageButton">報名連結</a>
+
+    <!--    <p class="masterclassSiteHeading">-->
+    <!--        <a href="#"></a>-->
+    <!--    </p>-->
+</div>
+
+
 

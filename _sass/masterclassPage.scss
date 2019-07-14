@@ -1,46 +1,73 @@
 @import "colors";
 
 
+.section-masterclass > * {
+  transition-duration: 0.63s;
+}
+
 /*masterclass detail*/
 .section-masterclass {
-
-    padding-top: 60%;
-
-    position: center;
-    text-align: justify;
-    font-size: 14pt;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  font-size: 14pt;
 }
 
-.foto-masterclass{
-    padding-top: 10%;
-}
-.section-masterclass > img {
-    padding-bottom: 20%;
+.masterclassSiteHeading {
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
-.masterclassSiteHeading{
-    font-weight: 600;
+
+.section-masterclass > p {
+  list-style: none;
 }
 
-.section-masterclass > div{
-    padding : 1.5% 2%;
-    margin-bottom: 2%;
-    color: #2e485e;
-    list-style: none;
+.section-masterclass > hr {
+  $sectionSpacing: 40px;
+  margin-top: $sectionSpacing;
+  margin-bottom: $sectionSpacing;
+}
+
+
+.web-link {
+  width: 20px;
+}
+
+$masterclassImageHeight: 200px;
+.masterclassPageImage {
+  background-color: $masterclassColor;
+  width: 100%;
+  height: $masterclassImageHeight
 
 }
 
-.section-masterclass > p{
-    padding : 0 2%;
-    margin-bottom: 2%;
-    color: #1d2124;
+.masterclassPageImageText {
+  font-family: 'Playfair Display', serif;
+  color: $backgroundColor;
+  font-size: 40px;
+  font-weight: 500;
 
-    list-style: none;
-
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.web-link{
-    width:20px;
+$buttonBorderWidth: 1px;
+.masterclassPageButton {
+  border-color: $masterclassColor;
+  border-width: $buttonBorderWidth;
+  background-color: $backgroundColor;
+  color: $masterclassColor;
 }
 
+.masterclassPageButton:hover {
+  border-color: $masterclassColor;
+  border-width: $buttonBorderWidth;
+  background-color: $masterclassColor;
+  color: $backgroundColor;
+}
 
