@@ -9,8 +9,8 @@ feeExplanation:
     - fee explanation line 1
     - fee explanation line 2
     - and so on
-startDate: 2019-07-22
-endDate: 2019-06-23
+startDate: 2019-12-22
+endDate: 2019-12-23
 city: Rom
 country: 意大利
 type: masterclass

@@ -25,34 +25,34 @@
 .masterclassButton {
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: white;
+  background-color: #EEEE;
   color: #7b7b7a; }
 
 .masterclassButton:hover {
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: white;
+  background-color: #EEEE;
   color: #7b7b7a; }
 
 .masterclassButton.is-checked {
   background-color: #7b7b7a;
-  color: white; }
+  color: #EEEE; }
 
 .festivalButton {
   border-color: #6463a2;
   border-width: 1px;
-  background-color: white;
+  background-color: #EEEE;
   color: #6463a2; }
 
 .festivalButton:hover {
   border-color: #6463a2;
   border-width: 1px;
-  background-color: white;
+  background-color: #EEEE;
   color: #6463a2; }
 
 .festivalButton.is-checked {
   background-color: #6463a2;
-  color: white; }
+  color: #EEEE; }
 
 /*Masterclass cards*/
 .drop-shadow {
