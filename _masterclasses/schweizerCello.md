@@ -2,7 +2,7 @@
 name: Swiss Cello Days
 teachers:
       - name: Benjamin Wagner
-        link: bla
+        link: https://bewagner.github.io/ 
 fee: 1200
 feeExplanation: 
     - fee explanation line 1
