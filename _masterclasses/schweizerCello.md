@@ -1,0 +1,21 @@
+---
+name: Swiss Cello Days
+teachers:
+      - name: Benjamin Wagner
+        link: bla
+fee: 1200
+feeExplanation: 
+    - fee explanation line 1
+startDate: 2019-10-22
+endDate: 2019-10-30
+city: Zuerich
+country: 瑞士
+type: festival
+instruments:
+    - 大提琴
+    - 中提琴
+    - 小提琴
+    - 指揮 
+---
+
+Meisterkurs lajsöd aödsljf 
