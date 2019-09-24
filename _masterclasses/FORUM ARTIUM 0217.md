@@ -2,10 +2,7 @@
 name: FORUM ARTIUM Internationale Meisterkurse
 teachers:
       - name: Prof. Maria Kliegel
-        https://www.forum-artium.de/2007081266/Violoncello/MK-63-Maria-Kliegel.html
-
-
-
+        link: https://www.forum-artium.de/2007081266/Violoncello/MK-63-Maria-Kliegel.html
 fee: 745 €
 feeExplanation: 
     - 350 € 正式學員課程費用--非學生身份
@@ -15,10 +12,6 @@ feeExplanation:
     - 328 € 住宿費用(雙人間),包含主辦單位Forum Artium 提供的伙食,三餐
     - 單人房, 依照天數,每日住宿費用需增加 20 €(如果還有房的話) 
     - 不需要住宿以及伙食的學員,仍需繳 90€額外費用 
-
-
-
-
 startDate: 2020-02-17
 endDate: 2020-02-21
 city: Osnabrück
@@ -26,9 +19,6 @@ country: 德國
 type: masterclass
 instruments:
     -大提琴
-
-
-   
 ---
 關於FORUM ARTIUM
 
