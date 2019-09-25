@@ -6,8 +6,9 @@ teachers:
 fee: 1200
 feeExplanation: 
     - fee explanation line 1
-startDate: 2019-10-22
-endDate: 2019-10-30
+    - fee explanation line 1
+startDate: 2018-10-22
+endDate: 2018-10-30
 city: Zuerich
 country: 瑞士
 type: festival

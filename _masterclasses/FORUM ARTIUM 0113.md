@@ -21,7 +21,7 @@ city: Osnabrück
 country: 德國
 type: masterclass
 instruments:
-    -聲樂
+    - 聲樂
 
    
 ---

@@ -18,7 +18,7 @@ city: Osnabrück
 country: 德國
 type: masterclass
 instruments:
-    -大提琴
+    - 大提琴
 ---
 關於FORUM ARTIUM
 
