@@ -4,7 +4,7 @@ teachers:
       - name: Prof. Klesie Kelly
         link: https://www.forum-artium.de/2007081250/Gesang/MK-61-Klesie-Kelly.html
 
-fee: 780 €
+fee: 780
 feeExplanation: 
     - 360 € 正式學員課程費用--非學生身份
     - 310 € 正式學員課程費用—學生身份

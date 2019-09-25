@@ -5,7 +5,7 @@ teachers:
         link: https://www.forum-artium.de/2007081273/Violoncello/MK-62-Tilman-Wick.html
 
 
-fee: 745 €
+fee: 745
 feeExplanation: 
     - 360 € 正式學員課程費用--非學生身份
     - 310 € 正式學員課程費用—學生身份

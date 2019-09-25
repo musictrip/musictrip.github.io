@@ -4,7 +4,7 @@ teachers:
       - name: Prof. Kilian Herold
         link: https://www.forum-artium.de/20080423205/Klarinette/MK-60-Kilian-Herold.html
 
-fee: 688 €
+fee: 688
 feeExplanation: 
     - 360 € 正式學員課程費用--非學生身份
     - 310 € 正式學員課程費用--學生身份
