@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Máté Szűcs
         link: https://schlossakademie.com/masterclasses/m%C3%A1t%C3%A9-sz%C5%B1cs

@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Blackmore International Music Academy
 teachers:
       - name: Prof. Xenia Jankovic
         link: https://blackmore-academy.com/de/209-prof-xenia-jankovic-cello-hochschule-fuer-musik-detmold

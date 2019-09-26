@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Christoph Schickedanz
         link: https://schlossakademie.com/masterclasses/annette-unger.80

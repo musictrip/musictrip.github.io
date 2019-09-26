@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Mihaela Martin
         link: https://schlossakademie.com/masterclasses/mihaela-martin

@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Viktor Tretiakov and Natalia Likhopoi
         link: https://schlossakademie.com/masterclasses/prof-viktor-tretiakov-natalia-likhopoi-61

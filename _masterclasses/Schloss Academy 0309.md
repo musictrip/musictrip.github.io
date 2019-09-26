@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Maria Solozobova
         link: https://schlossakademie.com/masterclasses/yair-kless

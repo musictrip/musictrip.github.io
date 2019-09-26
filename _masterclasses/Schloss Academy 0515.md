@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Paul Rivinius
         link: https://schlossakademie.com/masterclasses/paul-rivinius

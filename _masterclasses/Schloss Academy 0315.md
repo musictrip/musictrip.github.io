@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
       - name: Prof. Kirill Troussov
         link: https://schlossakademie.com/masterclasses/kirill-troussov-76
