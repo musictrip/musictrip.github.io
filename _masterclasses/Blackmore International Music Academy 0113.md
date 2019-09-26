@@ -1,14 +1,14 @@
 ---
 name: Blackmore International Music Academy
 teachers:
-      - name: Prof. Eckart Runge
-        link: https://blackmore-academy.com/en/masterclasses/eckart-runge
+      - name: Prof. Krzysztof Wegrzyn
+        link: https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-krzysztof-wegrzyn/
 
-fee: 549
+fee: 649
 feeExplanation: 
-    - 獨奏課程 549 € (三堂課)
-    - 室內樂課程--二重奏 / 三重奏  699 €  (三堂課)
-    - 室內樂課程--四重奏  699 €  (三堂課)
+    - 獨奏課程 649 € (三堂課)
+    - 獨奏課程 799 € (四堂課)
+    - 獨奏課程 949 € (五堂課)
     - <hr>
     - 大師班期間不限次數旁聽 200 € 
     - 旁聽 50 € /天   
@@ -44,15 +44,9 @@ instruments:
 – für die besten Teilnehmer Konzertengagements in Berlin
 
 
-- 網站連結:https://blackmore-academy.com/de/meisterkurse/prof-krzysztof-wegrzyn
-
-- 授課地點:
-BLACKMORE'S – Berlins Musikzimmer
-Warmbrunner Str. 52
-14193 Berlin | Germany
+- 網站連結:
 
 - 報名表連結: https://blackmore-academy.com//media/com_eventbooking/application-form-academy-2019%201.pdf
-
 - 報名方式: 
 可使用e-mail寄送申請文件 contact@blackmore-academy.com
 或郵寄至下列地址
@@ -60,13 +54,7 @@ Blackmore International Music Academy
 Warmbrunner Str. 52
 14193 Berlin | Germany
 
-- 聯絡電話 +4930 8973 4865 (AB)
-
-
-
-
-
-
+- 聯絡電話 +49 30 89 73 48 65 (AB)
 
 
 
