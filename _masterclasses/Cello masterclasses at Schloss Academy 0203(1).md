@@ -4,7 +4,7 @@ teachers:
       - name: Prof. Hans-Christian Schweiker 
         link: https://schlossakademie.com/masterclasses/hans-christian-schweiker
 
-
+instrument:
 
 
 fee: 499
