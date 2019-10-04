@@ -97,26 +97,27 @@ title: Ashanas
         {% assign lesson-style = "音樂節"%}
         {% endif %}
 
+        {% comment %}
+        Here we calculate the month of the masterclass to discriminate the color based on the month
+        {% endcomment%}
+        {% assign masterclassMonth = masterclass.startDate | slice: 5, 2 | plus: 0 %}
+
         <div class="col-lg-4 col-md-6 mt-4 mb-0  drop-shadow filter-item {{ masterclass.type }}">
             <div class="card  card-{{ masterclass.type }}-top ">
                 <div class="card-body position-relative">
-                    <div class="concert-type">{{ lesson-style }}</div>
+                    <div class="concert-type">
+                        {% include functions/generateCommaSeperatedList.html list=masterclass.instruments %}
+                    </div>
                     <div class="concert-name py-4">{{ masterclass.name }}</div>
                     <div class="orchestra-cast">
-                        {% for teacher in masterclass.teachers%}
-                        {% if forloop.length == 1 or forloop.last %}
-                        {{ teacher.name }}
-                        {% else %}
-                        {{ teacher.name }},
-                        {% endif %}
-                        {%endfor%}
+                        {% assign teacherNames = masterclass.teachers | map: "name" %}
+                        {% include functions/generateCommaSeperatedList.html list=teacherNames %}
                     </div>
 
-                    <!--                    <div class="instruments">-->
-                    <!--                        {% for instrument in masterclass.instruments %}-->
-                    <!--                        {{ instrument }},-->
-                    <!--                        {% endfor %}-->
-                    <!--                    </div>-->
+
+                    {{ masterclass.name | size | modulo : site.data.colors.size}}
+                    {{ site.data.colors[1] }}
+
                 </div>
             </div>
             <div class="card card-below card-{{ masterclass.type }}-bottom">
@@ -129,8 +130,18 @@ title: Ashanas
 
                         <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
                         <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
-                        <input type="hidden" id="fee" value="{{ masterclass.fee}}">
-                        <input type="hidden" id="instruments" value="{{masterclass.instruments}}">
+
+                        <input type="hidden" id="fee"
+                               value="{% include functions/normalizeString.html input=masterclass.fee %}">
+                        <input type="hidden" id="instruments"
+                               value="{% include functions/normalizeString.html input=masterclass.instruments%}">
+
+                        {% assign flattenedTeacherNames = teacherNames | join: '' %}
+                        {% assign hiddenText = masterclass.name | append: masterclass.startDate | append:
+                        masterclass.endDate | append: masterclass.city | append: masterclass.country | append:
+                        flattenedTeacherNames | downcase | replace: ' ', '' | replace: '-', ''%}
+
+                        <input type="hidden" id="hiddenText" value="{{ hiddenText }}">
                     </div>
 
                 </div>
