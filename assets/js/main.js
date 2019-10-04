@@ -1,19 +1,16 @@
 $(document).ready(function () {
 
-    // TODO Comment
     const fuseOptions = {
         shouldSort: true,
         includeScore: true,
-        threshold: 0.55,
+        threshold: 0.4,
         location: 0,
-        distance: 100,
+        distance: 10000,
         maxPatternLength: 32,
         minMatchCharLength: 1,
         keys: ["text", "fee", "instruments"]
     };
 
-
-    // TODO Delete searches when additional search is folded
 
     // Holds the regex for free text search
     var searchInput;
@@ -28,17 +25,29 @@ $(document).ready(function () {
         filter: function () {
             // Does the current item match the search?
             if (searchInput) {
-                var strippedText = $(this).text().replace(/\s/g, '');
+
+                // The instrument name does not need to be normalized as it is already in Chinese
+                var instrument = $(this).find("#instruments").val();
+                // We want to be able to search for instruments in Chinese and English. Therefore we add both together.
+                instrument += englishNameOf(instrument);
+
 
                 var searchDict = [{
-                    "text": strippedText,
-                    "fee": $(this).find("#fee").val().toString(),
-                    "instruments": $(this).find("#instruments").val(),
+                    "text": normalizeString($(this).text()),
+                    "fee": normalizeString($(this).find("#fee").val().toString()),
+
+                    "instruments": instrument,
                 }];
 
+                //TODO Delete
+                console.log(instrument);
 
                 var fuse = new Fuse(searchDict, fuseOptions);
-                var fuseResult = fuse.search(searchInput);
+
+                var normalizedSearchInput = normalizeString(searchInput);
+                var fuseResult = fuse.search(normalizedSearchInput);
+
+
                 searchResult = fuseResult.length > 0;
 
             } else {
@@ -52,6 +61,54 @@ $(document).ready(function () {
             return searchResult && selectionResults;
         }
     });
+
+    function englishNameOf(s) {
+        switch (s) {
+            case "大提琴":
+                return "cello";
+            case "中提琴":
+                return "viola";
+            case "小提琴":
+                return "violin";
+            case "低音提琴":
+                return "bass";
+            case "鋼琴":
+                return "piano";
+            case "打擊樂":
+                return "percussion, drums";
+            case "聲樂":
+                return "vocal, singing";
+            case "指揮":
+                return "conductor";
+            case "長笛":
+                return "western concert flute";
+            case "雙簧管":
+                return "oboe";
+            case "單簧管":
+                return "clarinet";
+            case "低音管":
+                return "bassoon";
+            case "法國號":
+                return "french horn";
+            case "小號":
+                return "trumpet";
+            case "長號":
+                return "trombone";
+            case "低音號":
+                return "tuba";
+        }
+    }
+
+    /**
+     * Normalize a string
+     * That is, replace all its whitespace
+     * @param s input string
+     * @returns string string with all whitespace removed
+     */
+    function normalizeString(s) {
+        return s.toLowerCase().replace(/\s+/g, '');
+    }
+
 
     /**
      * TODO
@@ -127,8 +184,6 @@ $(document).ready(function () {
                 $button.addClass('is-checked');
                 chosenFilters[$filterGroup] = newFilter;
             }
-
-
         } else {
             $button.addClass('is-checked');
             chosenFilters[$filterGroup] = newFilter;
@@ -234,6 +289,3 @@ $(document).ready(function () {
 
 
 });
-
-
-// TODO Divide active and passive participation
