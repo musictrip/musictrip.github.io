@@ -102,11 +102,8 @@ title: Ashanas
         {% endcomment%}
         {% assign masterclassMonth = masterclass.startDate | slice: 5, 2 | plus: 0 %}
 
+        {% assign cardColorID = masterclass.name | size | modulo: site.data.numberOfColors %}
 
-        {% comment %}
-        Here we calculate which color the card will have. The 5 is the number of colors we define in SASS.
-        {% endcomment%}
-        {% assign cardColorID = masterclass.name | size | modulo: 5 %}
         <div class="col-lg-4 col-md-6 mt-4 mb-0  drop-shadow filter-item ">
             <div class="card  card-color-{{ cardColorID }}-top ">
                 <div class="card-body position-relative">
@@ -118,11 +115,6 @@ title: Ashanas
                         {% assign teacherNames = masterclass.teachers | map: "name" %}
                         {% include functions/generateCommaSeperatedList.html list=teacherNames %}
                     </div>
-
-
-
-
-
                 </div>
             </div>
             <div class="card card-below card-color-{{ cardColorID }}-bottom">

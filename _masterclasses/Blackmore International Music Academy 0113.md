@@ -27,6 +27,8 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://blackmore-academy.com//media/com_eventbooking/application-form-academy-2019%201.pdf
+masterclassLink: https://blackmore-academy.com/zh/
 ---
 關於Blackmore International Music Academy<br>  
 四年多來，我們一直致力於，培養和支持有音樂天賦的學生，為這些有才華的年輕音樂家們鋪設一條可以成功的道路。<br>
@@ -60,7 +62,6 @@ Blackmore學院在音樂領域得以穩定固地拓展和成長。
 
 <hr/>
 
-- 報名表連結: https://blackmore-academy.com//media/com_eventbooking/application-form-academy-2019%201.pdf
 - 報名方式: 
 可使用e-mail寄送申請文件 contact@blackmore-academy.com <br>
 或郵寄至下列地址

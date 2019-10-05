@@ -17,6 +17,7 @@ instruments:
     - 中提琴
     - 小提琴
     - 指揮 
+registrationLink: bla
 ---
 
 Meisterkurs lajsöd aödsljf 

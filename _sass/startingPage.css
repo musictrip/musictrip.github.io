@@ -25,53 +25,53 @@
 .masterclassButton {
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: #EEEE;
+  background-color: white;
   color: #7b7b7a; }
 
 .masterclassButton:hover {
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: #EEEE;
+  background-color: white;
   color: #7b7b7a; }
 
 .masterclassButton.is-checked {
   background-color: #7b7b7a;
-  color: #EEEE; }
+  color: white; }
 
 .festivalButton {
   border-color: #6463a2;
   border-width: 1px;
-  background-color: #EEEE;
+  background-color: white;
   color: #6463a2; }
 
 .festivalButton:hover {
   border-color: #6463a2;
   border-width: 1px;
-  background-color: #EEEE;
+  background-color: white;
   color: #6463a2; }
 
 .festivalButton.is-checked {
   background-color: #6463a2;
-  color: #EEEE; }
+  color: white; }
 
 /*Masterclass cards*/
 .drop-shadow {
   filter: drop-shadow(0 2px 4px rgba(92, 92, 92, 0.24)); }
 
 .card-color-0-top {
-  background: #bf6969;
+  background: #5aaa9b;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0; }
 
 .drop-shadow:hover .card-color-0-top {
-  background: #ac4949; }
+  background: #478a7d; }
 
 .card-color-0-bottom {
   background: white;
-  color: #bf6969;
+  color: #5aaa9b;
   border-style: dotted;
-  border-color: #bf6969;
+  border-color: #5aaa9b;
   border-width: medium;
   border-top: 0;
   -webkit-border-radius: 0 0 10px 10px;
@@ -79,23 +79,23 @@
   border-radius: 0 0 10px 10px; }
 
 .drop-shadow:hover .card-color-0-bottom {
-  color: #ac4949;
-  border-color: #ac4949; }
+  color: #478a7d;
+  border-color: #478a7d; }
 
 .card-color-1-top {
-  background: #C2CAD0;
+  background: #73aa65;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0; }
 
 .drop-shadow:hover .card-color-1-top {
-  background: #a5b1ba; }
+  background: #5b8e4e; }
 
 .card-color-1-bottom {
   background: white;
-  color: #C2CAD0;
+  color: #73aa65;
   border-style: dotted;
-  border-color: #C2CAD0;
+  border-color: #73aa65;
   border-width: medium;
   border-top: 0;
   -webkit-border-radius: 0 0 10px 10px;
@@ -103,23 +103,23 @@
   border-radius: 0 0 10px 10px; }
 
 .drop-shadow:hover .card-color-1-bottom {
-  color: #a5b1ba;
-  border-color: #a5b1ba; }
+  color: #5b8e4e;
+  border-color: #5b8e4e; }
 
 .card-color-2-top {
-  background: #C2B9B0;
+  background: #6178aa;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0; }
 
 .drop-shadow:hover .card-color-2-top {
-  background: #aca093; }
+  background: #4c608c; }
 
 .card-color-2-bottom {
   background: white;
-  color: #C2B9B0;
+  color: #6178aa;
   border-style: dotted;
-  border-color: #C2B9B0;
+  border-color: #6178aa;
   border-width: medium;
   border-top: 0;
   -webkit-border-radius: 0 0 10px 10px;
@@ -127,23 +127,23 @@
   border-radius: 0 0 10px 10px; }
 
 .drop-shadow:hover .card-color-2-bottom {
-  color: #aca093;
-  border-color: #aca093; }
+  color: #4c608c;
+  border-color: #4c608c; }
 
 .card-color-3-top {
-  background: #7E685A;
+  background: #aa8ea2;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0; }
 
 .drop-shadow:hover .card-color-3-top {
-  background: #604f45; }
+  background: #94718a; }
 
 .card-color-3-bottom {
   background: white;
-  color: #7E685A;
+  color: #aa8ea2;
   border-style: dotted;
-  border-color: #7E685A;
+  border-color: #aa8ea2;
   border-width: medium;
   border-top: 0;
   -webkit-border-radius: 0 0 10px 10px;
@@ -151,32 +151,8 @@
   border-radius: 0 0 10px 10px; }
 
 .drop-shadow:hover .card-color-3-bottom {
-  color: #604f45;
-  border-color: #604f45; }
-
-.card-color-4-top {
-  background: #AFD275;
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0; }
-
-.drop-shadow:hover .card-color-4-top {
-  background: #99c54f; }
-
-.card-color-4-bottom {
-  background: white;
-  color: #AFD275;
-  border-style: dotted;
-  border-color: #AFD275;
-  border-width: medium;
-  border-top: 0;
-  -webkit-border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px; }
-
-.drop-shadow:hover .card-color-4-bottom {
-  color: #99c54f;
-  border-color: #99c54f; }
+  color: #94718a;
+  border-color: #94718a; }
 
 .date {
   font-size: 22px; }
@@ -190,7 +166,7 @@
   font-weight: 500; }
 
 .class-name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 250%; }
 
 .class-teachers {

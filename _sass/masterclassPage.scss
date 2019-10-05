@@ -1,70 +1,78 @@
 @import "colors";
+@import "fonts";
 
 
-.section-masterclass * {
-  transition-duration: 0.63s;
-}
+$masterclassImageHeight: 250px;
+$textFontSize: 16pt;
+$borderRadius: 0.7em;
 
-/*masterclass detail*/
-.section-masterclass {
-  margin-top: 100px;
-  margin-bottom: 300px;
-  font-size: 14pt;
-}
+// Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
+@for $i from 0 through length($cardColors)-1 {
+    $color: nth($cardColors, $i + 1);
 
-.masterclassSiteHeading {
-  font-weight: 600;
-  margin-bottom: 40px;
-}
+    $darkenedColor: darken($color, 10%);
 
+    .masterclassPageImage-color-#{$i} {
+        background-color: $color;
+        width: 100%;
+        height: $masterclassImageHeight;
+        border-radius: $borderRadius;
+    }
 
+    $buttonBorderWidth: 2px;
+    .masterclassPageButton-color-#{$i} {
 
-.section-masterclass > hr {
-  $sectionSpacing: 40px;
-  margin-top: $sectionSpacing;
-  margin-bottom: $sectionSpacing;
-}
+        font-size: $textFontSize;
+        border: $buttonBorderWidth solid $color;
+        background-color: $backgroundColor;
+        color: $color;
+        border-radius: $borderRadius;
 
+        white-space: nowrap;
+    }
 
-.web-link {
-  width: 20px;
-}
+    .masterclassPageButton-color-#{$i}:hover {
+        border-color: $color;
+        border-width: $buttonBorderWidth;
+        background-color: $color;
+        color: $backgroundColor;
+        text-decoration: none;
+    }
 
-$masterclassImageHeight: 200px;
-.masterclassPageImage {
-  background-color: $masterclassColor;
-  width: 100%;
-  height: $masterclassImageHeight
 
 }
 
 .masterclassPageImageText {
-  font-family: 'Playfair Display', serif;
-  color: $backgroundColor;
-  font-size: 40px;
-  font-weight: 500;
+    font-family: $serifHeadingFont;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
 
-  text-align: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-$buttonBorderWidth: 1px;
-.masterclassPageButton {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $masterclassColor;
+.masterclassDescription {
+    font-size: $textFontSize;
+    font-weight: 500;
 }
 
-.masterclassPageButton:hover {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $masterclassColor;
-  color: $backgroundColor;
+
+.masterclassDescriptionItem {
+    font-weight:bold;
 }
+
+.teacherLink a:link{
+    color: $cardBlue;
+}
+.teacherLink a:hover, .teacherLink a:visited {
+    color:darken($cardBlue, 20%);
+    text-decoration: none;
+}
+
 
