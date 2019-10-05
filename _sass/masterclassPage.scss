@@ -1,70 +1,73 @@
 @import "colors";
+@import "fonts";
 
 
-.section-masterclass * {
-  transition-duration: 0.63s;
+$masterclassImageHeight: 250px;
+$textFontSize: 16pt;
+$borderRadius: 0.7em;
+
+// Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
+@for $i from 0 through length($cardColors)-1 {
+    $color: nth($cardColors, $i + 1);
+
+    .masterclassPageImage-color-#{$i} {
+        background-color: $color;
+        border-radius: $borderRadius;
+        white-space:normal;
+        font-family: $serifHeadingFont;
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+
+    $buttonBorderWidth: 2px;
+    .masterclassPageButton-color-#{$i} {
+        font-size: $textFontSize;
+        border: $buttonBorderWidth solid $color;
+        background-color: $backgroundColor;
+        color: $color;
+        border-radius: $borderRadius;
+        white-space: nowrap;
+    }
+
+    .masterclassPageButton-color-#{$i}:hover {
+        border-color: $color;
+        border-width: $buttonBorderWidth;
+        background-color: $color;
+        color: $backgroundColor;
+        text-decoration: none;
+    }
+    .explanationButton-color-#{$i} {
+        @extend .masterclassPageButton-color-#{$i};
+        color: darkgray;
+        border-color: darkgray;
+    }
+
+    .explanationButton-color-#{$i}:hover {
+
+        $evenDarkerGray: darken(darkgray, 15%);
+        color: $evenDarkerGray;
+        border-color: $evenDarkerGray;
+        background-color: $backgroundColor;
+    }
 }
 
-/*masterclass detail*/
-.section-masterclass {
-  margin-top: 100px;
-  margin-bottom: 300px;
-  font-size: 14pt;
+.masterclassDescription {
+    font-size: $textFontSize;
+    font-weight: 500;
 }
 
-.masterclassSiteHeading {
-  font-weight: 600;
-  margin-bottom: 40px;
+.masterclassDescriptionItem {
+    font-weight:bold;
 }
 
-
-
-.section-masterclass > hr {
-  $sectionSpacing: 40px;
-  margin-top: $sectionSpacing;
-  margin-bottom: $sectionSpacing;
+.teacherLink a:link{
+    color: $cardBlue;
+}
+.teacherLink a:hover, .teacherLink a:visited {
+    color:darken($cardBlue, 20%);
+    text-decoration: none;
 }
 
-
-.web-link {
-  width: 20px;
-}
-
-$masterclassImageHeight: 200px;
-.masterclassPageImage {
-  background-color: $masterclassColor;
-  width: 100%;
-  height: $masterclassImageHeight
-
-}
-
-.masterclassPageImageText {
-  font-family: 'Playfair Display', serif;
-  color: $backgroundColor;
-  font-size: 40px;
-  font-weight: 500;
-
-  text-align: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-$buttonBorderWidth: 1px;
-.masterclassPageButton {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $masterclassColor;
-}
-
-.masterclassPageButton:hover {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $masterclassColor;
-  color: $backgroundColor;
-}
 

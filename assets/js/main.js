@@ -3,7 +3,7 @@ $(document).ready(function () {
     const fuseOptions = {
         shouldSort: true,
         includeScore: true,
-        threshold: 0.4,
+        threshold: 0.2,
         location: 0,
         distance: 10000,
         maxPatternLength: 32,
@@ -28,25 +28,19 @@ $(document).ready(function () {
 
                 // The instrument name does not need to be normalized as it is already in Chinese
                 var instrument = $(this).find("#instruments").val();
-                // We want to be able to search for instruments in Chinese and English. Therefore we add both together.
                 instrument += englishNameOf(instrument);
 
 
                 var searchDict = [{
-                    "text": normalizeString($(this).text()),
-                    "fee": normalizeString($(this).find("#fee").val().toString()),
-
+                    "text": $(this).find('#hiddenText').val(),
+                    "fee": $(this).find("#fee").val().toString(),
                     "instruments": instrument,
                 }];
 
-                //TODO Delete
-                console.log(instrument);
 
                 var fuse = new Fuse(searchDict, fuseOptions);
-
                 var normalizedSearchInput = normalizeString(searchInput);
                 var fuseResult = fuse.search(normalizedSearchInput);
-
 
                 searchResult = fuseResult.length > 0;
 
@@ -62,6 +56,11 @@ $(document).ready(function () {
         }
     });
 
+    /**
+     * Translate Chinese instrument names to english
+     * @param s Chinese instrument name
+     * @returns {string} English translation of Chinese instrument name
+     */
     function englishNameOf(s) {
         switch (s) {
             case "大提琴":
@@ -96,6 +95,8 @@ $(document).ready(function () {
                 return "trombone";
             case "低音號":
                 return "tuba";
+            default:
+                return "";
         }
     }
 

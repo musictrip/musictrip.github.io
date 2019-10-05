@@ -1,110 +1,111 @@
 ---
 layout: default
 ---
+{% assign cardColorID = page.name | size | modulo: site.data.numberOfColors %}
 
-<div class="container my-5 ">
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-sm-2 col-sm-offset-5 text-center mx-5 mt-4">
+            <!--Button group-->
+            {%if page.registrationLink or page.masterclassLink %}
 
-    <div class="masterclassPageImage">
-        <div class="masterclassPageImageText">{{ page.name }}</div>
-    </div>
-    <!--    <div class="hover ehover12" style="background: #9a5d88; width: 100%">-->
-    <!--    <img class="img-fluid rounded" src="/assets/img/3.png">-->
-    <!--        <div class="overlay">-->
-    <!--            <h2>masterclass</h2>-->
-    <!--            <button class="info nullbutton" data-toggle="modal" data-target="#modal12">Homepage-->
-    <!--            </button>-->
-    <!--        </div>-->
-    <!--        <div id="modal1" class="modal fade">-->
-    <!--            <div class="modal-dialog modal-lg">-->
-    <!--                <div class="modal-content">-->
-    <!--                    <div class="modal-header">-->
-    <!--                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
-    <!--                        <h2 class="modal-title">Hover effect 1</h2>-->
-    <!--                    </div>-->
-    <!--                    <div class="modal-body"></div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-</div>
+            {% if page.registrationLink %}
+            <p class="p-4">
+                <a href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-3">報名</a>
+            </p>
+            {% endif %}
+            {% if page.masterclassLink %}
+            <p class="p-4">
+                <a href="{{ page.masterclassLink }}"
+                   class="masterclassPageButton-color-{{ cardColorID }}    p-3">官方網站</a>
+            </p>
+            {% endif %}
+            {% endif %}
+        </div>
 
-
-<div class="container section-masterclass text-justify">
-
-    <div class="container-fluid px-0">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="masterclassSiteHeading">
-                    時間
+        <div class="col pl-0 ml-0">
+            <div class="container  text-justify px-md-0 mx-md-0 pb-5">
+                <!--Top banner-->
+                <div class="pb-3">
+                    <div class="masterclassPageImage-color-{{ cardColorID }} p-5 text-center">
+                        {{ page.name }}
+                    </div>
                 </div>
-                <p>{{ page.startDate }} - {{page.endDate}}</p>
-            </div>
-            <div class="col-md-6">
-                <div class="masterclassSiteHeading">
-                    地點
+
+
+                <!--Masterclass description-->
+                {% assign masterclassDescriptionOptions = "py-4" %}
+                <div class="container-fluid px-0 pt-0 masterclassDescription">
+                    <div class="row" style="margin: auto">
+                        <div class="col-md-4">
+                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</div>
+                            {% include functions/generateCommaSeperatedList.html list=page.instruments %}
+                        </div>
+                        <div class="col-md-4">
+                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                                時間
+                            </div>
+                            <p>{{ page.startDate }} - {{page.endDate}}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                                地點
+                            </div>
+                            <p>{{ page.city }}, {{ page.country }}</p>
+                        </div>
+                    </div>
+
+
+                    <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</div>
+                    <div class="row" style="margin: auto">
+                        {% for teacher in page.teachers %}
+                        <div class="col-md-4 my-2 teacherLink">
+                            <a href="{{teacher.link}}">{{ teacher.name }}</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+
+                    <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">費用</div>
+                    {% for line in page.feeExplanation %}
+                    <p> {{ line }}</p>
+                    {% endfor %}
+
+                    <p>
+                        <button type="button" class="btn explanationButton-color-{{ cardColorID }} mt-4" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                            說明
+                        </button>
+                    </p>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">費用不包含:</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <p>旅途中花費(如........)</p>
+                                    <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        {{ content }}
+                    </p>
+
                 </div>
-                <p>{{ page.city }}, {{ page.country }}</p>
             </div>
         </div>
     </div>
-
-
-    <hr/>
-
-
-    <div class="masterclassSiteHeading">授課教授</div>
-    <div class="container">
-        <div class="row">
-            {% for teacher in page.teachers %}
-            <div class="col-md-3 col-sm-6 col-xs-6 my-1"><a href="{{teacher.link}}">{{ teacher.name }}</a></div>
-            {% endfor %}
-        </div>
-    </div>
-
-    <hr/>
-
-    <div class="masterclassSiteHeading">費用</div>
-    {% for line in page.feeExplanation %}
-    <p> {{ line }}</p>
-    {% endfor %}
-
-    <p class="explanation">
-        <button type="button" class="btn masterclassPageButton mt-4" data-toggle="modal"
-                data-target="#exampleModalCenter">
-            說明
-        </button>
-    </p>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">費用不包含:</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <p>旅途中花費(如........)</p>
-                    <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <hr/>
-
-    <div class="masterclassSiteHeading">內容</div>
-    <p>
-        {{ content }}
-    </p>
-    <a type="button" href="{{ page.masterclassLink }}" class="btn btn-primary mt-5 masterclassPageButton">報名連結</a>
-
-
 </div>
 
 

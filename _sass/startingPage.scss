@@ -1,188 +1,182 @@
 @import "colors";
+@import "fonts";
 
-$cardBackgroundColor: white;
+
 $shadowColor: lighten($masterclassColor, 35%);
 $advancedSearchButtonColor: $shadowColor;
 $advancedSearchFontColor: darken($advancedSearchButtonColor, 20%);
 
-  * {
-  font-family: "Noto Sans CJK TC Regular", sans-serif;
+* {
+    font-family: $sansSerifTextFont;
 }
 
 .titel {
-  color: darkslategrey;
+    color: darkslategrey;
 
-  font-size: 32px;
-  margin-bottom: 10px;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 
 .card {
-  color: $cardBackgroundColor;
+    color: $backgroundColor;
 }
 
 /*Search bar and buttons*/
 
 .quicksearch {
-  $radius: 20px;
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
+    $radius: 20px;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
 }
 
 
 .light-shadow:focus {
-  border-color: $shadowColor;
-  box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
+    border-color: $shadowColor;
+    box-shadow: inset 0 1px 1px $shadowColor, 0 0 8px $shadowColor;
 }
 
 .btn-default {
-  @extend .light-shadow;
+    @extend .light-shadow;
 }
 
 
-
 .advanced-settings-button {
-  color: $advancedSearchButtonColor;
+    color: $advancedSearchButtonColor;
 }
 
 
 $buttonBorderWidth: 1px;
 .masterclassButton {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $masterclassColor;
+    border-color: $masterclassColor;
+    border-width: $buttonBorderWidth;
+    background-color: $backgroundColor;
+    color: $masterclassColor;
 }
 
 .masterclassButton:hover {
-  border-color: $masterclassColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $masterclassColor;
+    border-color: $masterclassColor;
+    border-width: $buttonBorderWidth;
+    background-color: $backgroundColor;
+    color: $masterclassColor;
 }
 
 .masterclassButton.is-checked {
-  background-color: $masterclassColor;
-  color: $backgroundColor;
+    background-color: $masterclassColor;
+    color: $backgroundColor;
 }
 
 .festivalButton {
-  border-color: $festivalColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $festivalColor;
+    border-color: $festivalColor;
+    border-width: $buttonBorderWidth;
+    background-color: $backgroundColor;
+    color: $festivalColor;
 }
 
 .festivalButton:hover {
-  border-color: $festivalColor;
-  border-width: $buttonBorderWidth;
-  background-color: $backgroundColor;
-  color: $festivalColor;
+    border-color: $festivalColor;
+    border-width: $buttonBorderWidth;
+    background-color: $backgroundColor;
+    color: $festivalColor;
 }
 
 .festivalButton.is-checked {
-  background-color: $festivalColor;
-  color: $backgroundColor;
+    background-color: $festivalColor;
+    color: $backgroundColor;
 }
-
 
 /*Masterclass cards*/
 
 .drop-shadow {
-  filter: drop-shadow(0 2px 4px rgba(92, 92, 92, 0.24));
+    filter: drop-shadow(0 2px 4px rgba(92, 92, 92, 0.24));
 }
 
+// Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
+@for $i from 0 through length($cardColors)-1 {
+    $color: nth($cardColors, $i + 1);
 
-$colors: ("masterclass": $masterclassColor, "festival": $festivalColor);
-@each $colorName, $color in $colors {
+    $darkenedColor: darken($color, 10%);
 
-  $darkenedColor: darken($color, 10%);
+    .card-color-#{$i}-top {
+        background: $color;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
+    }
 
-  .card-#{$colorName}-top {
-    background: $color;
-    -webkit-border-radius: 10px 10px 0 0;
-    -moz-border-radius: 10px 10px 0 0;
-    border-radius: 10px 10px 0 0;
-  }
+    .drop-shadow:hover .card-color-#{$i}-top {
+        background: $darkenedColor;
+    }
 
-  .drop-shadow:hover .card-#{$colorName}-top {
-    background: $darkenedColor;
-  }
+    .card-color-#{$i}-bottom {
+        background: $backgroundColor;
+        color: $color;
+        border-style: dotted;
+        border-color: $color;
+        border-width: medium;
+        border-top: 0;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
 
-  .card-#{$colorName}-bottom {
-    background: $cardBackgroundColor;
-    color: $color;
-    border-style: dotted;
-    border-color: $color;
-    border-width: medium;
-    border-top: 0;
-    -webkit-border-radius: 0 0 10px 10px;
-    -moz-border-radius: 0 0 10px 10px;
-    border-radius: 0 0 10px 10px;
+    }
 
-  }
-
-  .drop-shadow:hover .card-#{$colorName}-bottom {
-    color: $darkenedColor;
-    border-color: $darkenedColor;
-  }
+    .drop-shadow:hover .card-color-#{$i}-bottom {
+        color: $darkenedColor;
+        border-color: $darkenedColor;
+    }
 }
-
 
 .date {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 .date-month {
-  font-weight: bold;
-  font-size: 28px;
-  inset-block: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    inset-block: 20px;
 }
 
-
-.concert-type {
-  font-weight: 500;
+.class-instruments {
+    font-weight: 500;
 }
 
-.concert-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 250%;
+.class-name {
+    font-family:$serifHeadingFont;
+    font-size: 250%;
 }
 
-.orchestra-cast {
-  padding-bottom: 40px;
-  margin-bottom: auto;
-  letter-spacing: 1.5px;
+.class-teachers {
+    padding-bottom: 40px;
+    margin-bottom: auto;
+    letter-spacing: 1.5px;
 }
-
 
 .card-deck {
-  margin: 20px;
+    margin: 20px;
 }
 
 .location {
-  margin-top: 15px;
-  margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
 .date-day {
-  font-weight: 700;
-  font-size: 300%;
-  line-height: 85%;
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 85%;
 }
-
 
 .extendedSearchLabel {
-  color: $advancedSearchFontColor;
+    color: $advancedSearchFontColor;
 }
 
-
 .noUi-handle .noUi-tooltip {
-  bottom: -37px;
-  border-width: 0;
-  color: $advancedSearchFontColor;
+    bottom: -37px;
+    border-width: 0;
+    color: $advancedSearchFontColor;
 }
 
 
