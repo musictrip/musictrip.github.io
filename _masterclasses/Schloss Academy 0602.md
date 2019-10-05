@@ -45,14 +45,14 @@ instruments:
 
 <hr/>
 
-
 報名連結: https://schlossakademie.com/registration/personal
 <div class="container section-masterclass text-justify">
    <div class="row">
       <div class="col-md-auto col-lg-8 col-sm-6">
-      <img src="/assets/img/shlossakadimie.png" style="width: 100%" class="img-responsive " alt="載入錯誤">
+      <img src="/assets/img/1920px-Hohenpriessnitz_Barockschloss-01.jpg" style="width: 100%" alt="載入錯誤">
+      <img src="/assets/img/shlossakadimie.png" style="width: 100%" alt="載入錯誤">
       <img src="/assets/img/schlossakadimie2.png" style="width: 100%" class="img-responsive" alt="載入錯誤">
-      <img src="/assets/img/1920px-Hohenpriessnitz_Barockschloss-01.jpg" style="width: 100%" class="img-responsive" alt="載入錯誤">
       </div>
    </div>
 </div>
+

@@ -14,7 +14,6 @@ feeExplanation:
     - (以上費用皆不含住宿)
     - <hr>
     - 報名註冊完成後,將收取全部課程費用
-    - <hr>
     - 另外，我們也提供您與室內樂團合作演出的機會
     - 費用為20分鐘 490€，30分鐘 700€。 （此價格包括使用3台攝像機拍攝的專業多角度影像)
     - <hr>
@@ -72,3 +71,11 @@ Warmbrunner Str. 52
 
 
 
+<div class="container section-masterclass text-justify">
+   <div class="row">
+      <div class="col-md-auto col-lg-7 col-sm-6">
+      <img src="/assets/img/julia-solonina-teGUtvdTiQ8-unsplash.jpg" style="width: 100%" alt="載入錯誤">
+      <p style="font-size: smaller">照片出處: unsplash.com</p>
+      </div>
+   </div>
+</div>
