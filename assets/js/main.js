@@ -28,7 +28,6 @@ $(document).ready(function () {
 
                 // The instrument name does not need to be normalized as it is already in Chinese
                 var instrument = $(this).find("#instruments").val();
-                // We want to be able to search for instruments in Chinese and English. Therefore we add both together.
                 instrument += englishNameOf(instrument);
 
 

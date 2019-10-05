@@ -129,9 +129,9 @@ title: Ashanas
                         <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
 
                         <input type="hidden" id="fee"
-                               value="{% include functions/normalizeString.html input=masterclass.fee %}">
+                               value="{{ masterclass.fee | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
                         <input type="hidden" id="instruments"
-                               value="{% include functions/normalizeString.html input=masterclass.instruments%}">
+                               value="{{ masterclass.instruments | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
 
                         {% assign flattenedTeacherNames = teacherNames | join: '' %}
                         {% assign hiddenText = masterclass.name | append: masterclass.startDate | append:
