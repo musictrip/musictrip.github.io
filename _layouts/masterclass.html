@@ -27,9 +27,8 @@ layout: default
             <div class="container  text-justify px-md-0 mx-md-0 pb-5">
                 <!--Top banner-->
                 <div class="pb-3">
-
-                    <div class="masterclassPageImage-color-{{ cardColorID }}">
-                        <div class="masterclassPageImageText">{{ page.name }}</div>
+                    <div class="masterclassPageImage-color-{{ cardColorID }} p-5 text-center">
+                        {{ page.name }}
                     </div>
                 </div>
 
@@ -58,8 +57,6 @@ layout: default
 
 
                     <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</div>
-
-
                     <div class="row" style="margin: auto">
                         {% for teacher in page.teachers %}
                         <div class="col-md-4 my-2 teacherLink">
@@ -104,7 +101,6 @@ layout: default
                     <p>
                         {{ content }}
                     </p>
-
 
                 </div>
             </div>

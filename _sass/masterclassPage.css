@@ -1,8 +1,12 @@
 .masterclassPageImage-color-0 {
   background-color: #5aaa9b;
-  width: 100%;
-  height: 250px;
-  border-radius: 0.7em; }
+  border-radius: 0.7em;
+  white-space: normal;
+  font-family: "Playfair Display", serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  word-wrap: break-word; }
 
 .masterclassPageButton-color-0, .explanationButton-color-0 {
   font-size: 16pt;
@@ -30,9 +34,13 @@
 
 .masterclassPageImage-color-1 {
   background-color: #73aa65;
-  width: 100%;
-  height: 250px;
-  border-radius: 0.7em; }
+  border-radius: 0.7em;
+  white-space: normal;
+  font-family: "Playfair Display", serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  word-wrap: break-word; }
 
 .masterclassPageButton-color-1, .explanationButton-color-1 {
   font-size: 16pt;
@@ -60,9 +68,13 @@
 
 .masterclassPageImage-color-2 {
   background-color: #6178aa;
-  width: 100%;
-  height: 250px;
-  border-radius: 0.7em; }
+  border-radius: 0.7em;
+  white-space: normal;
+  font-family: "Playfair Display", serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  word-wrap: break-word; }
 
 .masterclassPageButton-color-2, .explanationButton-color-2 {
   font-size: 16pt;
@@ -90,9 +102,13 @@
 
 .masterclassPageImage-color-3 {
   background-color: #aa8ea2;
-  width: 100%;
-  height: 250px;
-  border-radius: 0.7em; }
+  border-radius: 0.7em;
+  white-space: normal;
+  font-family: "Playfair Display", serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  word-wrap: break-word; }
 
 .masterclassPageButton-color-3, .explanationButton-color-3 {
   font-size: 16pt;
@@ -117,19 +133,6 @@
   color: #838383;
   border-color: #838383;
   background-color: white; }
-
-.masterclassPageImageText {
-  font-family: "Playfair Display", serif;
-  color: #FFFFFF;
-  font-size: 40px;
-  font-weight: 500;
-  text-align: center;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
 
 .masterclassDescription {
   font-size: 16pt;
