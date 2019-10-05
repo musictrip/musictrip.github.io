@@ -1,0 +1,7 @@
+{% for item in include.list %}
+{% if forloop.length == 1 or forloop.last %}
+{{ item }}
+{% else %}
+{{ item }},
+{% endif %}
+{%endfor%}

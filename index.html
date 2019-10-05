@@ -97,40 +97,48 @@ title: Ashanas
         {% assign lesson-style = "音樂節"%}
         {% endif %}
 
-        <div class="col-lg-4 col-md-6 mt-4 mb-0  drop-shadow filter-item {{ masterclass.type }}">
-            <div class="card  card-{{ masterclass.type }}-top ">
-                <div class="card-body position-relative">
-                    <div class="concert-type">{{ lesson-style }}</div>
-                    <div class="concert-name py-4">{{ masterclass.name }}</div>
-                    <div class="orchestra-cast">
-                        {% for teacher in masterclass.teachers%}
-                        {% if forloop.length == 1 or forloop.last %}
-                        {{ teacher.name }}
-                        {% else %}
-                        {{ teacher.name }},
-                        {% endif %}
-                        {%endfor%}
-                    </div>
+        {% comment %}
+        Here we calculate the month of the masterclass to discriminate the color based on the month
+        {% endcomment%}
+        {% assign masterclassMonth = masterclass.startDate | slice: 5, 2 | plus: 0 %}
 
-                    <!--                    <div class="instruments">-->
-                    <!--                        {% for instrument in masterclass.instruments %}-->
-                    <!--                        {{ instrument }},-->
-                    <!--                        {% endfor %}-->
-                    <!--                    </div>-->
+        {% assign cardColorID = masterclass.name | size | modulo: site.data.numberOfColors %}
+
+        <div class="col-lg-4 col-md-6 mt-4 mb-0  drop-shadow filter-item ">
+            <div class="card  card-color-{{ cardColorID }}-top ">
+                <div class="card-body position-relative">
+                    <div class="class-instruments">
+                        {% include functions/generateCommaSeperatedList.html list=masterclass.instruments %}
+                    </div>
+                    <div class="class-name py-4">{{ masterclass.name }}</div>
+                    <div class="class-teachers">
+                        {% assign teacherNames = masterclass.teachers | map: "name" %}
+                        {% include functions/generateCommaSeperatedList.html list=teacherNames %}
+                    </div>
                 </div>
             </div>
-            <div class="card card-below card-{{ masterclass.type }}-bottom">
+            <div class="card card-below card-color-{{ cardColorID }}-bottom">
                 <div class="card-body position-relative">
                     <div class="date">
                         <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
 
-                        <span class=" date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
+                        <span class="date-month">{{ masterclass.startDate |  date: "%d" }}.</span>
                         <span class="date-month">{{ masterclass.startDate |  date: "%m" }}. </span>
 
                         <span class="date-month"> - {{ masterclass.endDate |  date: "%d" }}.</span>
                         <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
-                        <input type="hidden" id="fee" value="{{ masterclass.fee}}">
-                        <input type="hidden" id="instruments" value="{{masterclass.instruments}}">
+
+                        <input type="hidden" id="fee"
+                               value="{{ masterclass.fee | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
+                        <input type="hidden" id="instruments"
+                               value="{{ masterclass.instruments | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
+
+                        {% assign flattenedTeacherNames = teacherNames | join: '' %}
+                        {% assign hiddenText = masterclass.name | append: masterclass.startDate | append:
+                        masterclass.endDate | append: masterclass.city | append: masterclass.country | append:
+                        flattenedTeacherNames | downcase | replace: ' ', '' | replace: '-', ''%}
+
+                        <input type="hidden" id="hiddenText" value="{{ hiddenText }}">
                     </div>
 
                 </div>
