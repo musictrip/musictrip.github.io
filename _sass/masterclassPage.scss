@@ -38,8 +38,19 @@ $borderRadius: 0.7em;
         color: $backgroundColor;
         text-decoration: none;
     }
+    .explanationButton-color-#{$i} {
+        @extend .masterclassPageButton-color-#{$i};
+        color: darkgray;
+        border-color: darkgray;
+    }
 
+    .explanationButton-color-#{$i}:hover {
 
+        $evenDarkerGray: darken(darkgray, 15%);
+        color: $evenDarkerGray;
+        border-color: $evenDarkerGray;
+        background-color: $backgroundColor;
+    }
 }
 
 .masterclassPageImageText {
