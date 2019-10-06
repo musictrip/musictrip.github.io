@@ -5,26 +5,10 @@ layout: default
 
 <div class="container-fluid">
     <div class="row mt-5">
-        <div class="col-sm-2 col-sm-offset-5 text-center mx-5 mt-4">
-            <!--Button group-->
-            {%if page.registrationLink or page.masterclassLink %}
 
-            {% if page.registrationLink %}
-            <p class="p-4">
-                <a href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-3">報名</a>
-            </p>
-            {% endif %}
-            {% if page.masterclassLink %}
-            <p class="p-4">
-                <a href="{{ page.masterclassLink }}"
-                   class="masterclassPageButton-color-{{ cardColorID }}    p-3">官方網站</a>
-            </p>
-            {% endif %}
-            {% endif %}
-        </div>
 
-        <div class="col pl-0 ml-0">
-            <div class="container  text-justify px-md-0 mx-md-0 pb-5">
+        <div class="col-md-9">
+            <div class="container  text-justify pb-5 pull-right">
                 <!--Top banner-->
                 <div class="pb-3">
                     <div class="masterclassPageImage-color-{{ cardColorID }} p-5 text-center">
@@ -34,29 +18,29 @@ layout: default
 
 
                 <!--Masterclass description-->
-                {% assign masterclassDescriptionOptions = "py-4" %}
+                {% assign masterclassDescriptionOptions = "pt-3" %}
                 <div class="container-fluid px-0 pt-0 masterclassDescription">
                     <div class="row" style="margin: auto">
                         <div class="col-md-4">
-                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</div>
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</h6>
                             {% include functions/generateCommaSeperatedList.html list=page.instruments %}
                         </div>
                         <div class="col-md-4">
-                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
                                 時間
-                            </div>
+                            </h6>
                             <p>{{ page.startDate }} - {{page.endDate}}</p>
                         </div>
                         <div class="col-md-4">
-                            <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
                                 地點
-                            </div>
+                            </h6>
                             <p>{{ page.city }}, {{ page.country }}</p>
                         </div>
                     </div>
 
 
-                    <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</div>
+                    <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</h6>
                     <div class="row" style="margin: auto">
                         {% for teacher in page.teachers %}
                         <div class="col-md-4 my-2 teacherLink">
@@ -66,7 +50,7 @@ layout: default
                     </div>
 
 
-                    <div class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">費用</div>
+                    <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">費用</h6>
                     {% for line in page.feeExplanation %}
                     <p> {{ line }}</p>
                     {% endfor %}
@@ -84,7 +68,7 @@ layout: default
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">費用不包含:</h5>
+                                    <h6 class="modal-title" id="exampleModalLongTitle">費用不包含:</h6>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -104,6 +88,23 @@ layout: default
 
                 </div>
             </div>
+        </div>
+        <div class="col-sm-2 ">
+            <!--Button group-->
+            {%if page.registrationLink or page.masterclassLink %}
+
+            {% if page.registrationLink %}
+            <p class="py-3">
+                <a href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名</a>
+            </p>
+            {% endif %}
+            {% if page.masterclassLink %}
+            <p class="py-3">
+                <a href="{{ page.masterclassLink }}"
+                   class="masterclassPageButton-color-{{ cardColorID }}    p-2">官方網站</a>
+            </p>
+            {% endif %}
+            {% endif %}
         </div>
     </div>
 </div>

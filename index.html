@@ -32,18 +32,18 @@ title: Ashanas
                     <div class="collapse" id="collapseExample">
                         <div class="row justify-content-center">
 
-                            <div class="col-md-2 my-3">
-                                <label class="extendedSearchLabel" for="typeButtons">類型</label>
-                                <div class="btn-group button-group filters-button-group" id="typeButtons"
-                                     data-filter-group="type">
-                                    <button class="btn btn-light filters-button masterclassButton"
-                                            data-filter=".masterclass">大師班
-                                    </button>
-                                    <button class="btn btn-light filters-button festivalButton" data-filter=".festival">
-                                        音樂節
-                                    </button>
-                                </div>
-                            </div>
+<!--                            <div class="col-md-2 my-3">-->
+<!--                                <label class="extendedSearchLabel" for="typeButtons">類型</label>-->
+<!--                                <div class="btn-group button-group filters-button-group" id="typeButtons"-->
+<!--                                     data-filter-group="type">-->
+<!--                                    <button class="btn btn-light filters-button masterclassButton"-->
+<!--                                            data-filter=".masterclass">大師班-->
+<!--                                    </button>-->
+<!--                                    <button class="btn btn-light filters-button festivalButton" data-filter=".festival">-->
+<!--                                        音樂節-->
+<!--                                    </button>-->
+<!--                                </div>-->
+<!--                            </div>-->
 
                             <div class="col-md-2 my-3">
                                 <label class="extendedSearchLabel" for="instrumentSelector">樂器</label>
@@ -129,9 +129,9 @@ title: Ashanas
                         <span class="date-month">{{ masterclass.endDate |  date: "%m" }}.</span>
 
                         <input type="hidden" id="fee"
-                               value="{{ masterclass.fee | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
+                               value="{{ masterclass.fee | join: '' | downcase | replace: ' ', ''}}">
                         <input type="hidden" id="instruments"
-                               value="{{ masterclass.instruments | join: '' | downcase | replace: ' ', '' | replace '\n', ''}}">
+                               value="{{ masterclass.instruments | join: '' | downcase | replace: ' ', '' }}">
 
                         {% assign flattenedTeacherNames = teacherNames | join: '' %}
                         {% assign hiddenText = masterclass.name | append: masterclass.startDate | append:
