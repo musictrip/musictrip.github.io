@@ -1,5 +1,5 @@
 * {
-  font-family: "Noto Sans CJK TC Regular", sans-serif; }
+  font-family: "Noto Sans CJK TC", sans-serif; }
 
 .titel {
   color: darkslategrey;
@@ -23,6 +23,7 @@
   color: #d4d4d4; }
 
 .masterclassButton {
+  font-size: 10pt;
   border-color: #7b7b7a;
   border-width: 1px;
   background-color: white;
@@ -39,6 +40,7 @@
   color: white; }
 
 .festivalButton {
+  font-size: 10pt;
   border-color: #6463a2;
   border-width: 1px;
   background-color: white;
@@ -155,11 +157,11 @@
   border-color: #94718a; }
 
 .date {
-  font-size: 22px; }
+  font-size: 14.5pt; }
 
 .date-month {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18.25pt;
   inset-block: 20px; }
 
 .class-instruments {
@@ -167,7 +169,7 @@
 
 .class-name {
   font-family: "Playfair Display", serif;
-  font-size: 250%; }
+  font-size: 22pt; }
 
 .class-teachers {
   padding-bottom: 40px;
@@ -183,7 +185,7 @@
 
 .date-day {
   font-weight: 700;
-  font-size: 300%;
+  font-size: 28px;
   line-height: 85%; }
 
 .extendedSearchLabel {

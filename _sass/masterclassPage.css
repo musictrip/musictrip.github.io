@@ -1,15 +1,24 @@
+@media (min-width: 768px) {
+  .container {
+    width: 600px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 720px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 900px; } }
 .masterclassPageImage-color-0 {
   background-color: #5aaa9b;
   border-radius: 0.7em;
   white-space: normal;
   font-family: "Playfair Display", serif;
   color: #FFFFFF;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 22pt;
+  font-weight: 400;
   word-wrap: break-word; }
 
 .masterclassPageButton-color-0, .explanationButton-color-0 {
-  font-size: 16pt;
+  font-size: 12pt;
   border: 2px solid #5aaa9b;
   background-color: white;
   color: #5aaa9b;
@@ -38,12 +47,12 @@
   white-space: normal;
   font-family: "Playfair Display", serif;
   color: #FFFFFF;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 22pt;
+  font-weight: 400;
   word-wrap: break-word; }
 
 .masterclassPageButton-color-1, .explanationButton-color-1 {
-  font-size: 16pt;
+  font-size: 12pt;
   border: 2px solid #73aa65;
   background-color: white;
   color: #73aa65;
@@ -72,12 +81,12 @@
   white-space: normal;
   font-family: "Playfair Display", serif;
   color: #FFFFFF;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 22pt;
+  font-weight: 400;
   word-wrap: break-word; }
 
 .masterclassPageButton-color-2, .explanationButton-color-2 {
-  font-size: 16pt;
+  font-size: 12pt;
   border: 2px solid #6178aa;
   background-color: white;
   color: #6178aa;
@@ -106,12 +115,12 @@
   white-space: normal;
   font-family: "Playfair Display", serif;
   color: #FFFFFF;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 22pt;
+  font-weight: 400;
   word-wrap: break-word; }
 
 .masterclassPageButton-color-3, .explanationButton-color-3 {
-  font-size: 16pt;
+  font-size: 12pt;
   border: 2px solid #aa8ea2;
   background-color: white;
   color: #aa8ea2;
@@ -135,11 +144,11 @@
   background-color: white; }
 
 .masterclassDescription {
-  font-size: 16pt;
-  font-weight: 500; }
+  font-size: 12pt;
+  font-weight: 300; }
 
 .masterclassDescriptionItem {
-  font-weight: bold; }
+  font-weight: 500; }
 
 .teacherLink a:link {
   color: #6178aa; }
