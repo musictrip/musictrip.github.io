@@ -1,4 +1,7 @@
 .navbar-brand > strong {
   font-family: 'Playfair Display', serif; }
 
+.navbar-toggler {
+  text-align: right; }
+
 /*# sourceMappingURL=nav-bar.css.map */

@@ -24,7 +24,7 @@
 
 $masterclassImageHeight: 250px;
 $textFontSize: 12pt;
-$borderRadius: 0.7em;
+$borderRadius: 0.3em;
 
 // Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
 @for $i from 0 through length($cardColors)-1 {

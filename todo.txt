@@ -1,0 +1,5 @@
+- about.html schreiben
+- Zum header von jeder masterclass die beiden Felder 'registrationLink' und 'masterclassLink' hinzufügen
+  Wenn es eines der beiden nicht gibt, das Feld einfach leer lassen.
+- Bild in contacts.html einfügen
+
