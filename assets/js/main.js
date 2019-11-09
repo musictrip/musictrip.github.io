@@ -254,7 +254,7 @@ $(document).ready(function () {
     // Activate select2 selector
     $(document).ready(function () {
         $(".select2-selector").select2({
-            placeholder: '選樂器　',
+            placeholder: '---',
             allowClear: true
         });
     });
