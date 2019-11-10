@@ -27,7 +27,8 @@ layout: default
                             <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
                                 時間
                             </h6>
-                            <p>{{ page.startDate }} - {{page.endDate}}</p>
+                            <p>{% include functions/taiwanDateFormat.html input=page.startDate %}-
+                                {% include functions/taiwanDateFormat.html input=page.endDate %}</p>
                         </div>
                         <div class="col-md-4">
                             <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
