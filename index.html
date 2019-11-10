@@ -113,9 +113,9 @@ title: TONEartiv
                     <div class="date">
                         <div class="location">{{ masterclass.city }}, {{ masterclass.country }}</div>
 
-                        <span class="date-month">{% include functions/taiwanDateFormat.html input=masterclass.startDate %}</span>
+                        <span class="date-month">{{ masterclass.startDate | date: "%d.%m."}}</span>
                         -
-                        <span class="date-month">{% include functions/taiwanDateFormat.html input=masterclass.endDate %}</span>
+                        <span class="date-month">{{ masterclass.endDate | date: "%d.%m.%Y"}}</span>
 
 
 
