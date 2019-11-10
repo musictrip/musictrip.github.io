@@ -1,18 +1,23 @@
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light justify-content-between drop-shadow">
 
     <div class="navbar-header">
-        <a class="navbar-brand pl-5 py-2" href="/"><img src="/assets/img/logo_tiny.png" ></a>
-
+        <a class="navbar-brand pl-5 py-2" href="/"><img src="/assets/img/logo_small.png" style="height: 21px"></a>
     </div>
+
+    <button class="navbar-toggler ml-auto mr-2" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav ml-auto px-5">
             {% for item in site.data.navigation %}
             <li class="nav-item px-3">
-                <a class="nav-link {% if page.url == item.link %} active {% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+                <a class="nav-link {% if page.url == item.link %} active {% endif %}" href="{{ item.link }}">{{
+                    item.name }}</a>
             </li>
             {% endfor %}
         </ul>
     </div>
 </nav>
-
