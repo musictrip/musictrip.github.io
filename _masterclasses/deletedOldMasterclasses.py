@@ -9,6 +9,7 @@ def get_start_date_from_file(file: Path) -> date:
     :param file: Path of file to parse
     :return: Date read from the startDate parameter of the file
     """
+    output_date = date(year=9999, month=1, day=1)
 
     with open(str(file)) as file_pointer:
 
@@ -27,7 +28,7 @@ def get_start_date_from_file(file: Path) -> date:
                     split_start_date = start_date_string.split('-')
 
                     year, month, day = map(lambda x: int(x), split_start_date)
-                    return date(year=year, month=month, day=day)
+                    output_date = date(year=year, month=month, day=day)
                 except:
                     print("Date formatting error in file: ", file)
                     continue
@@ -42,7 +43,7 @@ def get_start_date_from_file(file: Path) -> date:
                 break
 
     # If something went wrong return date very far in the future, so file will not be deleted
-    return date(year=9999, month=1, day=1)
+    return output_date
 
 
 if __name__ == '__main__':
