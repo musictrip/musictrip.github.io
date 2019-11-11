@@ -1261,3 +1261,8 @@ filter: brightness(1.4);
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+
+.about-us {
+ margin-top: 300px;
+}
