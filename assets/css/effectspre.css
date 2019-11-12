@@ -1263,6 +1263,12 @@ filter: brightness(1.4);
 }
 
 
-.about-us {
- margin-top: 300px;
+/* foto */
+
+.img{
+  opacity: 0;
+  transition: opacity 10s;
+}
+.img.active{
+  opacity: 10;
 }
