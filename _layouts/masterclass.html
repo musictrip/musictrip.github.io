@@ -43,7 +43,7 @@ layout: default
                     <div class="row" style="margin: auto">
                         {% for teacher in page.teachers %}
                         <div class="col-md-4 my-2 teacherLink">
-                            <a href="{{teacher.link}}">{{ teacher.name }}</a>
+                            <a target="_blank" rel="noopener noreferrer" href="{{teacher.link}}">{{ teacher.name }}</a>
                         </div>
                         {% endfor %}
                     </div>
@@ -94,12 +94,12 @@ layout: default
 
             {% if page.registrationLink %}
             <p class="py-3">
-                <a href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名</a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名</a>
             </p>
             {% endif %}
             {% if page.masterclassLink %}
             <p class="py-3">
-                <a href="{{ page.masterclassLink }}"
+                <a target="_blank" rel="noopener noreferrer" href="{{ page.masterclassLink }}"
                    class="masterclassPageButton-color-{{ cardColorID }}    p-2">官方網站</a>
             </p>
             {% endif %}
