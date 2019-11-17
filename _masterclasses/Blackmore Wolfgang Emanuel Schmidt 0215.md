@@ -12,8 +12,8 @@ feeExplanation:
     - 大師班期間全程旁聽 200 € 
     - 旁聽 50 € /天   
     - (以上費用皆不含住宿)
-    - 報名註冊完成後,將收取全部課程費用
     - 申請截止日期：2019年1月20日
+    - 請注意，報名註冊完成後，將收取全部課程費用
     - <hr>
     - 另外，我們也提供您與室內樂團合作演出的機會
     - 費用為20分鐘 490€，30分鐘 700€。 （此價格包括使用3台攝像機拍攝的專業多角度影像)
@@ -61,3 +61,8 @@ Warmbrunner Str. 52
 14193 Berlin | Germany <br>
 聯絡電話 +49 30 89 73 48 65 (AB)
 
+
+
+<br>
+{% include functions/gallery.html gallery=site.data.galleries.Berlin %}
+照片出處:https://pixabay.com/

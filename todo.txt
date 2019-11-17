@@ -2,3 +2,4 @@
   Wenn es eines der beiden nicht gibt, das Feld einfach leer lassen.
 - Bild in contacts.html einfügen
 - Kerning bei Navigation einstellen: 1px
+- slider ist zu fett

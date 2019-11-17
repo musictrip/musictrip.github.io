@@ -32,20 +32,20 @@ instruments:
 registrationLink: https://schlossakademie.com/masterclasses/peter-h%C3%B6rr
 masterclassLink: https://schlossakademie.com/     
 ---
-關於Schloss Academy<br> 
-https://schlossakademie.com/ Schlossakademie <br>  
-Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hohenpriessnitz”。<br> 
-我們非常驕傲能夠邀請到國際知名音樂教育家、小提琴家、大提琴家、鋼琴家、作曲家以及指揮家們到學院理進行教學， 
-他們將在這裡分享多年來在音樂教學和演奏經驗中的發現以及如何實踐。每位參與的學員都將在這段期間獲得非常特別的學習經驗。<br>
-另外，我們也安排了學生們與教授們同台演出的機會，一起帶給歐洲觀眾們擁有高國際水平以及豐富精彩的節目。<br>   
-即將舉行的大師班課程也將由Prof. Lynn Harrell 、 prof. Boris Kuschnir、 prof. Frans Helmerson、prof. Viktor Tretiakov、prof. Pavel Vernikov等,以及國際知名的室內樂Borodin Quartet、 Kopelman Quartet、Quartetto di Cremona等授課。<br>    
-音樂營期間，我們為學員以及陪同者提供Hohenpriessnitz城堡中價格合理且舒適的住宿環境<br>
-學生除了參與所申請的課程之外，也能夠旁聽活動期間內所有課程，在教室或是房間內練琴。
+<hr>
+<br>
+###### __Schloss Academy 簡介__<br>  
+ Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hohenpriessnitz”。<br> 
+ 我們非常驕傲能夠邀請到國際知名音樂教育家、小提琴家、大提琴家、鋼琴家、作曲家以及指揮家們到學院理進行教學， 
+ 他們將在這裡分享多年來在音樂教學和演奏經驗中的發現以及如何實踐。每位參與的學員都將在這段期間獲得非常特別的學習經驗。<br>
+ 另外，我們也安排了學生們與教授們同台演出的機會，一起帶給歐洲觀眾們擁有高國際水平以及豐富精彩的節目。<br>   
+ 即將舉行的大師班課程也將由Prof. Lynn Harrell 、 prof. Boris Kuschnir、 prof. Frans Helmerson、prof. Viktor Tretiakov、prof. Pavel Vernikov等,
+ 以及國際知名的室內樂Borodin Quartet、 Kopelman Quartet、Quartetto di Cremona等授課。<br>    
+ 音樂營期間，我們為學員以及陪同者提供Hohenpriessnitz城堡中價格合理且舒適的住宿環境<br>
+ 學生除了參與所申請的課程之外，也能夠旁聽活動期間內所有課程，在教室或是房間內練琴。
 
-
-<hr/>
-
-
-報名連結: https://schlossakademie.com/registration/personal<br>  
+<br>
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}
+<br>
+更多詳細資料請點選右上方的"官方網站"連結。如有疑問或想了解更多，也歡迎[來信諮詢](../contacts.html) 😊

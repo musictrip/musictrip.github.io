@@ -25,13 +25,15 @@ registrationLink: https://www.forum-artium.de/images/Kursanmeldung_deutsch.pdf
 masterclassLink: https://www.forum-artium.de/20080423205/Klarinette/MK-60-Kilian-Herold.html                                          
    
 ---
-關於FORUM ARTIUM
-
+<hr>
+<br>
+###### __FORUM ARTIUM 簡介__<br>
 
 該學院由Herbert Vieth 於1989年創立，為了是希望通過教育和學習來引導和支持年輕音樂家。
 在這裡，有眾多國際知名的傑出音樂家和音樂學院教師支持著我們，他們提供了的音樂上的知識與技能，給予學生學習的方法和建議，使年輕的音樂人才有更多的可能性，為成功的音樂人生鋪路。
 
-FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已有超過2萬多名來自世界各地的音樂家和學生參與。
+FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已有超過兩萬多名來自世界各地的音樂家和學生參與。
+報名注意事項:[https://www.forum-artium.de/english-information.html](https://www.forum-artium.de/english-information.html)<br>
 
 <hr/>
 
@@ -46,3 +48,12 @@ FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已
 在2012年秋季參與了專輯錄音，與琴演奏家Amir Katz合作，專輯收錄了作曲家Brahms 、Reinecke 及Draesekerahms作品，受到媒體和評論家的高度讚揚。 2017年春季，與匈牙利的作曲家Mátyás Seiber以及德國女高音Sarah Maria Sun共同錄製CD < Mátyás Seiber: More Nonsense >。
 
 2016年，Kilian Herold被聘任為弗萊堡音樂學院(Freiburg Musikhochschul) 單簧管教授。自2017年春季起，他擔任國際單簧管音樂節「ClariMondo」的藝術總監。
+
+
+<br>
+<img src="../assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">
+<br>
+<br>
+<hr>
+
+更多詳細資料請點選右上方的"官方網站"連結。如有疑問或想了解更多，也歡迎[來信諮詢](../contacts.html) 😊
