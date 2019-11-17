@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Kirill Troussov
-        link: https://schlossakademie.com/masterclasses/kirill-troussov-76
+      - name: Prof. Hartmut Rohde
+        link: http://www.hartmut-rohde.de/viola/index.php?neuesprache=de
 
 
 
@@ -20,15 +20,17 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-03-15
-endDate: 2020-03-23
+startDate: 2020-05-09
+endDate: 2020-05-13
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 小提琴
+    - 中提琴
+registrationLink: https://schlossakademie.com/masterclasses/hartmut-rohde
+masterclassLink: https://schlossakademie.com/                
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

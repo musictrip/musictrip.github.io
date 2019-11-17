@@ -1,8 +1,8 @@
 ---
 name: Cello masterclasses at Schloss Academy
 teachers:
-      - name: Prof. Lynn Harrell and Prof.Daniel Geiss
-        link: https://schlossakademie.com/masterclasses/lynn-harrell
+      - name: Prof. Peter Hoerr
+        link: http://www.peterhoerr.de/page.php?go=sp&pid=1
 
 
 
@@ -20,8 +20,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-05-05
-endDate: 2020-05-09
+startDate: 2020-03-10
+endDate: 2020-03-15
 city: Zschepplin 
       
 
@@ -29,6 +29,8 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/peter-h%C3%B6rr
+masterclassLink: https://schlossakademie.com/     
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  

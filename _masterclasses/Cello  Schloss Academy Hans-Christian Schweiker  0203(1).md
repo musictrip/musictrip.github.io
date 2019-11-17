@@ -1,18 +1,17 @@
 ---
 name: Cello masterclasses at Schloss Academy
 teachers:
-      - name: Prof. Norbert Anger
-        link: https://schlossakademie.com/masterclasses/norbert-anger
+      - name: Prof. Hans-Christian Schweiker 
+        link: http://www.hc-schweiker.de/homepagehc/Biography_English.html
 
 
 
-
-fee: 399
+fee: 499
 
 feeExplanation: 
     - 費用依照所選的上課次數
-    - 399 €  (三堂課)
-    - 549 € (四堂課)
+    - 499 €  (三堂課)
+    - 649 € (四堂課)
     - <hr>
     - 住宿
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
@@ -20,8 +19,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-04-22
-endDate: 2020-04-26
+startDate: 2020-02-03
+endDate: 2020-02-09
 city: Zschepplin 
       
 
@@ -29,6 +28,9 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/hans-christian-schweiker
+masterclassLink: https://schlossakademie.com/    
+    
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  

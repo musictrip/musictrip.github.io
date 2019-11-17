@@ -1,8 +1,8 @@
 ---
-name: Cello masterclasses at Schloss Academy
+name: Schloss Academy
 teachers:
-      - name: Prof. Bonian Tian
-        link: https://schlossakademie.com/masterclasses/bonian-tian-86
+      - name: Prof. Mark Gothoni
+        link: https://www.udk-berlin.de/personen/detailansicht/person/show/mark-gothoni/
 
 
 
@@ -20,15 +20,17 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-06-04
-endDate: 2020-06-07
+startDate: 2020-04-16
+endDate: 2020-04-21
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 大提琴
+    - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/mark-gothoni
+masterclassLink: https://schlossakademie.com/                            
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  
@@ -47,6 +49,5 @@ instruments:
 
 
 報名連結: https://schlossakademie.com/registration/personal
-
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}

@@ -1,8 +1,8 @@
 ---
-name: Schloss Academy
+name: Cello masterclasses at Schloss Academy
 teachers:
-      - name: Prof. Máté Szűcs
-        link: https://schlossakademie.com/masterclasses/m%C3%A1t%C3%A9-sz%C5%B1cs
+      - name: Prof. Bonian Tian
+        link: https://www.hfmdk-frankfurt.info/index.php?id=528&no_cache=1&L=0&tx_mnmportrait_pi1%5Buid%5D=3208
 
 
 
@@ -20,15 +20,17 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-09-07
-endDate: 2020-09-11
+startDate: 2020-06-04
+endDate: 2020-06-07
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 中提琴
+    - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/bonian-tian-86
+masterclassLink: https://schlossakademie.com/
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  
@@ -42,10 +44,5 @@ instruments:
 
 
 
-
-<hr/>
-
-
-報名連結: https://schlossakademie.com/registration/personal
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}

@@ -2,7 +2,7 @@
 name: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Peter Bruns
-        link: https://schlossakademie.com/masterclasses/peter-bruns
+        link: https://www.peterbruns.de/
 
 
 
@@ -17,6 +17,8 @@ feeExplanation:
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
     - 或是 46€帶私人浴室單人間)。
     - 附有公共廚房提供學員使用
+    
+    
 startDate: 2020-02-03
 endDate: 2020-02-09
 city: Zschepplin 
@@ -26,6 +28,8 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/peter-bruns
+masterclassLink: https://schlossakademie.com/        
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  

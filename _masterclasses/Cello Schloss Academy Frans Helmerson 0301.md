@@ -2,7 +2,7 @@
 name: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Frans Helmerson
-        link: https://schlossakademie.com/masterclasses/frans-helmerson
+        link: https://www.medici.tv/en/artists/frans-helmerson/
 
 
 
@@ -29,6 +29,8 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/frans-helmerson
+masterclassLink: https://schlossakademie.com/        
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  
@@ -42,8 +44,5 @@ Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hoh
 
 
 <hr/>
-
-
-報名連結: https://schlossakademie.com/registration/personal<br>  
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}

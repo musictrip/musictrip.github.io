@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Paul Rivinius
-        link: https://schlossakademie.com/masterclasses/paul-rivinius
+      - name: Prof. Kirill Troussov
+        link: https://troussov.com/en/about.php
 
 
 
@@ -20,17 +20,18 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-05-15
-endDate: 2020-05-19
+startDate: 2020-05-01
+endDate: 2020-05-05
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 鋼琴 
-    - 室內樂
-
+    - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/kirill-troussov-77
+masterclassLink: https://schlossakademie.com/                    
+    
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

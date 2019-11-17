@@ -1,18 +1,18 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Mihaela Martin
-        link: https://schlossakademie.com/masterclasses/mihaela-martin
+      - name: Prof. Paul Rivinius
+        link: https://www.paulrivinius.com/en/biography
 
 
 
 
-fee: 549
+fee: 499
 
 feeExplanation: 
     - 費用依照所選的上課次數
-    - 549 €  (三堂課)
-    - 699 € (四堂課)
+    - 499 €  (三堂課)
+    - 649 € (四堂課)
     - <hr>
     - 住宿
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
@@ -20,15 +20,20 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-03-01
-endDate: 2020-03-08
+startDate: 2020-05-15
+endDate: 2020-05-19
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 小提琴
+    - 鋼琴 
+    - 室內樂
+registrationLink: https://schlossakademie.com/masterclasses/paul-rivinius
+masterclassLink: https://schlossakademie.com/                                    
+    
+
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

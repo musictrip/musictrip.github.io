@@ -2,7 +2,7 @@
 name: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Emil Rovner
-        link: https://schlossakademie.com/masterclasses/emil-rovner
+        link: https://www.hfmdd.de/en/staff/person/103/
 
 
 
@@ -21,7 +21,7 @@ feeExplanation:
 
 
 startDate: 2020-02-17
-endDate: 2020-02-21
+endDate: 2020-02-20
 city: Zschepplin 
       
 
@@ -29,6 +29,9 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/emil-rovner
+masterclassLink: https://schlossakademie.com/    
+    
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  
@@ -42,8 +45,5 @@ Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hoh
 
 
 <hr/>
-
-
-報名連結: https://schlossakademie.com/registration/personal<br>  
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}

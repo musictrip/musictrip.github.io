@@ -1,18 +1,18 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Yair Kless
-        link: https://schlossakademie.com/masterclasses/yair-kless.78
+      - name: Prof. Mihaela Martin
+        link: https://barenboimsaid.de/professor/mihaela-martin
 
 
 
 
-fee: 499
+fee: 549
 
 feeExplanation: 
     - 費用依照所選的上課次數
-    - 499 €  (三堂課)
-    - 649 € (四堂課)
+    - 549 €  (三堂課)
+    - 699 € (四堂課)
     - <hr>
     - 住宿
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
@@ -20,8 +20,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-06-02
-endDate: 2020-06-05
+startDate: 2020-03-01
+endDate: 2020-03-08
 city: Zschepplin 
       
 
@@ -29,6 +29,8 @@ country: 德國
 type: masterclass
 instruments:
     - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/mihaela-martin
+masterclassLink: https://schlossakademie.com/                                
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

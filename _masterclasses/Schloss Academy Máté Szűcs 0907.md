@@ -1,30 +1,36 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Maria Solozobova
-        link: https://schlossakademie.com/masterclasses/yair-kless
+      - name: Prof. Máté Szűcs
+        link: https://www.linnrecords.com/artist-mate-szucs
 
 
 
 
-fee: 649
+fee: 499
 
 feeExplanation: 
+    - 費用依照所選的上課次數
+    - 499 €  (三堂課)
+    - 649 € (四堂課)
+    - <hr>
     - 住宿
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
     - 或是 46€帶私人浴室單人間)。
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-03-09
-endDate: 2020-03-15
+startDate: 2020-09-07
+endDate: 2020-09-11
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 小提琴
+    - 中提琴
+registrationLink: https://schlossakademie.com/masterclasses/m%C3%A1t%C3%A9-sz%C5%B1cs
+masterclassLink: https://schlossakademie.com/                                  
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

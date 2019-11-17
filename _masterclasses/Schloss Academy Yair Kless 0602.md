@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Christoph Schickedanz
-        link: https://schlossakademie.com/masterclasses/annette-unger.80
+      - name: Prof. Yair Kless
+        link: https://www.yairkless.com/
 
 
 
@@ -20,8 +20,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-03-23
-endDate: 2020-03-29
+startDate: 2020-06-05
+endDate: 2020-06-10
 city: Zschepplin 
       
 
@@ -29,8 +29,9 @@ country: 德國
 type: masterclass
 instruments:
     - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/yair-kless.78
+masterclassLink: https://schlossakademie.com/                                        
 ---
-
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  
  Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hohenpriessnitz”。<br> 

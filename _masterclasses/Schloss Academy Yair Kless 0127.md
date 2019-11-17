@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Sergei Nakariakov
-        link: https://schlossakademie.com/masterclasses/sergei-nakariakov
+      - name: Prof. Yair Kless
+        link: https://www.yairkless.com/
 
 
 
@@ -20,15 +20,17 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-04-08
-endDate: 2020-04-15
+startDate: 2020-01-27
+endDate: 2020-01-22
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 小號
+    - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/yair-kless
+masterclassLink: https://schlossakademie.com/                                    
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Yair Kless
-        link: https://schlossakademie.com/masterclasses/yair-kless
+      - name: Prof. Viktor Tretiakov and Natalia Likhopoi
+        link: http://tch15.medici.tv/en/artist/viktor-tretyakov
 
 
 
@@ -11,8 +11,8 @@ fee: 499
 
 feeExplanation: 
     - 費用依照所選的上課次數
-    - 499 €  (三堂課)
-    - 649 € (四堂課)
+    - 549 €  (三堂課)
+    - 699 € (四堂課)
     - <hr>
     - 住宿
     - 您可選擇Hohenpriessnitz城堡為學員提供每晚27€的雙人間(與其他學員共享空間) 
@@ -20,8 +20,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-01-27
-endDate: 2020-01-22
+startDate: 2020-04-01
+endDate: 2020-04-10
 city: Zschepplin 
       
 
@@ -29,6 +29,9 @@ country: 德國
 type: masterclass
 instruments:
     - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/prof-viktor-tretiakov-natalia-likhopoi-61
+masterclassLink: https://schlossakademie.com/                                    
+    
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

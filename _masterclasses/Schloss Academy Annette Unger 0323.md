@@ -2,7 +2,7 @@
 name: Schloss Academy
 teachers:
       - name: Prof. Annette Unger
-        link: https://schlossakademie.com/masterclasses/annette-unger.80
+        link: https://www.hfmdd.de/personenverzeichnis/person/119-prof-annette-unger/
 
 
 
@@ -29,6 +29,8 @@ country: 德國
 type: masterclass
 instruments:
     - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/annette-unger.80
+masterclassLink: https://schlossakademie.com/        
 ---
 關關於Schloss Academy<br> 
   https://schlossakademie.com/ Schlossakademie <br>  

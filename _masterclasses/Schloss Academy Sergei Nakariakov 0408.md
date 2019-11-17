@@ -1,8 +1,8 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Kirill Troussov
-        link: https://schlossakademie.com/masterclasses/kirill-troussov.77
+      - name: Prof. Sergei Nakariakov
+        link: https://www.hfmdd.de/studium/dresdner-meisterkurse-musik/sergej-nakariakov/
 
 
 
@@ -20,15 +20,17 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-05-27
-endDate: 2020-06-02
+startDate: 2020-04-08
+endDate: 2020-04-15
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 小提琴
+    - 小號
+registrationLink: https://schlossakademie.com/masterclasses/sergei-nakariakov
+masterclassLink: https://schlossakademie.com/                                    
 ---
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  

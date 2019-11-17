@@ -2,7 +2,7 @@
 name: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Leonid Gorokhov
-        link: https://schlossakademie.com/masterclasses/leonid-gorokhov
+        link: https://www.hmtm-hannover.de/de/hochschule/personen/e-h/prof-leonid-gorokhov/
 
 
 
@@ -20,8 +20,8 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-02-22
-endDate: 2020-02-28
+startDate: 2020-02-21
+endDate: 2020-02-25
 city: Zschepplin 
       
 
@@ -29,6 +29,8 @@ country: 德國
 type: masterclass
 instruments:
     - 大提琴
+registrationLink: https://schlossakademie.com/masterclasses/leonid-gorokhov
+masterclassLink: https://schlossakademie.com/         
 ---
 關於Schloss Academy<br> 
 https://schlossakademie.com/ Schlossakademie <br>  
@@ -42,9 +44,6 @@ Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hoh
 
 
 <hr/>
-
-
-報名連結: https://schlossakademie.com/registration/personal<br>  
 
 {% include functions/gallery.html gallery=site.data.galleries.schlossakademie %}
 

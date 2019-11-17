@@ -1,8 +1,10 @@
 ---
 name: Schloss Academy
 teachers:
-      - name: Prof. Hartmut Rohde
-        link: https://schlossakademie.com/masterclasses/hartmut-rohde
+      - name: Prof. Christoph Schickedanz
+        link: https://www.musicalta.com/en/project/christoph-schickedanz/
+      - name: Prof. Zoya Nevgodovska
+        
 
 
 
@@ -20,16 +22,19 @@ feeExplanation:
     - 附有公共廚房提供學員使用
 
 
-startDate: 2020-05-09
-endDate: 2020-05-13
+startDate: 2020-03-23
+endDate: 2020-03-29
 city: Zschepplin 
       
 
 country: 德國
 type: masterclass
 instruments:
-    - 中提琴
+    - 小提琴
+registrationLink: https://schlossakademie.com/masterclasses/christoph-schickedanz
+masterclassLink: https://schlossakademie.com/            
 ---
+
 關於Schloss Academy<br> 
  https://schlossakademie.com/ Schlossakademie <br>  
  Schloss Academy於2018年舉辦首屆的國際音樂節“ Schlossfestspiele Hohenpriessnitz”。<br> 

@@ -1,32 +1,26 @@
 ---
 name: FORUM ARTIUM Internationale Meisterkurse
 teachers:
-      - name: Prof. Tilmann Wick
-        link: https://www.forum-artium.de/2007081273/Violoncello/MK-62-Tilman-Wick.html
-
-
+      - name: Prof. Maria Kliegel
+        link: https://www.forum-artium.de/2007081266/Violoncello/MK-63-Maria-Kliegel.html
 fee: 745
 feeExplanation: 
-    - 360 € 正式學員課程費用--非學生身份
-    - 310 € 正式學員課程費用—學生身份
+    - 350 € 正式學員課程費用--非學生身份
+    - 298 € 正式學員課程費用—學生身份
     - 150 € 旁聽學員課程費用
-    - <hr/>
-    - 385 € 住宿費用(雙人間),包含主辦單位Forum Artium 提供的伙食,三餐
+     - <hr/>
+    - 328 € 住宿費用(雙人間),包含主辦單位Forum Artium 提供的伙食,三餐
     - 單人房, 依照天數,每日住宿費用需增加 20 €(如果還有房的話) 
     - 不需要住宿以及伙食的學員,仍需繳 90€額外費用 
-
-
-
-startDate: 2020-01-22
-endDate: 2020-01-28
+startDate: 2020-02-17
+endDate: 2020-02-22
 city: Osnabrück
 country: 德國
 type: masterclass
 instruments:
     - 大提琴
-
-
-   
+registrationLink: https://www.forum-artium.de/images/Kursanmeldung_deutsch.pdf
+masterclassLink: https://www.forum-artium.de/                                            
 ---
 關於FORUM ARTIUM
 
@@ -41,6 +35,6 @@ FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已
 
 
 關於授課老師:
-於1998年起任教於德國漢諾威音樂學院 Hochschule für Musik, Theater und Medien Hannover (HMTMH) 
-https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-tilmann-wick/
+自1986年起任教於德國科隆音樂學院 Hochschule für Musik und Tanz Köln
+http://www.maria-kliegel.com/
 
