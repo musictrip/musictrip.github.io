@@ -3,3 +3,5 @@
 - Bild in contacts.html einfügen
 - Kerning bei Navigation einstellen: 1px
 - slider ist zu fett
+- verify with baidu
+- footer verrutscht wenn suchergebnis leer ist.
