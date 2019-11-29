@@ -50,4 +50,4 @@ masterclassLink: https://schlossakademie.com/
  <br>
  <br>
  <hr>
- 更多詳細資料請點選右上方的"官方網站"連結。如有疑問或想了解更多，也歡迎[來信諮詢](../contacts.html) 😊
+更多詳細資料請點選"官方網站"連結 😊

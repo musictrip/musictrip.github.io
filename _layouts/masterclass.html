@@ -3,9 +3,12 @@ layout: default
 ---
 {% assign cardColorID = page.name | size | modulo: site.data.numberOfColors %}
 
-<div class="container-fluid">
+<div class="container-fluid mb-5">
     <div class="row mt-5 pt-5">
-        <div class="col-md-9">
+        <div class="col-2">
+
+        </div>
+        <div class="col-md-7">
             <div class="container  text-justify pb-5 pull-right">
                 <!--Top banner-->
                 <div class="pb-3">
@@ -94,7 +97,7 @@ layout: default
 
             {% if page.registrationLink %}
             <p class="py-3">
-                <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名</a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名連結</a>
             </p>
             {% endif %}
             {% if page.masterclassLink %}
@@ -108,4 +111,32 @@ layout: default
     </div>
 </div>
 
+<section class="text-center mt-5 pt-5">
+    <div class="container-fluid mt-5 p-5" style="background-color: #fff9e4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <a href="index.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/想法.png" style="max-width: 10rem"></a>
+                    <p><strong>Recommend</strong></p>
+                    <p>您有想推薦的大師班嗎 ？</p>
+                    <p>歡迎與我們分享資訊!</p>
+                </div>
 
+                <div class="col-lg-4 mb-5">
+                    <a href="../index.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/尋找.png" style="max-width: 10rem"></a>
+                    <p><strong>Search</strong></p>
+                    <p>想看看其他大師班<p></p>點我可以回到搜尋頁面</p>
+                </div>
+
+
+                <div class="col-lg-4 mb-5">
+                    <a href="../contacts.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/討論.png" style="max-width: 10rem"></a>
+                    <p><strong>Help</strong></p>
+                    <p>我們提供音樂營相關諮詢,</p><P>代理報名,陪同音樂營行程等服務</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>

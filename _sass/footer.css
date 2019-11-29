@@ -1,0 +1,19 @@
+.navbar-toggler {
+  text-align: right; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #534631; }
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #534631; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #947c56; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #746143; }
+
+/*# sourceMappingURL=nav-bar.css.map */
+
+
+
