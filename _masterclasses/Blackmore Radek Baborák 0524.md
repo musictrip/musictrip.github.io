@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Radek Baborák
         link: https://barenboimsaid.de/professor/radek-baborak

@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Annette Unger
         link: https://www.hfmdd.de/personenverzeichnis/person/119-prof-annette-unger/

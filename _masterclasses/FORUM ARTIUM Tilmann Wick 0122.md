@@ -1,5 +1,5 @@
 ---
-name: FORUM ARTIUM Internationale Meisterkurse
+title: FORUM ARTIUM Internationale Meisterkurse
 teachers:
       - name: Prof. Tilmann Wick
         link: https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-tilmann-wick/

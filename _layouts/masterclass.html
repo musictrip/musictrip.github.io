@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign cardColorID = page.name | size | modulo: site.data.numberOfColors %}
+{% assign cardColorID = page.title | size | modulo: site.data.numberOfColors %}
 
 <div class="container-fluid mb-5">
     <div class="row mt-5 pt-5">
@@ -13,7 +13,7 @@ layout: default
                 <!--Top banner-->
                 <div class="pb-3">
                     <div class="masterclassPageImage-color-{{ cardColorID }} p-5 text-center">
-                        {{ page.name }}
+                        {{ page.title }}
                     </div>
                 </div>
 

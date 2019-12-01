@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Boris Petrushansky
         link: https://www.mariinsky.ru/en/company/orchestra/piano/boris_petrushansky

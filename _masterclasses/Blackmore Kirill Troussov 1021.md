@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Kirill Troussov
         link: https://troussov.com/en/home.php

@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Kirill Troussov
         link: https://troussov.com/en/about.php

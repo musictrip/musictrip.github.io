@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Leonid Gorokhov
         link: https://www.hmtm-hannover.de/de/hochschule/personen/e-h/prof-leonid-gorokhov/

@@ -1,5 +1,5 @@
 ---
-name: Konzertarbeitswochen-Goslar
+title: Konzertarbeitswochen-Goslar
 teachers:
       - name: Prof. Oliver Wille 
         link: http://konzertarbeitswochen.de/page.php?13

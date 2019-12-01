@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Viktor Tretiakov and Natalia Likhopoi
         link: http://tch15.medici.tv/en/artist/viktor-tretyakov

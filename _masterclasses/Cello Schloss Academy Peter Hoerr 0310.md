@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Peter Hoerr
         link: http://www.peterhoerr.de/page.php?go=sp&pid=1

@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Sergei Nakariakov
         link: https://www.hfmdd.de/studium/dresdner-meisterkurse-musik/sergej-nakariakov/

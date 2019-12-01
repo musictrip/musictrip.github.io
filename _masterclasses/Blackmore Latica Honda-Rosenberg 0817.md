@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Latica Honda-Rosenberg
         link: https://www.udk-berlin.de/personen/detailansicht/person/show/latica-honda-rosenberg/

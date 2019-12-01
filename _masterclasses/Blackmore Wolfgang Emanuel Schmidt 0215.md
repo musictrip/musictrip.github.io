@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Wolfgang Emanuel Schmidt
         link: http://www.wolfgangemanuelschmidt.com/

@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Wenzel Fuchs
         link: https://www.berliner-philharmoniker.de/orchester/musiker/wenzel-fuchs/

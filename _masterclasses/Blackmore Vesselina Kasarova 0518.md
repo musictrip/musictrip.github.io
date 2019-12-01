@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Vesselina Kasarova
         link: https://www.kasarova.com/home.html

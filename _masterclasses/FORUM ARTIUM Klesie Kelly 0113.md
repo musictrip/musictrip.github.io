@@ -1,5 +1,5 @@
 ---
-name: FORUM ARTIUM Internationale Meisterkurse
+title: FORUM ARTIUM Internationale Meisterkurse
 teachers:
       - name: Prof. Klesie Kelly
         link: https://www.forum-artium.de/2007081250/Gesang/MK-61-Klesie-Kelly.html

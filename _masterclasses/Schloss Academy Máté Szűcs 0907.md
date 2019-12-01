@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Máté Szűcs
         link: https://www.linnrecords.com/artist-mate-szucs

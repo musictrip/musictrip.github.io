@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Frans Helmerson
         link: https://www.medici.tv/en/artists/frans-helmerson/

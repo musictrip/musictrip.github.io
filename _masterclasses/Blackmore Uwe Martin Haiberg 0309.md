@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Uwe Martin Haiberg 
         link: https://blackmore-academy.com/en/masterclasses/uwe-martin-haiberg-2

@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Emil Rovner
         link: https://www.hfmdd.de/en/staff/person/103/

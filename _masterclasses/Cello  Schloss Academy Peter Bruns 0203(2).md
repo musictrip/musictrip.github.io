@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Peter Bruns
         link: https://www.peterbruns.de/

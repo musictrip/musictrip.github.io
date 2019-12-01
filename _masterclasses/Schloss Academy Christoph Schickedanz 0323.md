@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Christoph Schickedanz
         link: https://www.musicalta.com/en/project/christoph-schickedanz/

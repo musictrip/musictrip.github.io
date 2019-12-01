@@ -1,5 +1,5 @@
 ---
-name: Konzertarbeitswochen-Goslar
+title: Konzertarbeitswochen-Goslar
 teachers:
       - name: Prof. Arie Vardi 
         link: http://konzertarbeitswochen.de/page.php?19
