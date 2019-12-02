@@ -148,7 +148,8 @@
   font-weight: 300; }
 
 .masterclassDescriptionItem {
-  font-weight: 500; }
+  font-weight: 500;
+               }
 
 .teacherLink a:link {
   color: #6178aa; }
@@ -158,3 +159,8 @@
   text-decoration: none; }
 
 /*# sourceMappingURL=masterclassPage.css.map */
+
+
+.disclaimer {
+  font-size: 6px;
+  color: #6178aa; }
