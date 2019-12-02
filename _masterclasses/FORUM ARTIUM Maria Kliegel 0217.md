@@ -1,5 +1,5 @@
 ---
-name: FORUM ARTIUM Internationale Meisterkurse
+title: FORUM ARTIUM Internationale Meisterkurse
 teachers:
       - name: Prof. Maria Kliegel
         link: https://www.forum-artium.de/2007081266/Violoncello/MK-63-Maria-Kliegel.html

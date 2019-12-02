@@ -1,6 +1,7 @@
 ---
 layout: default
 title: TONEartiv
+description: 歐洲音樂營／大師班資訊分享平臺
 ---
 <div class="container-fluid"
      style="background-image:url('assets/img/khara-woods-B4HszZLE5-g-unsplashwrap.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center ">
@@ -96,7 +97,7 @@ title: TONEartiv
         {% endcomment%}
         {% assign masterclassMonth = masterclass.startDate | slice: 5, 2 | plus: 0 %}
 
-        {% assign cardColorID = masterclass.name | size | modulo: site.data.numberOfColors %}
+        {% assign cardColorID = masterclass.title | size | modulo: site.data.numberOfColors %}
 
         <div class="col-lg-4 col-md-6 mt-4 mb-0  drop-shadow filter-item ">
             <div class="card  card-color-{{ cardColorID }}-top ">
@@ -104,7 +105,7 @@ title: TONEartiv
                     <div class="class-instruments">
                         {% include functions/generateCommaSeperatedList.html list=masterclass.instruments %}
                     </div>
-                    <div class="class-name py-4">{{ masterclass.name }}</div>
+                    <div class="class-name py-4">{{ masterclass.title }}</div>
                     <div class="class-teachers">
                         {% assign teacherNames = masterclass.teachers | map: "name" %}
                         {% include functions/generateCommaSeperatedList.html list=teacherNames %}
@@ -127,7 +128,7 @@ title: TONEartiv
                                value="{{ masterclass.instruments | join: '' | downcase | replace: ' ', '' }}">
 
                         {% assign flattenedTeacherNames = teacherNames | join: '' %}
-                        {% assign hiddenText = masterclass.name | append: masterclass.startDate | append:
+                        {% assign hiddenText = masterclass.title | append: masterclass.startDate | append:
                         masterclass.endDate | append: masterclass.city | append: masterclass.country | append:
                         flattenedTeacherNames | downcase | replace: ' ', '' | replace: '-', ''%}
 

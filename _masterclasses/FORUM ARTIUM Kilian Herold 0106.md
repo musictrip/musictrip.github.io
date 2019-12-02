@@ -1,9 +1,8 @@
 ---
-name: FORUM ARTIUM Internationale Meisterkurse
+title: FORUM ARTIUM Internationale Meisterkurse
 teachers:
       - name: Prof. Kilian Herold
         link: https://www.mh-freiburg.de/lehrende/person/details/herold/
-
 fee: 688
 feeExplanation: 
     - 360 € 正式學員課程費用--非學生身份

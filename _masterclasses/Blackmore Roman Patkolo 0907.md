@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Roman Patkolo
         link: https://www.fhnw.ch/de/personen/roman-patkolo

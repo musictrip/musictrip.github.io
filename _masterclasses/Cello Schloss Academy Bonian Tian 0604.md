@@ -1,5 +1,5 @@
 ---
-name: Cello masterclasses at Schloss Academy
+title: Cello masterclasses at Schloss Academy
 teachers:
       - name: Prof. Bonian Tian
         link: https://www.hfmdk-frankfurt.info/index.php?id=528&no_cache=1&L=0&tx_mnmportrait_pi1%5Buid%5D=3208

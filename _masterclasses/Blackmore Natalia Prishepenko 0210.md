@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Natalia Prishepenko
         link: https://www.hfmdd.de/en/staff/person/96/

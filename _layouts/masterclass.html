@@ -1,7 +1,10 @@
 ---
 layout: default
+description: 歐洲音樂營／大師班資訊分享平臺
+image: /assets/img/logo_big.png
+lang: zh_TW
 ---
-{% assign cardColorID = page.name | size | modulo: site.data.numberOfColors %}
+{% assign cardColorID = page.title | size | modulo: site.data.numberOfColors %}
 
 <div class="container-fluid mb-5">
     <div class="row mt-5 pt-5">
@@ -9,11 +12,11 @@ layout: default
 
         </div>
         <div class="col-md-7">
-            <div class="container  text-justify pb-5 pull-right">
+            <div class="container text-justify pb-5 pull-right">
                 <!--Top banner-->
                 <div class="pb-3">
                     <div class="masterclassPageImage-color-{{ cardColorID }} p-5 text-center">
-                        {{ page.name }}
+                        {{ page.title }}
                     </div>
                 </div>
 
@@ -95,7 +98,8 @@ layout: default
 
             {% if page.registrationLink %}
             <p class="py-3">
-                <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}" class="masterclassPageButton-color-{{ cardColorID }} p-2">報名連結</a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}"
+                   class="masterclassPageButton-color-{{ cardColorID }} p-2">報名連結</a>
             </p>
             {% endif %}
             {% if page.masterclassLink %}
@@ -109,6 +113,7 @@ layout: default
     </div>
 </div>
 
+<<<<<<< HEAD
 <section class="text-center mt-5 pt-5">
     <div class="container-fluid mt-5 p-5" style="background-color: #fff9e4">
         <div class="container">
@@ -138,3 +143,6 @@ layout: default
     </div>
     </div>
 </section>
+=======
+{% include quicklinks.html %}
+>>>>>>> c04266087550a144543d021303cd7f5cc8081c5a

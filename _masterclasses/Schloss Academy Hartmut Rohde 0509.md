@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Hartmut Rohde
         link: http://www.hartmut-rohde.de/viola/index.php?neuesprache=de

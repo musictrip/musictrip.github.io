@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Marco Rizzi 
         link: https://blackmore-academy.com/en/masterclasses/marco-rizzi

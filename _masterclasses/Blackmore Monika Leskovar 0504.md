@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Monika Leskovar
         link: https://blackmore-academy.com/de/meisterkurse/monika-leskovar

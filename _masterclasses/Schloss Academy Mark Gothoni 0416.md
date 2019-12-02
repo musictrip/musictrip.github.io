@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Mark Gothoni
         link: https://www.udk-berlin.de/personen/detailansicht/person/show/mark-gothoni/

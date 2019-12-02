@@ -1,5 +1,5 @@
 ---
-name: Konzertarbeitswochen-Goslar
+title: Konzertarbeitswochen-Goslar
 teachers:
       - name: Prof. Elisabeth Kufferath
         link: http://konzertarbeitswochen.de/page.php?18

@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Maria Solozobova
         link: http://mariasolozobova.ch/biography/

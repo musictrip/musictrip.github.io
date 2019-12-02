@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Krzysztof Wegrzyn
         link: https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-krzysztof-wegrzyn/

@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Paul Rivinius
         link: https://www.paulrivinius.com/en/biography

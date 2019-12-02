@@ -16,7 +16,7 @@
 title: TONEartiv
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  搜尋大師班跟音樂節
+  歐洲音樂營／大師班資訊分享平臺
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://toneartiv.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/img/logo_big.png

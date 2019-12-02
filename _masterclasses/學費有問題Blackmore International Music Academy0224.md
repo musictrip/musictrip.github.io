@@ -1,5 +1,5 @@
 ---
-name: Blackmore International Music Academy
+title: Blackmore International Music Academy
 teachers:
       - name: Prof. Boris Garlitsky
         link: https://www.folkwang-uni.de/home/hochschule/personen/lehrende/vollanzeige/personen-detail/prof-boris-garlitsky/

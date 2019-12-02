@@ -1,5 +1,5 @@
 ---
-name: Schloss Academy
+title: Schloss Academy
 teachers:
       - name: Prof. Mihaela Martin
         link: https://barenboimsaid.de/professor/mihaela-martin
