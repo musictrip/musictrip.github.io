@@ -1,8 +1,8 @@
 ---
 title: Natalia Prishepenko, violin-Blackmore International Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Natalia Prishepenko
+	  link: https://www.blackmore-academy.com/en/masterclasses/natalia-prishepenko-2
 fee: TODO
 feeExplanation: 
 	- TODO

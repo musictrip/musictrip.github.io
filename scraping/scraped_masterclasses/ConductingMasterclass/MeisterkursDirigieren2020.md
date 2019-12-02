@@ -1,8 +1,8 @@
 ---
 title: Conducting Masterclass / Meisterkurs Dirigieren 2020
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Douglas Bostock
+	  link: http://www.douglasbostock.net/
 fee: TODO
 feeExplanation: 
 	- TODO

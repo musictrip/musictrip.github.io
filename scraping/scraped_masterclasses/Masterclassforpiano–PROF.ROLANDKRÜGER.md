@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano – PROF. ROLAND KRÜGER
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: ROLAND KRÜGER
+	  link: https://www.klangperspektiven-allgaeu.de/meisterkurs/roland-kr%C3%BCger/
 fee: TODO
 feeExplanation: 
 	- TODO

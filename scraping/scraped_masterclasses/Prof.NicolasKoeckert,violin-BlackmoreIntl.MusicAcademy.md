@@ -1,8 +1,8 @@
 ---
 title: Prof. Nicolas Koeckert, violin - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Nicolas Koeckert
+	  link: http://www.nicolaskoeckert.com/
 fee: TODO
 feeExplanation: 
 	- TODO

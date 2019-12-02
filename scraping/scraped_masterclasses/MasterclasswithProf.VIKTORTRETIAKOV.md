@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. VIKTOR TRETIAKOV
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: VIKTOR TRETIAKOVWe
+	  link: https://www.medici.tv/en/artists/victor-tretiakov/
 fee: TODO
 feeExplanation: 
 	- TODO

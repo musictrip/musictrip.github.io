@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. MIHAELA MARTIN
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: MIHAELA MARTINWe
+	  link: https://www.kronbergacademy.de/en/education/faculty/faculty/mihaela-martin/
 fee: TODO
 feeExplanation: 
 	- TODO

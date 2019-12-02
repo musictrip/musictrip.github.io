@@ -11,12 +11,12 @@ endDate: 2020-01-01
 city: Crans-Montana
 country: 瑞士
 instruments:
-	- 指揮
+	- 室內樂
 	- TODO
 registrationLink: TODO
 masterclassLink: https://iclassical-academy.com/product/course-self-management-full/
 ---
-Original link: https://www.musicalchairs.info/courses/5377?ref=48
+Original link: https://www.musicalchairs.info/courses/5377?ref=64
 English description:
 How to be successful in your music career? Being great at playing is not enough if you want to succeed in the music business! Being a PRO means understanding the basics of promotion and communication and learning how to choose the right media and how to use them effectively.
  Learn all about branding, positioning, impressing and convincing promoters, organisers, and your audience! Everything you need to know to have a successful and excellent music career and to become a happy musician.

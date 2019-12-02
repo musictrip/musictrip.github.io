@@ -1,8 +1,8 @@
 ---
 title: Radek Baborák, horn - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Radek Baborák
+	  link: https://en.wikipedia.org/wiki/Radek_Babor%C3%A1k
 fee: TODO
 feeExplanation: 
 	- TODO

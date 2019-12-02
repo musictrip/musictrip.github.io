@@ -1,8 +1,8 @@
 ---
 title: Soloist Europe St Goar: Terje Moe Hansen and Gregory Maytan
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Terje Moe Hansen
+	  link: https://nmh.no/en/about_nmh/staff/terje-moe-hansen
 fee: TODO
 feeExplanation: 
 	- TODO

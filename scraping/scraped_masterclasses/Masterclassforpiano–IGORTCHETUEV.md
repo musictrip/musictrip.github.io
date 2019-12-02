@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano – IGOR TCHETUEV
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Anton Rubinstein
+	  link: https://en.wikipedia.org/wiki/Anton_Rubinstein
 fee: TODO
 feeExplanation: 
 	- TODO

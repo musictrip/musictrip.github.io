@@ -1,8 +1,8 @@
 ---
 title: Latica Honda-Rosenberg, violin - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Latica Honda-Rosenberg
+	  link: https://blackmore-academy.com/en/172-latica-honda-rosenberg
 fee: TODO
 feeExplanation: 
 	- TODO

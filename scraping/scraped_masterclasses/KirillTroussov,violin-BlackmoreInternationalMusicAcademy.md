@@ -1,8 +1,8 @@
 ---
 title: Kirill Troussov, violin - Blackmore International Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Kirill Troussov
+	  link: https://en.wikipedia.org/wiki/Kirill_Troussov
 fee: TODO
 feeExplanation: 
 	- TODO

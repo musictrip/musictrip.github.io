@@ -1,8 +1,8 @@
 ---
 title: Prof. Uwe Martin Haiberg, violin - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Uwe Martin Haiberg
+	  link: https://blackmore-academy.com/de/234-prof-uwe-martin-haiberg-violin-berlin-university-of-the-arts
 fee: TODO
 feeExplanation: 
 	- TODO

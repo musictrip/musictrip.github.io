@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano - Prof. Igor Levit
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Igor LevitPianists
+	  link: https://www.sonyclassical.com/artists/igor-levit
 fee: TODO
 feeExplanation: 
 	- TODO

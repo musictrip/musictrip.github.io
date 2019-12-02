@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. MÁTÉ SZŰCS
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Máté Szűcs
+	  link: https://www.linnrecords.com/artist-mate-szucs
 fee: TODO
 feeExplanation: 
 	- TODO

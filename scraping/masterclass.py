@@ -12,6 +12,8 @@ class Masterclass:
     description_chinese = ""
     original_link = ""
     instrument = ""
+    professor = ""
+    professor_link = ""
 
     def __repr__(self):
         return {"country": self.country, "city": self.city, "masterclass_link": self.masterclass_link,
@@ -50,8 +52,8 @@ class Masterclass:
                 "---",
                 "title: " + self.title,
                 "teachers:",
-                "\t- name: TODO",
-                "\t  link: TODO",
+                "\t- name: " + self.professor,
+                "\t  link: " + self.professor_link,
                 "fee: TODO",
                 "feeExplanation: ",
                 "\t- TODO",

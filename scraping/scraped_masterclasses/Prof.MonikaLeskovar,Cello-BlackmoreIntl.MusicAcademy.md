@@ -1,8 +1,8 @@
 ---
 title: Prof. Monika Leskovar, Cello - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Monika Leskovar
+	  link: https://www.musicalchairs.info/courses/4800
 fee: TODO
 feeExplanation: 
 	- TODO

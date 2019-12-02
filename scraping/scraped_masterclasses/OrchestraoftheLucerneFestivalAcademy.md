@@ -1,8 +1,8 @@
 ---
 title: Orchestra of the Lucerne Festival Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Wolfgang
+	  link: https://en.wikipedia.org/wiki/Wolfgang
 fee: TODO
 feeExplanation: 
 	- TODO

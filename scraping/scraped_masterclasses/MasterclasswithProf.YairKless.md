@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. Yair Kless
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Yair KlessWe
+	  link: https://www.rncm.ac.uk/people/yair-kless/
 fee: TODO
 feeExplanation: 
 	- TODO

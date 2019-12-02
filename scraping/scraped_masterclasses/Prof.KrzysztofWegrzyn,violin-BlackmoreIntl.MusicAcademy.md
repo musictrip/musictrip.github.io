@@ -1,8 +1,8 @@
 ---
 title: Prof. Krzysztof Wegrzyn, violin - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Krzysztof Wegrzyn
+	  link: https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-krzysztof-wegrzyn/
 fee: TODO
 feeExplanation: 
 	- TODO

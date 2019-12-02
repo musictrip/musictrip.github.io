@@ -1,8 +1,8 @@
 ---
 title: Masterclass with SERGEI NAKARIAKOV
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: SERGEI NAKARIAKOVWe
+	  link: http://www.nakariakov.info/
 fee: TODO
 feeExplanation: 
 	- TODO

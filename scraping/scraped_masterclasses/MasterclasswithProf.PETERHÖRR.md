@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. PETER HÖRR
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: PETER HÖRRWe
+	  link: https://www.newspapers.com/newspage/1066858/
 fee: TODO
 feeExplanation: 
 	- TODO

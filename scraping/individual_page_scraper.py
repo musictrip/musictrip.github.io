@@ -1,12 +1,17 @@
 import requests
 from googletrans import Translator
+import googlesearch
 from scraping.masterclass import Masterclass
 from scraping.response_handling import get_response
 from parse import *
+import nltk
+from nltk.tag.stanford import StanfordNERTagger
+from typing import Tuple
 
 
 class IndividualPageScraper:
     translator = Translator()
+    st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz', "stanford-ner.jar")
 
     def __extract_date(self, response, class_page):
         try:
@@ -107,6 +112,40 @@ class IndividualPageScraper:
         if month_string == "Dec":
             return "12"
 
+    def __get_first_name(self, text: str) -> str:
+        for sent in nltk.sent_tokenize(text):
+            tokens = nltk.tokenize.word_tokenize(sent)
+            tags = self.st.tag(tokens)
+
+            # Group words by whether they denote a person name
+            output = [[]]
+            for a, b in zip([float('nan')] + tags, tags):
+                try:
+                    if a[1] != b[1]:
+                        output.append([])
+                except:
+                    pass
+
+                if b[1] == "PERSON":
+                    output[-1].append(b[0])
+            output = [x for x in output if len(x) > 0]
+
+            # Return the first found name
+            if len(output) > 0:
+                return " ".join(output[0])
+
+            return ""
+
+    def __get_professor_name_and_link(self, title: str, description: str) -> Tuple[str, str]:
+        text = title + description
+        name = self.__get_first_name(text)
+        print(name)
+        if name == "":
+            return "TODO", "TODO"
+
+        link = next(googlesearch.search(name))
+        return name, link
+
     def extract_masterclass(self, class_page: str, instrument: str) -> Masterclass:
         try:
             response = get_response(class_page)
@@ -125,6 +164,9 @@ class IndividualPageScraper:
         masterclass.start_date, masterclass.end_date = self.__extract_date(response, class_page)
         masterclass.description_english, masterclass.description_chinese = self.__extract_description(response,
                                                                                                       class_page)
+        masterclass.professor, masterclass.professor_link = self.__get_professor_name_and_link(masterclass.title,
+                                                                                               masterclass.description_english)
+
         return masterclass
 
     def __instrument_to_chinese(self, instrument: str):

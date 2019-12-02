@@ -1,8 +1,8 @@
 ---
 title: Nikolai Demidenko - Piano, Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Nikolai Demidenko
+	  link: http://www.demidenko.net/
 fee: TODO
 feeExplanation: 
 	- TODO

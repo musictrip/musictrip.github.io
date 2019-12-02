@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. PAUL RIVINIUS
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: PAUL RIVINIUSWe
+	  link: https://www.ars-produktion.de/lounge/eng/artists/paul_rivinius/paul_rivinius.php
 fee: TODO
 feeExplanation: 
 	- TODO

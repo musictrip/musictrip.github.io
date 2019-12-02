@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof.CHRISTOPH SCHICKEDANZ
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Christoph Schickedanz
+	  link: https://mendelssohn-festival.com/en/artists/christoph-schickedanz/
 fee: TODO
 feeExplanation: 
 	- TODO

@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. HARTMUT ROHDE
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: HARTMUT ROHDEWe
+	  link: https://skaraquartet.wordpress.com/
 fee: TODO
 feeExplanation: 
 	- TODO

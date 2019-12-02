@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. MARK GOTHONI
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: MARK GOTHONIWe
+	  link: https://www.udk-berlin.de/personen/detailansicht/person/show/mark-gothoni/
 fee: TODO
 feeExplanation: 
 	- TODO

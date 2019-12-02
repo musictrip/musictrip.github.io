@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. BONIAN TIAN
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: BONIAN TIANWe
+	  link: https://www.kronbergacademy.de/en/education/faculty/faculty/bonian-tian/
 fee: TODO
 feeExplanation: 
 	- TODO

@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Peter Bruns
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Peter BrunsWelcome
+	  link: https://be-by.latest.facebook.com/bayviewphysiciansgroup/posts/?ref=page_internal
 fee: TODO
 feeExplanation: 
 	- TODO

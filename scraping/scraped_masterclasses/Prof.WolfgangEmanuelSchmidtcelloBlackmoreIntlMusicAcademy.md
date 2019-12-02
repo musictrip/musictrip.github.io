@@ -1,8 +1,8 @@
 ---
 title: Prof. Wolfgang Emanuel Schmidt cello Blackmore Intl Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Wolfgang Emanuel Schmidt
+	  link: http://www.wolfgangemanuelschmidt.com/
 fee: TODO
 feeExplanation: 
 	- TODO

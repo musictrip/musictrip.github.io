@@ -1,8 +1,8 @@
 ---
 title: Prof. Eckart Runge - Cello, Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Eckart Runge
+	  link: https://www.udk-berlin.de/universitaet/fakultaet-musik/personen-nach-instrumentenstudiengaengen/detailseite-personen-fm/person/show/eckart-runge/
 fee: TODO
 feeExplanation: 
 	- TODO

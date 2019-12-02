@@ -1,8 +1,8 @@
 ---
 title: Boris Petrushansky, Piano - Blackmore Intl. Music Academy, Berlin
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Boris Petrushansky
+	  link: https://www.mariinsky.ru/en/company/orchestra/piano/boris_petrushansky
 fee: TODO
 feeExplanation: 
 	- TODO

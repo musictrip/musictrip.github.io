@@ -1,8 +1,8 @@
 ---
 title: Prof. Viktor Tretiakov, violin, Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Viktor Tretiakov
+	  link: https://www.medici.tv/en/artists/victor-tretiakov/
 fee: TODO
 feeExplanation: 
 	- TODO

@@ -1,8 +1,8 @@
 ---
 title: Prof. Wenzel Fuchs, Clarinet - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Wenzel Fuchs
+	  link: https://wurlitzerklarinetten.de/artists/wenzel-maria-fuchs/
 fee: TODO
 feeExplanation: 
 	- TODO

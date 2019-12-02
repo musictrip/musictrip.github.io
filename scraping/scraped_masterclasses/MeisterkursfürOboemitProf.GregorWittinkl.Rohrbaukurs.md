@@ -1,8 +1,8 @@
 ---
 title: Meisterkurs für Oboe mit Prof. Gregor Witt inkl. Rohrbaukurs
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Gregor Witt
+	  link: https://barenboimsaid.de/professor/gregor-witt
 fee: TODO
 feeExplanation: 
 	- TODO

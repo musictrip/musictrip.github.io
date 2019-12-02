@@ -1,8 +1,8 @@
 ---
 title: Berlin International Piano Masterclass With Dr. Yossi Reshef
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Yossi ReshefIndividual Masterclasses
+	  link: http://berlinmasterclass.de/
 fee: TODO
 feeExplanation: 
 	- TODO

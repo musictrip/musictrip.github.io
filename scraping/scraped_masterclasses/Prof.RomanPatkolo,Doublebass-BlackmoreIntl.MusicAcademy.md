@@ -1,8 +1,8 @@
 ---
 title: Prof. Roman Patkolo, Doublebass - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Roman Patkolo
+	  link: https://hc.sk/en/hudba/osobnost-detail/1391-roman-patkolo
 fee: TODO
 feeExplanation: 
 	- TODO

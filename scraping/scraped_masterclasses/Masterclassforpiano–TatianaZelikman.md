@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano – Tatiana Zelikman
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Tatiana ZelikmanMasterclass
+	  link: https://www.youtube.com/watch?v=EdIPrRu21Vk
 fee: TODO
 feeExplanation: 
 	- TODO

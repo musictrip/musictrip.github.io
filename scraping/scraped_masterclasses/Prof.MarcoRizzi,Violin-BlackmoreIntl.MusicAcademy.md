@@ -1,8 +1,8 @@
 ---
 title: Prof. Marco Rizzi, Violin - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Marco Rizzi
+	  link: https://research-repository.uwa.edu.au/en/persons/marco-rizzi
 fee: TODO
 feeExplanation: 
 	- TODO

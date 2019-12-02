@@ -1,8 +1,8 @@
 ---
 title: Study the art of opera conducting
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Wolfgang Harrer
+	  link: http://wolfgangharrer.at/en/
 fee: TODO
 feeExplanation: 
 	- TODO

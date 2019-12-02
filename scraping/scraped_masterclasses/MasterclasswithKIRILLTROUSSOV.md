@@ -1,8 +1,8 @@
 ---
 title: Masterclass with KIRILL TROUSSOV
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: KIRILL TROUSSOVWe
+	  link: https://en.wikipedia.org/wiki/Kirill_Troussov
 fee: TODO
 feeExplanation: 
 	- TODO

@@ -1,8 +1,8 @@
 ---
 title: Julius-Jeongwon Kim, Piano, Blackmore Intl. Music Academy, Berlin
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Julius-Jeongwon Kim
+	  link: https://www.blackmore-academy.com/en/masterclasses/julius-jeongwon-kim-2
 fee: TODO
 feeExplanation: 
 	- TODO

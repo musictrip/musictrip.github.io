@@ -1,8 +1,8 @@
 ---
 title: Vesselina Kasarova - Mezzosopran, Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Vesselina Kasarova
+	  link: http://www.kasarova.com/
 fee: TODO
 feeExplanation: 
 	- TODO

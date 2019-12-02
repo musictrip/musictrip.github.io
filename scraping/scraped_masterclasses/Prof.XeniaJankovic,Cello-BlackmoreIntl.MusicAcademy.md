@@ -1,8 +1,8 @@
 ---
 title: Prof. Xenia Jankovic, Cello - Blackmore Intl. Music Academy
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: Xenia Jankovic
+	  link: http://xenia-jankovic.com/
 fee: TODO
 feeExplanation: 
 	- TODO

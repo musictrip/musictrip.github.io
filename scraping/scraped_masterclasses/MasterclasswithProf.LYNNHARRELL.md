@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. LYNN HARRELL
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: LYNN HARRELLWe
+	  link: http://www.lynnharrell.com/
 fee: TODO
 feeExplanation: 
 	- TODO

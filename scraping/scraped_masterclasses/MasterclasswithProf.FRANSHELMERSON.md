@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. FRANS HELMERSON
 teachers:
-	- name: TODO
-	  link: TODO
+	- name: FRANS HELMERSONWe
+	  link: https://www.kronbergacademy.de/en/artists/person/frans-helmerson/
 fee: TODO
 feeExplanation: 
 	- TODO
