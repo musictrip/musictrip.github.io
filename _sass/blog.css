@@ -1,0 +1,11 @@
+.blogimg {
+    position: relative;
+    min-height:50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-card {
+    width: 100px;
+    height: 100px;
+}

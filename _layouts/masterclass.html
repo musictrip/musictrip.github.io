@@ -23,7 +23,7 @@ lang: zh_TW
 
                 <!--Masterclass description-->
                 {% assign masterclassDescriptionOptions = "pt-3" %}
-                <div class="container-fluid px-0 pt-0 masterclassDescription">
+                <div class="container-fluid px-0 pt-3 masterclassDescription">
                     <div class="row" style="margin: auto">
                         <div class="col-md-4">
                             <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</h6>
@@ -60,13 +60,11 @@ lang: zh_TW
                     <p> {{ line }}</p>
                     {% endfor %}
 
-                    <p>
-                        <button type="button" class="btn explanationButton-color-{{ cardColorID }} mt-4"
-                                data-toggle="modal"
-                                data-target="#exampleModalCenter">
-                            說明
-                        </button>
-                    </p>
+
+                    <div style="font-size:small">
+                        &#10045 以上資料由各音樂營官方網站提供，如資料有出入請以官方網站為主。在這裡我們只為您提供課程費用以及住宿費用，其餘支出(如交通費用,額外伙食費等)皆請自行評估或來信詢問！
+                    </div>
+
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
@@ -115,4 +113,34 @@ lang: zh_TW
     </div>
 </div>
 
-{% include quicklinks.html %}
+<section class="text-center mt-5 pt-5">
+    <div class="container-fluid mt-5 p-5" style="background-color: #fff9e4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <a href="../recommend.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/想法.png" style="max-width: 10rem"></a>
+                    <p><strong>Recommend</strong></p>
+                    <p>您有想推薦的大師班嗎 ？</p>
+                    <p>歡迎與我們分享資訊!</p>
+                </div>
+
+                <div class="col-lg-4 mb-5">
+                    <a href="../index.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/尋找.png" style="max-width: 10rem"></a>
+                    <p><strong>Search</strong></p>
+                    <p>想看看其他大師班<p></p>點我可以回到搜尋頁面</p>
+                </div>
+
+
+                <div class="col-lg-4 mb-5">
+                    <a href="../contacts.html"><img class="rounded-circle m-3 mr-1" src="../assets/img/討論.png" style="max-width: 10rem"></a>
+                    <p><strong>Help</strong></p>
+                    <p>來信了解更多音樂營相關資訊,</p><p>代辦報名,陪同或安排行程</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+
