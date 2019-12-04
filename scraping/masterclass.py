@@ -1,4 +1,5 @@
 import os
+from typing import Tuple
 
 
 class Masterclass:
@@ -30,6 +31,44 @@ class Masterclass:
                + self.end_date + sep \
                + self.description_english + sep \
                + self.description_chinese + ")"
+
+    def __eq__(self, other):
+        start_dates_equal = self.__date_equal(self.start_date, other.start_date)
+        end_dates_equal = self.__date_equal(self.end_date, other.end_date)
+        dates_equal = start_dates_equal and end_dates_equal
+
+        own_city = self.city.strip().lower()
+        other_city = other.city.strip().lower()
+        cities_equal = own_city in other_city or other_city in own_city
+
+        country_equal = self.country.strip().lower() == other.country.strip().lower()
+
+        return dates_equal and cities_equal and country_equal
+
+    def __date_equal(self, own_date, other_date):
+        try:
+            year_own, month_own, day_own = self.__split_date(own_date)
+            year_other, month_other, day_other = self.__split_date(other_date)
+
+            if year_own != year_other or month_own != month_other or day_own != day_other:
+                return False
+        except ValueError:
+            return False
+
+        return True
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __hash__(self):
+        return hash((self.start_date, self.end_date, self.city, self.country))
+
+    def __split_date(self, date: str) -> Tuple[int, int, int]:
+        year_month_day = date.split("-")
+        if len(year_month_day) != 3:
+            raise ValueError("Date not parseable.")
+        year, month, day = year_month_day
+        return int(year), int(month), int(day)
 
     def save(self):
         """
