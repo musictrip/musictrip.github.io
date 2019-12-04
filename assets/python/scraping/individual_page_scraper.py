@@ -156,7 +156,7 @@ class IndividualPageScraper:
             time.sleep(1)
         except:
             print("Failed to search for professor link")
-            return "TODO", "TODO"
+            return name, "TODO"
         return name, link
 
     def extract_masterclass(self, class_page: str, instrument: str) -> Masterclass:
