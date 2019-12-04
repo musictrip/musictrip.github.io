@@ -1,7 +1,7 @@
 ---
 title: Masterclass for piano – Vladimir Tropp
 teachers:
-	- name: Vladimir TroppMasterclass
+	- name: Vladimir Tropp Masterclass
 	  link: https://www.musicalchairs.info/courses/5525
 fee: TODO
 feeExplanation: 

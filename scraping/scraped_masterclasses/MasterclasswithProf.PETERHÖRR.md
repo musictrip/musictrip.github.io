@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. PETER HÖRR
 teachers:
-	- name: PETER HÖRRWe
-	  link: https://www.newspapers.com/newspage/1066858/
+	- name: PETER HÖRR
+	  link: http://www.peterhoerr.de/
 fee: TODO
 feeExplanation: 
 	- TODO

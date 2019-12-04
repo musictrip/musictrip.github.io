@@ -1,8 +1,8 @@
 ---
 title: Masterclass with KIRILL TROUSSOV
 teachers:
-	- name: KIRILL TROUSSOVWe
-	  link: https://en.wikipedia.org/wiki/Kirill_Troussov
+	- name: KIRILL
+	  link: https://bookingagentinfo.com/celebrity/kirill-bichutsky/
 fee: TODO
 feeExplanation: 
 	- TODO

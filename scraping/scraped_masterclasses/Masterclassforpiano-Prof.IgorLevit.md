@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano - Prof. Igor Levit
 teachers:
-	- name: Igor LevitPianists
-	  link: https://www.sonyclassical.com/artists/igor-levit
+	- name: Igor Levit
+	  link: https://imgartists.com/news/igor-levit-named-2018-gilmore-artist/
 fee: TODO
 feeExplanation: 
 	- TODO

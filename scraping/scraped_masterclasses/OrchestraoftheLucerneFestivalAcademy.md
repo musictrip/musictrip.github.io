@@ -1,8 +1,8 @@
 ---
 title: Orchestra of the Lucerne Festival Academy
 teachers:
-	- name: Wolfgang
-	  link: https://en.wikipedia.org/wiki/Wolfgang
+	- name: TODO
+	  link: TODO
 fee: TODO
 feeExplanation: 
 	- TODO
@@ -11,12 +11,12 @@ endDate: 2020-08-30
 city: Lucerne
 country: 瑞士
 instruments:
-	- 室內樂
+	- 長笛
 	- TODO
 registrationLink: TODO
-masterclassLink: https://www.musicalchairs.info/courses/5540?ref=64(TODO enter real link)
+masterclassLink: https://www.musicalchairs.info/courses/5540?ref=2(TODO enter real link)
 ---
-Original link: https://www.musicalchairs.info/courses/5540?ref=64
+Original link: https://www.musicalchairs.info/courses/5540?ref=2
 English description:
 Artistic Director: Wolfgang RihmGuest Conductors: David Robertson, Sylvain Cambreling, Lin LiaoWhat’s new in the world of music? The LUCERNE FESTIVAL ACADEMY, a unique master school for 20th- and 21st-century music, will bring you up to date.
  In the summer of 2020, Academy participants will again rehearse and prepare orchestral, ensemble, and chamber concerts under the guidance of proven specialists.

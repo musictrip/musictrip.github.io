@@ -2,7 +2,7 @@
 title: Prof. Boris Garlitsky, violin, Blackmore Intl. Music Academy
 teachers:
 	- name: Boris Garlitsky
-	  link: https://philharmonia.lviv.ua/en/collective/boris-garlitsky-violin-france/
+	  link: http://www.talentmusicmasters.it/boris-garlitsky
 fee: TODO
 feeExplanation: 
 	- TODO

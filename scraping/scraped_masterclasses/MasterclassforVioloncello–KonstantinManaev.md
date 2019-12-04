@@ -1,7 +1,7 @@
 ---
 title: Masterclass for Violoncello – Konstantin Manaev
 teachers:
-	- name: Konstantin ManaevMasterclass
+	- name: Konstantin Manaev Masterclass
 	  link: https://www.musicalchairs.info/courses/5527
 fee: TODO
 feeExplanation: 

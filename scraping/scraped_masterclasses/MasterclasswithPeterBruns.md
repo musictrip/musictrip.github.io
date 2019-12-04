@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Peter Bruns
 teachers:
-	- name: Peter BrunsWelcome
-	  link: https://be-by.latest.facebook.com/bayviewphysiciansgroup/posts/?ref=page_internal
+	- name: Peter Bruns
+	  link: https://www.bach-cantatas.com/Bio/Bruns-Peter.htm
 fee: TODO
 feeExplanation: 
 	- TODO

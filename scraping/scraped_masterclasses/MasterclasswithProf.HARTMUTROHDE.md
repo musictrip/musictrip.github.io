@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. HARTMUT ROHDE
 teachers:
-	- name: HARTMUT ROHDEWe
-	  link: https://skaraquartet.wordpress.com/
+	- name: HARTMUT ROHDE
+	  link: https://mendelssohn-festival.com/en/category/artists/hartmut-rohde-en/
 fee: TODO
 feeExplanation: 
 	- TODO

@@ -1,7 +1,7 @@
 ---
 title: Masterclass for piano – Tatiana Zelikman
 teachers:
-	- name: Tatiana ZelikmanMasterclass
+	- name: Tatiana Zelikman Masterclass
 	  link: https://www.youtube.com/watch?v=EdIPrRu21Vk
 fee: TODO
 feeExplanation: 

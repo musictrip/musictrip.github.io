@@ -1,7 +1,7 @@
 ---
 title: Masterclass with Prof. HANS-CHRISTIAN SCHWEIKER
 teachers:
-	- name: HANS-CHRISTIAN SCHWEIKERWe
+	- name: HANS-CHRISTIAN SCHWEIKER
 	  link: http://www.hc-schweiker.de/
 fee: TODO
 feeExplanation: 

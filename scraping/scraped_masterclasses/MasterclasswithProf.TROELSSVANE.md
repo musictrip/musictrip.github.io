@@ -1,8 +1,8 @@
 ---
 title: Masterclass with Prof. TROELS SVANE
 teachers:
-	- name: TROELS SVANEWe
-	  link: https://klangakzente.com/en/troels-svane/
+	- name: TODO
+	  link: TODO
 fee: TODO
 feeExplanation: 
 	- TODO

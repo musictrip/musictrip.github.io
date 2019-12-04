@@ -1,8 +1,8 @@
 ---
 title: Masterclass for piano – PROF. ROLAND KRÜGER
 teachers:
-	- name: ROLAND KRÜGER
-	  link: https://www.klangperspektiven-allgaeu.de/meisterkurs/roland-kr%C3%BCger/
+	- name: ROLAND KRÜGER Masterclass
+	  link: http://www.rubinstein-akademie.de/en/about-the-academy/master-class-for-piano-roland-krueger-2017/
 fee: TODO
 feeExplanation: 
 	- TODO

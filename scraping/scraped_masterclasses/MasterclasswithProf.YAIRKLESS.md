@@ -1,7 +1,7 @@
 ---
 title: Masterclass with Prof. YAIR KLESS
 teachers:
-	- name: YAIR KLESSWe
+	- name: YAIR KLESS
 	  link: https://www.rncm.ac.uk/people/yair-kless/
 fee: TODO
 feeExplanation: 

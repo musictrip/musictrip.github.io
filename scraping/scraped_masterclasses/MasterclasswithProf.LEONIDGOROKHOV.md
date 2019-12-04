@@ -1,7 +1,7 @@
 ---
 title: Masterclass with Prof. LEONID GOROKHOV
 teachers:
-	- name: LEONID GOROKHOVWe
+	- name: LEONID GOROKHOV
 	  link: http://www.leonidgorokhov.com/
 fee: TODO
 feeExplanation: 

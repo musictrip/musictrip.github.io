@@ -6,17 +6,17 @@ teachers:
 fee: TODO
 feeExplanation: 
 	- TODO
-startDate: 2019-12-02
-endDate: 2019-12-07
-city: Vienna
-country: 奧地利
+startDate: 2020-10-21
+endDate: 2020-10-25
+city: Berlin
+country: 德國
 instruments:
 	- 小提琴
 	- TODO
 registrationLink: TODO
-masterclassLink: https://blackmore-academy.com/de/169-kirill-troussov
+masterclassLink: https://blackmore-academy.com/de/meisterkurse/kirill-troussov
 ---
-Original link: https://www.musicalchairs.info/courses/4343?ref=19
+Original link: https://www.musicalchairs.info/courses/5505?ref=19
 English description:
 Welcome to the international master class of the Blackmore International Music Academy in Berlin - our violin master class with worldfamous soloist - Kirill Troussov.
  Our course services included: individual lessons, accompanist, closing concert, concert engagements in Berlin for the best participants, certificate of participation.

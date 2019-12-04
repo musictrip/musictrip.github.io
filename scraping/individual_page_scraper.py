@@ -51,15 +51,21 @@ class IndividualPageScraper:
             print("Failed to extract masterclass date for site " + class_page)
 
     def __extract_description(self, response, class_page):
+        description_english = ""
+        description_chinese = ""
+
         try:
             description_english: str = response.find("div", {"class": "post_item_desc"}).text
             description_english = description_english.replace(".", ". ")
-
-            description_chinese = self.translator.translate(description_english, dest="zh-TW").text
-
-            return description_english, description_chinese
         except:
             print("Failed to extract masterclass description for site " + class_page)
+
+        try:
+            description_chinese = self.translator.translate(description_english, dest="zh-TW").text
+        except:
+            print("Failed to translate masterclass description for site " + class_page)
+
+        return description_english, description_chinese
 
     def __extract_city_and_country(self, response, class_page):
         # Extract city and country from 'post_item_location' field
@@ -137,13 +143,16 @@ class IndividualPageScraper:
             return ""
 
     def __get_professor_name_and_link(self, title: str, description: str) -> Tuple[str, str]:
-        text = title + description
+        text = title + " " + description
         name = self.__get_first_name(text)
-        print(name)
+
         if name == "":
             return "TODO", "TODO"
-
-        link = next(googlesearch.search(name))
+        try:
+            link = next(googlesearch.search(name + " music"))
+        except:
+            print("Failed to search for professor link")
+            return "TODO", "TODO"
         return name, link
 
     def extract_masterclass(self, class_page: str, instrument: str) -> Masterclass:
