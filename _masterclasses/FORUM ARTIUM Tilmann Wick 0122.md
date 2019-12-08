@@ -35,10 +35,10 @@ masterclassLink: https://www.forum-artium.de/2007081273/Violoncello/MK-62-Tilman
 ###### __FORUM ARTIUM 簡介__<br>
 該學院由Herbert Vieth 於1989年創立，為了是希望通過教育和學習來引導和支持年輕音樂家。
 在這裡，有眾多國際知名的傑出音樂家和音樂學院教師支持著我們，他們提供了的音樂上的知識與技能，給予學生學習的方法和建議，使年輕的音樂人才有更多的可能性，為成功的音樂人生鋪路。
-FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已有超過兩萬多名來自世界各地的音樂家和學生參與。
+FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已有超過兩萬多名來自世界各地的音樂家和學生參與。<br> 
 
-
-報名注意事項:[https://www.forum-artium.de/english-information.html](https://www.forum-artium.de/english-information.html)<br>
+報名注意事項:<br> 
+[https://www.forum-artium.de/english-information.html](https://www.forum-artium.de/english-information.html)
 <br>
 <br>
 <img src="../assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">

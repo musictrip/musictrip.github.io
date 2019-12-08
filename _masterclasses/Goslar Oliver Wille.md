@@ -39,7 +39,7 @@ masterclassLink: http://www.konzertarbeitswochen-goslar.de/page.php?33
 “Die Internationalen Konzertarbeitswochen Goslar(國際音樂會工作周)”這個活動的想法來自於1975年的一位小提琴教授 André Gertleru，
 他在Goslar/Harz創辦了這個暑期音樂課程，活動至今已經超過四十年。從原本只舉辦小提琴暑期課程，到現在開放給鋼琴以及室內樂組合，吸引許多年輕的音樂學生參與。<br>
 
-2020年第45屆的Internationalen Konzertarbeitswochen Goslar，將開放以下課程 :
+2020年第45屆的Internationalen Konzertarbeitswochen Goslar，將開放以下課程 :<br>
 <ul>
 <li>鋼琴</li>
 <li>小提琴</li>
@@ -53,11 +53,11 @@ masterclassLink: http://www.konzertarbeitswochen-goslar.de/page.php?33
 <li>未成年的學員(18歲以下)必須由成人陪同。</li>
 <li>一律採用線上註冊 (注意！註冊只是參加課程的申請，成為正式學員需等待批准！)</li>
 <li>報名申請需通過影音審核。您可藉由youtube頻道上傳再將連結貼在申請的欄中，或將DVD郵寄至:</li>
-</ul>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hochschule für Musik, Theater und Medien<br>
+Hochschule für Musik,Theater und Medien Hannover<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z. H. Frau Prof. Kufferath<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emmichplatz 1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D-30175 Hannover
+</ul>
 <ul>
 <li>完成影音及報名審核後，會於6月15日前寄email通知是否錄取。</li>
 <li>活動期間 學員依規定需全程參與。</li>
