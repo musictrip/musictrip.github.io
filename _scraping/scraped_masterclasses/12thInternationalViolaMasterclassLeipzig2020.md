@@ -1,7 +1,7 @@
 ---
 title: 12th International Viola Masterclass Leipzig 2020
 teachers:
-	- name: Viola Masterclass Leipzig
+	- name: Prof. Tatjana Masurenko
 	  link: http://tatjanamasurenko.de/en/projects/leipzig-viola-masterclass/
 fee: TODO
 feeExplanation: 

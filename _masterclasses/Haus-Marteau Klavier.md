@@ -31,16 +31,14 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 ---
 <hr>
 <br>
-<br>
 
 ###### __授課教授簡介 :__<br> 
-Bernd Glemser 是當今世界上最受歡迎的鋼琴家之一。為Vitalij Margulis的學生，曾獲得17個國際音樂比賽大獎（例如:1987德國ARD國際大賽 ）。除此之外
+Prof. Bernd Glemser 是當今世界上最受歡迎的鋼琴家之一。為Vitalij Margulis的學生，曾獲得17個國際音樂比賽大獎（例如:1987德國ARD國際大賽 ）。除此之外
 他在1993年獲得了蘇黎世的歐洲鋼琴家獎，2006年11月被授予維爾茨堡市藝術獎。<br> 
 至今錄了30多張CD，曲目包括 Robert Schumann和Sergei Prokofiev奏鳴曲的完整錄音，而他對Sergei Rachmaninov作品的詮釋更是大獲好評。<br>
 自1996年起任職於維爾茨堡音樂學院 (der Hochschule für Musik Würzburg)鋼琴教授。
 
 
-<br>
 <br>
 <br>
 

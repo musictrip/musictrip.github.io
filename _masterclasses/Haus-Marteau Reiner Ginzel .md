@@ -32,13 +32,12 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 ---
 <hr>
 <br>
-<br>
+
 
 ###### __授課教授簡介 :__<br> 
-1986年任教於慕尼黑音樂與表演藝術學院。曾任ARD國際音樂大賽評委
+Prof. Reiner Ginzel 於1986年任教於慕尼黑音樂與表演藝術學院。曾任ARD國際音樂大賽評委
 
 
-<br>
 <br>
 <br>
 
@@ -47,7 +46,7 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 註冊方式: 您可以點選"報名連結"下載報名表或在www.haus-marteau.de上使用線上註冊。<br>
 <br>
 報名須知:
-- 課程人數為10人，逾期或人數額滿皆不受辦理
+- 課程人數為8-10人，逾期或人數額滿皆不受辦理
 - 請在報名資料裡提供您的簡介(特別是有關您的音樂生涯)<br>
 - 請在課程開始前將課程款項匯入，並註明姓名以及課程編號<br>
 - 如果因故不克前往大師班，最慢必須在課程開始前14天取消，主辦單位將退還課程費用，但會額外收取15歐元手續費。逾期取消課程則不退還全額費用。<br>

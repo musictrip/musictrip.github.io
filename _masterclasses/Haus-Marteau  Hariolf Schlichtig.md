@@ -7,7 +7,7 @@ teachers:
 
 
 
-fee: 250 
+fee: 330 
 
 feeExplanation: 
     - 正式學員330€
@@ -33,7 +33,7 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 <br>
 
 ###### __關於授課教授__<br> 
-擔任慕尼黑音樂學院中提琴和室內樂教授。
+Prof. Hariolf Schlichtig 擔任慕尼黑音樂學院中提琴和室內樂教授。
 
  
 
