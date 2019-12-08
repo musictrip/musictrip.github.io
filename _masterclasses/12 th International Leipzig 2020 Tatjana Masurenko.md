@@ -12,7 +12,7 @@ fee: 340
 feeExplanation: 
     - 正式學員340 € (三堂課)
     - 旁聽學員100 €
-    - 報名截止日期 10.02.2020
+    - 報名截止日期 10.02.2020(課程人數為10人，逾期或人數額滿皆不受辦理)
     - 以上費用皆不含食宿
     - 貼心提醒:由於此課程為教授個人舉辦的活動，學員在確定報名成功後需自行處理住宿)
     - <br>
@@ -48,14 +48,16 @@ Prof. Tatjana Masurenko是當代重要的中提琴家之一，身為獨奏家的
 結業音樂會: 01.03.2020, 11.00 am, 在Musiksalon, Dittrichring 21, 04107 Leipzig 舉行 <br>
 
 
-報名要求: 如果您想申請參加課程，請將您的姓名，地址，電子郵件地址，電話號碼發送到該電子郵件地址: info@dreh-und-angelpunkt.de<br>
+
+如何報名:<br>
+請將您的姓名，地址，電子郵件地址，電話號碼發送到該電子郵件地址: info@dreh-und-angelpunkt.de<br>
 如果您與還未曾與Masurenko教授上過課，請您在申請的同時，務必在emial附上的履歷(音樂相關學經歷)以及大約15分鐘的錄音檔(曲目自選)。<br>
 <br>
 <br>
 聯絡方式: <br>
 Dreh-und Angelpunkt-Kulturprojekte-Heike Bronn<br>
 Steinstr. 67, 04275 Leipzig<br>
-電話: +49-341-3529015
+電話: +49-341-3529015<br>
 email: info@dreh-und-angelpunkt.de
 <br>
 <br>
