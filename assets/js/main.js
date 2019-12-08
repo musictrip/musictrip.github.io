@@ -30,13 +30,11 @@ $(document).ready(function () {
                 var instrument = $(this).find("#instruments").val();
                 instrument += englishNameOf(instrument);
 
-
                 var searchDict = [{
                     "text": $(this).find('#hiddenText').val(),
                     "fee": $(this).find("#fee").val().toString(),
                     "instruments": instrument,
                 }];
-
 
                 var fuse = new Fuse(searchDict, fuseOptions);
                 var normalizedSearchInput = normalizeString(searchInput);
@@ -48,13 +46,43 @@ $(document).ready(function () {
                 searchResult = true;
             }
 
-
             // Check if the current element satisfies all button criteria
             var selectionResults = getSelectionResults($(this), chosenFilters);
 
             return searchResult && selectionResults;
         }
     });
+
+    /**
+     * The following two functions are there to keep the search input when leaving and returning to the page.
+     *
+     * In the first function we save the old search input in the browsers local storage.
+     * The second function checks if there is old search input and reloads it if appropriate.
+     *
+     */
+    $("#search-bar").bind("input", function () {
+        input = $(this).val();
+        localStorage.setItem("search-bar-input", input);
+    });
+    $(document).ready(function () {
+        oldSearchInput = localStorage.getItem("search-bar-input");
+        searchBar = $("#search-bar");
+
+        if (oldSearchInput) {
+            searchInput = oldSearchInput;
+            $grid.isotope();
+        }
+
+        // Check whether the search bar is not focussed
+        // We do not want to reset the search input if the search bar is focussed, because then it is impossible to fully
+        // delete the text in the input field
+        if (!searchBar.is(":focus")) {
+            // Set the searchInput variable to the right value (this is the variable we use for filtering in isotope).
+            searchBar.focus();
+            searchBar.val(oldSearchInput);
+        }
+    });
+
 
     /**
      * Translate Chinese instrument names to english
