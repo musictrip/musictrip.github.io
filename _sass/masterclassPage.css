@@ -145,11 +145,11 @@
 
 .masterclassDescription {
   font-size: 12pt;
-  font-weight: 300; }
+  font-weight: 300;
+  word-spacing: 5px; }
 
 .masterclassDescriptionItem {
-  font-weight: 500;
-               }
+  font-weight: 500; }
 
 .teacherLink a:link {
   color: #6178aa; }
@@ -158,9 +158,16 @@
   color: #3a496b;
   text-decoration: none; }
 
+.fa-facebook-square {
+  color: #7591cc; }
+
+.fa-whatsapp {
+  color: #61e392; }
+
+.fa-line {
+  color: #61e392; }
+
+.fa-envelope {
+  color: #a1a1a0; }
+
 /*# sourceMappingURL=masterclassPage.css.map */
-
-
-.disclaimer {
-  font-size: 6px;
-  color: #6178aa; }
