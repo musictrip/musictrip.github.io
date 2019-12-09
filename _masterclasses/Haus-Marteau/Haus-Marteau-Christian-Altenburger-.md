@@ -4,9 +4,6 @@ teachers:
       - name: Prof. Christian Altenburger
         link: http://www.christian-altenburger.at/
 
-
-
-
 fee: 330
 
 feeExplanation: 
