@@ -2,4 +2,5 @@
 - slider ist zu fett
 - verify with baidu
 - footer verrutscht wenn suchergebnis leer ist.
-- Sharing button: facebook, line, wechat, instagram
+- Sharing button:  wechat
+- Heart counter on masterclass

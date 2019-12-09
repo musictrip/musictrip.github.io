@@ -91,4 +91,23 @@ $borderRadius: 0.3em;
     text-decoration: none;
 }
 
+// Font awesome logos
+$facebookBlue: #4267B2;
+$amountToLighten: 15%;
+$logoBorderRadius: 0.1em;
+.fa-facebook-square {
+    color: lighten($facebookBlue, $amountToLighten);
+}
 
+$whatsappGreen: #25D366;
+.fa-whatsapp {
+    color: lighten($whatsappGreen, $amountToLighten);;
+}
+
+.fa-line {
+    color: lighten($whatsappGreen, $amountToLighten);
+}
+
+.fa-envelope {
+    color: lighten($masterclassColor, $amountToLighten);
+}
