@@ -1,8 +1,8 @@
 ---
 title: JM Deutschland Holzbläser im Schloss
 teachers:
-      - name: Prof. Albrecht Holder  
-        link: http://www.albrecht-holder.de/
+      - name: Prof. Manfred Lindner   
+        link: https://www.bundesakademie-trossingen.de/unser-haus/gastdozentinnen/l/prof-manfred-lindner.html
 
 
 
@@ -23,7 +23,7 @@ city: Weikersheim
 country: 德國
 type: masterclass
 instruments:
-    - 低音管
+    - 單簧管
 registrationLink: https://www.jmd.info/index.php?id=1188
 masterclassLink: https://www.jmd.info/kurse/kurse-20192020/kursdetail/?tx_mnmevents_pi2%5Beventid%5D=539&tx_mnmevents_pi2%5Bback%5D=136&cHash=2d440b304af2bb359b833da727692bc7
     
@@ -74,7 +74,7 @@ Thomas Acker<br>
 Email:holzblaeser(at)jmdbw.de<br>
 Tel:+49 178 6599160<br>
 <br>
-<img src="../assets/img/jnd.jpg" class="img-fluid" alt="...">
+<img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
 更多詳細資料請點選"官方網站"連結 😊

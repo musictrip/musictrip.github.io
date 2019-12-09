@@ -1,8 +1,8 @@
 ---
 title: JM Deutschland Holzbläser im Schloss
 teachers:
-      - name: Christina Fassbender  
-        link: http://christina-fassbender.com/
+      - name: Prof. Albrecht Holder  
+        link: http://www.albrecht-holder.de/
 
 
 
@@ -12,7 +12,7 @@ fee: 440
 feeExplanation: 
     - 費用為440€ (其包含住宿雙人房與其他學員共享空間,以及餐點供應)
     - 需要單人房住宿者,需額外支付100€ (房間數量有限)
-    - 課程包含與鋼琴伴奏合作機會以及兩次公開音樂會   
+    - 課程包含與鋼琴伴奏合作機會以及兩次公開音樂會    
     - <br>
     - <hr>
 startDate: 2020-04-30
@@ -23,7 +23,7 @@ city: Weikersheim
 country: 德國
 type: masterclass
 instruments:
-    - 長笛
+    - 低音管
 registrationLink: https://www.jmd.info/index.php?id=1188
 masterclassLink: https://www.jmd.info/kurse/kurse-20192020/kursdetail/?tx_mnmevents_pi2%5Beventid%5D=539&tx_mnmevents_pi2%5Bback%5D=136&cHash=2d440b304af2bb359b833da727692bc7
     
@@ -49,7 +49,7 @@ JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非�
  報名對象: 音樂系學生或有演奏基礎的學生<br>
  內容 :教授在活動期間提供個別課，並根據學生的曲目以及目標(如:準備入學考試或比賽)教授基礎知識，技術等。<br>
  活動最後將會舉辦兩場音樂會。<br>
- 另外，學員也有機會與其他學員共組成室內樂並接受指導或演出。<br>  
+ 另外，學員也有機會與其他學員共組成室內樂並接受指導或演出。<br> 
  
  授課語言: 英文,德文。<br>
  
@@ -74,7 +74,7 @@ Thomas Acker<br>
 Email:holzblaeser(at)jmdbw.de<br>
 Tel:+49 178 6599160<br>
 <br>
-<img src="../assets/img/jnd.jpg" class="img-fluid" alt="...">
+<img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
 更多詳細資料請點選"官方網站"連結 😊

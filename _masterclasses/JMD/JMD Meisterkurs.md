@@ -1,8 +1,8 @@
 ---
 title: JM Deutschland Meisterkurs
 teachers:
-      - name: Prof. Karsten Nagel 
-        link: https://www.philso.uni-augsburg.de/lmz/team/team/nagel/
+      - name: Prof. Heike Steinbrecher 
+        link: http://www.heike-steinbrecher.de/Willkommen.html
 
 
 
@@ -23,7 +23,7 @@ city: Augsburg
 country: 德國
 type: masterclass
 instruments:
-    - 低音管
+    - 雙簧管
 registrationLink: https://www.jmd.info/index.php?id=1134
 masterclassLink: https://www.jmd.info/kurse/kurse-20192020/kursdetail/?tx_mnmevents_pi2%5Beventid%5D=455&tx_mnmevents_pi2%5Bback%5D=136&cHash=dc04972c8a1c4ed4a7e909528c928cca    
     
@@ -67,8 +67,8 @@ JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非�
  Tel.: 0821 742913, Mobil 0177 3314916<br>
  Fax: 0821 742914<br>
  harrer.braun@t-online.de<br>
-
-<img src="../assets/img/jnd.jpg" class="img-fluid" alt="...">
+ 
+<img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
 更多詳細資料請點選"官方網站"連結 😊

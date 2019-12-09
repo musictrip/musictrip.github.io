@@ -54,7 +54,7 @@ FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已
 
 
 <br>
-<img src="../assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">
+<img src="/assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">
 <br>
 <br>
 <hr>

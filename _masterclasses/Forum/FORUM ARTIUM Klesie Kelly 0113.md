@@ -1,33 +1,30 @@
 ---
 title: FORUM ARTIUM Internationale Meisterkurse
 teachers:
-      - name: Prof. Tilmann Wick
-        link: https://www.hmtm-hannover.de/de/hochschule/personen/t-z/prof-tilmann-wick/
+      - name: Prof. Klesie Kelly
+        link: https://www.forum-artium.de/2007081250/Gesang/MK-61-Klesie-Kelly.html
 
-
-fee: 745
+fee: 780
 feeExplanation: 
     - 360 € 正式學員課程費用--非學生身份
     - 310 € 正式學員課程費用—學生身份
     - 150 € 旁聽學員課程費用
-    - <hr/>
-    - 385 € 住宿費用(雙人間),包含主辦單位Forum Artium 提供的伙食,三餐
+     - <hr/>
+    - 420 € 住宿費用(雙人間),包含主辦單位Forum Artium 提供的伙食,三餐
     - 單人房, 依照天數,每日住宿費用需增加 20 €(如果還有房的話) 
     - 不需要住宿以及伙食的學員,仍需繳 90€額外費用 
     - <br>
     - <br>
     - <hr>
-
-startDate: 2020-01-22
-endDate: 2020-01-28
+startDate: 2020-01-13
+endDate: 2020-01-20
 city: Osnabrück
 country: 德國
 type: masterclass
 instruments:
-    - 大提琴
+    - 聲樂
 registrationLink: https://www.forum-artium.de/images/Kursanmeldung_deutsch.pdf
-masterclassLink: https://www.forum-artium.de/2007081273/Violoncello/MK-62-Tilman-Wick.html                                           
-
+masterclassLink: https://www.forum-artium.de/                                        
    
 ---
 <hr>
@@ -37,15 +34,23 @@ masterclassLink: https://www.forum-artium.de/2007081273/Violoncello/MK-62-Tilman
 在這裡，有眾多國際知名的傑出音樂家和音樂學院教師支持著我們，他們提供了的音樂上的知識與技能，給予學生學習的方法和建議，使年輕的音樂人才有更多的可能性，為成功的音樂人生鋪路。
 FORUM ARTIUM學院每年將舉辦大約40到50個大師班/研討會，至今已有超過兩萬多名來自世界各地的音樂家和學生參與。<br> 
 
+
 報名注意事項:<br> 
-[https://www.forum-artium.de/english-information.html](https://www.forum-artium.de/english-information.html)
+[https://www.forum-artium.de/english-information.html](https://www.forum-artium.de/english-information.html)<br>
+
+<hr/>
+關於授課老師: Prof. Klesie Kelly出生於美國,自1986年起任教於科隆音樂學院 Hochschule für Musik und Tanz Köln <br>
+
+此課程適合對象: 專業音樂人士,音樂本科系學生
 <br>
 <br>
-<img src="../assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">
+
+
+
+<img src="/assets/img/Forum-pic.png" class="img-fluid" alt="Image for Forum Artium">
 <br>
 <br>
 <hr>
 
 更多詳細資料請點選"官方網站"連結 😊
 <hr/>
-

@@ -70,7 +70,7 @@ harrer.braun@t-online.de<br>
 
 
 
-<img src="../assets/img/jnd.jpg" class="img-fluid" alt="...">
+<img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
 更多詳細資料請點選"官方網站"連結 😊

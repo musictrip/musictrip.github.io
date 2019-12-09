@@ -4,7 +4,7 @@
 
 $shadowColor: lighten($masterclassColor, 35%);
 $advancedSearchButtonColor: $shadowColor;
-$advancedSearchFontColor: darken($advancedSearchButtonColor, 20%);
+$advancedSearchFontColor: #594949;
 
 * {
     font-family: $sansSerifTextFont;

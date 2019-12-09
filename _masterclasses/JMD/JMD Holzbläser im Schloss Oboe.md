@@ -74,7 +74,7 @@ Thomas Acker<br>
 Email:holzblaeser(at)jmdbw.de<br>
 Tel:+49 178 6599160<br>
 <br>
-<img src="../assets/img/jnd.jpg" class="img-fluid" alt="...">
+<img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
 更多詳細資料請點選"官方網站"連結 😊
