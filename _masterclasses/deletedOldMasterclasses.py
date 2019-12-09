@@ -47,7 +47,7 @@ def get_start_date_from_file(file: Path) -> date:
 
 
 if __name__ == '__main__':
-    masterclass_files = Path.cwd().glob('*.md')  # type: Generator
+    masterclass_files = Path.cwd().glob('**/*.md')  # type: Generator
 
     deleted_at_least_one_file = False  # type: bool
 
