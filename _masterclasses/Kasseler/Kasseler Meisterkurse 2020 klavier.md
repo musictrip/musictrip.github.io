@@ -81,7 +81,7 @@ Germany<br>
 <br>
 
 
-<img src="../assets/img/kassel-harleshausen-kirche.jpg" class="img-fluid" alt="...">
+<img src="/assets/img/kassel-harleshausen-kirche.jpg" class="img-fluid" alt="...">
 source:https://christuskirche-kassel.de/
 
 
