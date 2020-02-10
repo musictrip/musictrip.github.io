@@ -7,7 +7,7 @@ teachers:
 
 
 
-fee: 460
+fee: 570
 
 feeExplanation: 
     - 正式學員 CHF 620 / € 570
@@ -70,8 +70,8 @@ masterclassLink: https://www.meisterkurse.li/klassik/meisterkurse-klassik
 <br>
 <br>
 
-
-
+<img src="/assets/img/Vaduz-Meisterkurs.png" class="img-fluid" alt="...">
+<P style="font-size: 10px">source:https://www.meisterkurse.li/</P>
 
 
 <br>

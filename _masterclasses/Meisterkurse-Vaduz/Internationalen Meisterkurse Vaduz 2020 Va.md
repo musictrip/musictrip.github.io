@@ -69,7 +69,8 @@ masterclassLink: https://www.meisterkurse.li/klassik/meisterkurse-klassik
 <br>
 <br>
 
-
+<img src="/assets/img/Vaduz-Meisterkurs.png" class="img-fluid" alt="...">
+<P style="font-size: 10px">source:https://www.meisterkurse.li/</P>
 
 
 
