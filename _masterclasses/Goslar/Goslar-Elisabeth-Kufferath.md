@@ -68,6 +68,11 @@ Hochschule für Musik,Theater und Medien Hannover<br>
 
 <br>
 
-{% include functions/gallery.html gallery=site.data.galleries. %}
+<img src="/assets/img/Goslar/Goslar-MK-Vl.png" class="img-fluid" alt="..."><br>
+<P style="font-size: 10px">source:https://konzertarbeitswochen-goslar.de/?lang=en</P>
+
 <br>
+<br>
+<br>
+<hr>
 更多詳細資料請點選"官方網站"連結 😊
