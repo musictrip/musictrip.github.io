@@ -60,7 +60,7 @@ Fax: +49(0)921 6041606<br>
 email: kultur@bezirk-oberfranken.de
 <br>
 <br>
-<img src="/assets/img/Haus-Marteau.png" class="img-fluid" alt="...">
+<img src="/assets/img/Haus-Marteau/Haus-Marteau.png" class="img-fluid" alt="...">
 
 <br>
 <hr>
