@@ -32,7 +32,7 @@ masterclassLink: https://www.jmd.info/kurse/kurse-20192020/kursdetail/?tx_mnmeve
 <br>
 <br>
 
-###### __關於主辦單位 Jeunesses Musicales Deutschland 簡介 :__<br> 
+###### __關於主辦單位 :__<br> 
 
 Die Jeunesses Musicales Deutschland (JMD) 是 國際青年音樂協會JMI（Jeunesses Musicales International）位於德國的分部。
 JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非政府組織，目前活躍於全球50多個國家。目標是促進年輕音樂家交流，使他們通過音樂超越國界的發展。<br>
@@ -44,32 +44,27 @@ JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非�
 <br>
 
 
-###### __JM Deutschland Meisterkurs 課程說明 :__<br>  
+###### __課程說明 :__<br>  
  
- 報名對象: 音樂系學生或有演奏基礎的學生<br>
- 內容 :教授在活動期間提供個別課，並根據學生的曲目以及目標(如:準備入學考試或比賽)教授基礎知識，技術等。<br>
- 活動最後將會舉辦兩場音樂會。<br>
- 另外，學員也有機會與其他學員共組成室內樂並接受指導或演出。<br> 
+報名對象: 音樂系學生或有演奏基礎的學生<br>
+內容 :教授在活動期間提供個別課，並根據學生的曲目以及目標(如:準備入學考試或比賽)教授基礎知識，技術等。<br>
+活動最後將會舉辦兩場音樂會。<br>
+另外，學員也有機會與其他學員共組成室內樂並接受指導或演出。<br> 
  
- 授課語言: 英文,德文。<br>
- 
- 
- 上課地點: 
- Schloss Weikersheim,
- Marktplatz 12, 97990  Weikersheim<br>
- 學員在30.04.2020 中午過後自行抵達活動地點; 05.05.2020 早餐過後活動結束自行解散
- <br>
- <br>
- 活動期間授課老師:<br>
- Christina Fassbender (UdK Berlin) - Flöte<br>
- Washington Barella (UdK Berlin) - Oboe<br>
- Prof. Manfred Lindner (HfM Würzburg) - Klarinette<br>
- Prof. Albrecht Holder (HfM Würzburg) - Fagott<br>
-
- 
+授課語言: 英文,德文<br>
  
 <br>
-聯絡方式:<br>
+
+###### __上課地點 :__<br>  
+Schloss Weikersheim,<br>
+Marktplatz 12, 97990  Weikersheim<br>
+<br>
+學員在30.04.2020 中午過後自行抵達活動地點; 05.05.2020 早餐過後活動結束自行解散<br>
+<br>
+<br> 
+<br>
+
+###### __聯絡方式 :__<br>  
 Thomas Acker<br>
 Email:holzblaeser(at)jmdbw.de<br>
 Tel:+49 178 6599160<br>

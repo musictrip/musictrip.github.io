@@ -35,7 +35,7 @@ masterclassLink: https://blackmore-academy.com/zh/
 
 
 
-###### __Blackmore International Music Academy 簡介__<br>  
+###### __簡介__<br>  
 <br>
 Blackmore國際音樂學院致力於培養各地年輕有天賦的音樂家們，透過密集的器樂培訓課程、樂團面試培訓課程、比賽和入學前的培訓，為將來的音樂生涯鋪路。
 “在這裡，越來越多的傑出音樂家和國際知名教授，以他們的人格魅力和藝術修養，影響著新一代的音樂家們。”<br>
@@ -48,13 +48,14 @@ Blackmore國際音樂學院致力於培養各地年輕有天賦的音樂家們�
 
 <br>
 
-- 報名方式: 
-可使用線上報名,e-mail寄送申請文件 contact@blackmore-academy.com <br>
-或郵寄至下列地址
-Blackmore International Music Academy
-Warmbrunner Str. 52
+###### __報名方式 :__<br>  
+可使用e-mail寄送申請文件:<br>
+contact@blackmore-academy.com<br>
+或郵寄至下列地址<br>
+Blackmore International Music Academy<br>
+Warmbrunner Str. 52<br>
 14193 Berlin | Germany <br>
-聯絡電話 +49 30 89 73 48 65 (AB)
+聯絡電話 +49 30 89 73 48 65 (AB)<br>
 
 
 

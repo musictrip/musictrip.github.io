@@ -32,7 +32,7 @@ masterclassLink: https://www.jmd.info/kurse/kurse-20192020/kursdetail/?tx_mnmeve
 <br>
 <br>
 
-###### __關於主辦單位 Jeunesses Musicales Deutschland 簡介 :__<br> 
+###### __關於主辦單位 :__<br> 
 
 Die Jeunesses Musicales Deutschland (JMD) 是 國際青年音樂協會JMI（Jeunesses Musicales International）位於德國的分部。
 JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非政府組織，目前活躍於全球50多個國家。目標是促進年輕音樂家交流，使他們通過音樂超越國界的發展。<br>
@@ -43,30 +43,28 @@ JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非�
 <br>
 <br>
 
-###### __JM Deutschland Meisterkurs 課程說明 :__<br>  
+###### __課程說明 :__<br>  
  
- 報名對象: 音樂系學生或有演奏基礎的學生<br>
-  每位學員在課程期間有3節個別課，被授課曲目可自選獨奏作品，樂團片段或音樂會曲目。 
-  
-  授課語言: 英文,德文。<br>
-  
-  
-  上課地點: Leopold-Mozart-Zentrum der Universität Augsburg (奧格斯堡音樂學院)
-        Maximilianstr. 59, 86150 Augsburg<br>
+報名對象: 音樂系學生或有演奏基礎的學生<br>
+每位學員在課程期間有3節個別課，被授課曲目可自選獨奏作品，樂團片段或音樂會曲目。<br> 
+授課語言: 英文,德文<br>
   
   
-  活動期間授課老師:<br>
-  Prof. Heike Steinbrecher (Leopold-Mozart-Zentrum Universität Augsburg) - Oboe, Englischhorn<br>
-  Prof. Harald Harrer (LMZ Universität Augsburg) - Klarinette<br>
-  Prof. Karsten Nagel (LMZ Universität Augsburg) - Fagott<br>   
- <br>
- 聯絡方式:
- Ruth Harrer-Braun<br>
- Franz-Marc-Str. 3<br>
- 86157 Augsburg<br>
- Tel.: 0821 742913, Mobil 0177 3314916<br>
- Fax: 0821 742914<br>
- harrer.braun@t-online.de<br>
+###### __上課地點 :__<br>  
+Leopold-Mozart-Zentrum der Universität Augsburg (奧格斯堡音樂學院)<br>
+Maximilianstr. 59, 86150 Augsburg<br>
+  
+     
+ 
+<br> 
+
+###### __聯絡方式 :__<br>  
+Ruth Harrer-Braun<br>
+Franz-Marc-Str. 3<br>
+86157 Augsburg<br>
+Tel.: 0821 742913, Mobil 0177 3314916<br>
+Fax: 0821 742914<br>
+harrer.braun@t-online.de<br>
 
 <img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
