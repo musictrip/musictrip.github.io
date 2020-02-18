@@ -47,16 +47,15 @@ masterclassLink: https://starnbergermusiktage.de/index.php?id=17
 <br>
 
 ###### __琴房使用注意事項 :__<br>
-▲ 大提琴: 請自行攜帶止滑帶,未攜帶者只允許在有地毯的琴房練習
-▲ 開放時間: 上午8點至下午6點；所有參與者都必須在下午6點離開大樓
-▲ 免則聲明: 我們對樂器或私人物品損失概不負責
-▲ 每個正式學員都必須在"課程安排時刻表中"填寫上課時間
+▲ 大提琴: 請自行攜帶止滑帶,未攜帶者只允許在有地毯的琴房練習<br>
+▲ 開放時間: 上午8點至下午6點；所有參與者都必須在下午6點離開大樓<br>
+▲ 免則聲明: 我們對樂器或私人物品損失概不負責<br>
+▲ 每個正式學員都必須在"課程安排時刻表中"填寫上課時間<br>
 <br>
 
 ###### __報名注意事項 :__<br>  
 1) 請完整填寫的線上註冊表格<br>
-2) 附上您的影音連結<br>
-▲ 報名需影片審核,請注意影音的音質和畫質<br>
+2) 附上您的影音連結,並請注意影音的音質和畫質<br>
 您可以將影片上傳至YouTube並提供您的鏈接（可設定公開或“特定人觀賞”）<br>
 3) 上傳一張您的相片作為通行證的圖片<br>
 4) 在期限內繳交註冊費<br>
@@ -71,13 +70,18 @@ BIC: BYLADEM1KMS<br>
 
 ###### __上課地點 :__<br> 
 今年大師班在三個地點舉行:<br> 
-Städtische Musikschule Starnberg Mühlbergstr. 4 82319 Starnberg<br> 
-Schlossberghalle Starnberg Vogelanger 2, 82319 Starnberg<br> 
-Kulturbahnhof, Wartesaal für allerhöchste Herrschaften Bahnhofpl. 5, 82319 Starnberg<br> 
+Städtische Musikschule Starnberg<br>
+Mühlbergstr. 4 82319 Starnberg<br> 
+<br>
+Schlossberghalle Starnberg<br>
+Vogelanger 2, 82319 Starnberg<br> 
+<br>
+Kulturbahnhof, Wartesaal für allerhöchste Herrschaften<br>
+Bahnhofpl. 5, 82319 Starnberg<br> 
 <br>
 
 ###### __住宿 :__<br> 
-住宿不包括在課程費用中。<br> 
+住宿不包括在課程費用中<br> 
 <br> 
 
 ###### __交通 :__<br> 
@@ -85,14 +89,13 @@ Kulturbahnhof, Wartesaal für allerhöchste Herrschaften Bahnhofpl. 5, 82319 Sta
 
 <br>
 
-<br>
-<br>
-<br>
-<br>
+###### __聯絡方式 :__<br> 
+Adresse: Faviola<br>
+Walhallastr. 19,<br>
+80639 München<br>
+E-Mail (Vesna Mlakar): info@musiktage-festival.com<br>
+<img src="/assets/img/st.png" class="img-fluid" alt="...">
 
-
-<img src="/assets/img/kassel-harleshausen-kirche.jpg" class="img-fluid" alt="...">
-source:https://christuskirche-kassel.de/
 
 
 <br>

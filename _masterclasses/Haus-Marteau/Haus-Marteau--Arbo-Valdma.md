@@ -47,9 +47,12 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 - 免責聲明: 主辦方Bezirk Oberfranken對於因為參加Haus Marteau大師班或音樂會期間受到人身傷害，財務損失以及樂器損傷不承擔任何責任。
 
 <br>
-聯絡方式: <br>
-Bezirk Oberfranken Kultur- und Heimatpflege <br>
-Ludwigstr. 20, D-95444 Bayreuth<br>
+
+###### __聯絡方式 :__<br> 
+Bezirk Oberfranken <br>
+Kultur und Heimatpflege <br>
+Ludwigstr. 20, <br>
+D-95444 Bayreuth<br>
 Fax: +49(0)921 6041606<br>
 email: kultur@bezirk-oberfranken.de
 <br>

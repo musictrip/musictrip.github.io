@@ -31,8 +31,8 @@ masterclassLink: https://www.haus-marteau.de/files_en/03_Programm/Kurse/singlevi
 <br>
 
 ###### __授課教授簡介 :__<br> 
-Prof. Christian Altenburger 曾任職為漢諾威音樂與戲劇學院教授，於2001年起任教於維也納音樂與表演藝術音樂學院。除了演奏,指導大師班課程外也負責
-Kammermusikfestivals Schwäbischer Frühling室內樂節以及Loisiarte音樂節，並擔任藝術總監。
+Prof. Christian Altenburger 曾任職為漢諾威音樂與戲劇學院教授，於2001年起任教於維也納音樂與表演藝術音樂學院。<br>
+並擔任Kammermusikfestival-Schwäbischer-Frühling室內樂節以及Loisiarte音樂節藝術總監。
 <br>
 <br>
 
@@ -50,9 +50,12 @@ Kammermusikfestivals Schwäbischer Frühling室內樂節以及Loisiarte音樂節
 - 免責聲明: 主辦方Bezirk Oberfranken對於因為參加Haus Marteau大師班或音樂會期間受到人身傷害，財務損失以及樂器損傷不承擔任何責任。
 
 <br>
-聯絡方式: <br>
-Bezirk Oberfranken Kultur- und Heimatpflege <br>
-Ludwigstr. 20, D-95444 Bayreuth<br>
+
+###### __聯絡方式 :__<br> 
+Bezirk Oberfranken <br>
+Kultur und Heimatpflege <br>
+Ludwigstr. 20, <br>
+D-95444 Bayreuth<br>
 Fax: +49(0)921 6041606<br>
 email: kultur@bezirk-oberfranken.de
 <br>

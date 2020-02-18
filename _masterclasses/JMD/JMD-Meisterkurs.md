@@ -49,10 +49,14 @@ JMI機構於1945年在布魯塞爾成立，是世界上最大的青年音樂非�
 每位學員在課程期間有3節個別課，被授課曲目可自選獨奏作品，樂團片段或音樂會曲目。<br> 
   
 授課語言: 英文,德文<br>
-  
+
+<br>
+
 ###### __上課地點 :__<br>  
-Leopold-Mozart-Zentrum der Universität Augsburg (奧格斯堡音樂學院)<br>
-Maximilianstr. 59, 86150 Augsburg<br>
+Leopold-Mozart-Zentrum<br>
+der Universität Augsburg<br>
+Maximilianstr. 59,<br>
+86150 Augsburg<br>
   
   
   

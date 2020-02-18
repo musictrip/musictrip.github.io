@@ -37,26 +37,31 @@ masterclassLink: http://tatjanamasurenko.de/projekte/internationaler-meisterkurs
 ###### __授課教授簡介 :__<br> 
 
 Prof. Tatjana Masurenko是當代重要的中提琴家之一，身為獨奏家的她，曾合作過得樂團有:萊比錫布商大廈管弦樂團(Gewandhausorchester Leipzig)，柏林廣播交響樂團(Radio Symphonie Orchester Berlin)，
-北德廣播愛樂(NDR Radiophilharmonie)等。多年來，她曾擔任過許多國際音樂節的嘉賓以及獨奏家。於2002年開始擔任萊比錫音樂學院（Hochschule für Musik und Theater „Felix Mendelssohn Bartholdy“ Leipzig）的中提琴教授。
-致力於提升年輕音樂人才，受邀於德國杜塞爾多夫，西班牙，加拿大，斯堪的納維亞半島等，大師班授課，更擔任伊茲尼克（土耳其）國際中提琴音樂節藝術總監。
+北德廣播愛樂(NDR Radiophilharmonie)等。多年來，她曾擔任過許多國際音樂節的嘉賓以及獨奏家。<br>
+於2002年開始擔任萊比錫音樂學院的中提琴教授。致力於提升年輕音樂人才，受邀於德國杜塞爾多夫，西班牙，加拿大，斯堪的納維亞半島等，大師班授課，更擔任伊茲尼克（土耳其）國際中提琴音樂節藝術總監。
 <br>
 
 ###### __課程說明 :__<br>  
-兩堂課由Prof.Masurenko授課 ; 一堂由萊比錫音樂院講師 Ronen Shifron授課)<br>
-課程以及音樂會鋼琴伴奏老師: Gilad Katznelson
-上課地點: Hochschule für Musik und Theater Leipzig (德國萊比錫音樂學院)<br>
-結業音樂會: 01.03.2020, 11.00 am, 在Musiksalon, Dittrichring 21, 04107 Leipzig 舉行 <br>
+1) 兩堂課由Prof.Masurenko授課 ; 一堂由萊比錫音樂院講師 Ronen Shifron授課)<br>
+2) 課程以及音樂會鋼琴伴奏老師: Gilad Katznelson<br>
+3) 上課地點: Hochschule für Musik und Theater Leipzig (德國萊比錫音樂學院)<br>
+4) 結業音樂會: 01.03.2020, 11.00 am,<br>
+地點: Musiksalon, Dittrichring 21, 04107 Leipzig <br>
 
+<br>
 
-
-如何報名:<br>
-請將您的姓名，地址，電子郵件地址，電話號碼發送到該電子郵件地址: info@dreh-und-angelpunkt.de<br>
+###### __如何報名 :__<br>  
+請將您的姓名，地址，電子郵件地址，電話號碼發送到以下的電子郵件地址:<br>
+info@dreh-und-angelpunkt.de<br>
+<br>
 如果您與還未曾與Masurenko教授上過課，請您在申請的同時，務必在emial附上的履歷(音樂相關學經歷)以及大約15分鐘的錄音檔(曲目自選)。<br>
 <br>
 <br>
-聯絡方式: <br>
-Dreh-und Angelpunkt-Kulturprojekte-Heike Bronn<br>
-Steinstr. 67, 04275 Leipzig<br>
+###### __聯絡方式 :__<br>  
+Dreh-und Angelpunkt<br>
+Kulturprojekte-Heike Bronn<br>
+Steinstr. 67,<br>
+04275 Leipzig<br>
 電話: +49-341-3529015<br>
 email: info@dreh-und-angelpunkt.de
 <br>
