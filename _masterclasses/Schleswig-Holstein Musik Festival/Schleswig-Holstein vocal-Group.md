@@ -44,7 +44,7 @@ masterclassLink: https://www.shmf.de/en/masterclasses-2020?mk=21
 <br>
 
 ###### __上課地點 :__<br>
-呂北克音樂學院 (Die Musikhochschule Lübeck)<br>
+Die Musikhochschule Lübeck<br>
 Große Petersgrube 21<br>
 23552 Lübeck<br>
 Germany<br>
@@ -55,7 +55,8 @@ Germany<br>
 ###### __報名方式 :__<br> 
 
 1) 報名時需附上影音資料連結，內容需要至少兩首作品<br>
-2) 請將個人影音檔連結(youtube)輸入於線上報名表格內，或傳送至以下信箱 masterclasses@shmf.de<br>
+2) 請將個人影音檔連結(youtube)輸入於線上報名表格內，或傳送至以下信箱<br>
+masterclasses@shmf.de<br>
 3) 採用線上填寫報名表格，並收取25歐元註冊費<br>
 4) 註冊時只需先支付25歐元的註冊費，繳交註冊費後才算報名成功。<br>
 5) 您可以通過直接轉帳付款，信用卡（Visa，Master）或PayPal支付註冊費，且所有跨銀行手續費均由客戶自行承擔。<br>
