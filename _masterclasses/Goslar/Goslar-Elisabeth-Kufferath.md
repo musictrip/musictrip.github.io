@@ -54,10 +54,10 @@ masterclassLink: http://www.konzertarbeitswochen-goslar.de/page.php?33
 <li>未成年的學員(18歲以下)必須由成人陪同。</li>
 <li>一律採用線上註冊 (注意！註冊只是參加課程的申請，成為正式學員需等待批准！)</li>
 <li>報名申請需通過影音審核。您可藉由youtube頻道上傳再將連結貼在申請的欄中，或將DVD郵寄至:</li>
-Hochschule für Musik,Theater und Medien Hannover<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& 1nbsp;z. H. Frau Prof. Kufferath<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emmichplatz 1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D-30175 Hannover
+Hochschule für Musik, Theater und Medien Hannover<br>
+z. H. Frau Prof. Kufferath<br>
+Emmichplatz 1<br>
+D-30175 Hannover
 </ul>
 <ul>
 <li>完成影音及報名審核後，會於6月15日前寄email通知是否錄取。</li>

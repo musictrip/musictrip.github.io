@@ -46,8 +46,12 @@ masterclassLink: https://radolfzell-musikschule.de/sommerakademie/?fbclid=IwAR3G
 <br> 
 ###### __報名方式 :__<br>
 △ 資格: 16歲以上<br>
-▲ 請下載報名表格，填寫完成後寄至 sommerakademie@radolfzell.de 或以下地址 
-Städtische Musikschule Radolfzell, Güttinger Straße 19, 78315 Radolfzell, Germany<br>
+▲ 請下載報名表格，填寫完成後寄至<br>
+sommerakademie@radolfzell.de 或以下地址<br> 
+Städtische Musikschule Radolfzell,<br>
+Güttinger Straße 19,<br>
+78315 Radolfzell, Germany<br>
+
 <br>
 △ 報名人數有限，報名表單寄出後需等待主辦方正式邀請的信件才算報名成功<br>
 ▲ 報名截止日期 20.06.2020<br>

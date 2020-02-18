@@ -57,7 +57,8 @@ Niederfeldstraße 19<br>
 34128 Kassel<br>
 Germany<br>
 <br>
-或傳送至 e-mail ➜ matthias.enkemeier@googlemail.com
+或傳送至 e-mail ➜<br>
+matthias.enkemeier@googlemail.com
 <br>
 <br>
 <br>
@@ -65,16 +66,19 @@ Germany<br>
 
 △ 課程人數有限，因此報名表填寫完成後，請儘速將款項匯至主辦單位，才算是報名成功<br>
 △ 取消課程皆會依照標準收取費用:<br>
- -如果您在報名截止日期後至課程開始前14天取消課程，將收取50歐元的取消費; <br>
- -課程開始前14天起，若取消課程，則需收取報名費用的75％; <br>
- -如果您沒有取消課程而沒有出現，則不會退還任何課程費用。 <br>
+ --如果您在報名截止日期後至課程開始前14天取消課程，將收取50歐元的取消費; <br>
+ --課程開始前14天起，若取消課程，則需收取報名費用的75％; <br>
+ --如果您沒有取消課程而沒有出現，則不會退還任何課程費用。 <br>
 
 <br>
 △ 匯款資料
-     Empfänger(收款人): Ev. Stadtkirchenkreis Kassel<br>
-     IBAN(銀行帳戶): DE30 5206 0410 0002 2002 01<br>
-     BIC: GENODEF1EK1<br>
-     Verwendungszweck(款項註明處): 32.020000206 Meisterkurs   (必填！在此也建議填上報名者姓名)<br>
+Empfänger(收款人):<br>
+Ev. Stadtkirchenkreis Kassel<br>
+<br>
+IBAN(銀行帳戶): DE30 5206 0410 0002 2002 01<br>
+BIC: GENODEF1EK1<br>
+Verwendungszweck(款項註明處):<br>
+32.020000206 Meisterkurs   (必填！在此也建議填上報名者姓名)<br>
 
 <br>
 <br>
