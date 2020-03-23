@@ -1,7 +1,7 @@
 ---
 title: Internationale Konzerttage Mittelrhein
 teachers:
-      - name: Prof. Michael Keller
+      - name: Prof. Eyal Ein-Habar
         link: http://www.ikm-mittelrhein.com/meisterkurse/meisterkurse-masterclasses-2020/
 
 

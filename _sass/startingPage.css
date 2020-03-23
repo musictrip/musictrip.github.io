@@ -7,7 +7,7 @@
   margin-bottom: 10px; }
 
 .card {
-  color: white; }
+  color: #FFFFFF; }
 
 /*Search bar and buttons*/
 .quicksearch {
@@ -26,35 +26,35 @@
   font-size: 10pt;
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #7b7b7a; }
 
 .masterclassButton:hover {
   border-color: #7b7b7a;
   border-width: 1px;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #7b7b7a; }
 
 .masterclassButton.is-checked {
   background-color: #7b7b7a;
-  color: white; }
+  color: #FFFFFF; }
 
 .festivalButton {
   font-size: 10pt;
   border-color: #6463a2;
   border-width: 1px;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #6463a2; }
 
 .festivalButton:hover {
   border-color: #6463a2;
   border-width: 1px;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #6463a2; }
 
 .festivalButton.is-checked {
   background-color: #6463a2;
-  color: white; }
+  color: #FFFFFF; }
 
 /*Masterclass cards*/
 .drop-shadow {
@@ -70,7 +70,7 @@
   background: #478a7d; }
 
 .card-color-0-bottom {
-  background: white;
+  background: #FFFFFF;
   color: #5aaa9b;
   border-style: dotted;
   border-color: #5aaa9b;
@@ -94,7 +94,7 @@
   background: #5b8e4e; }
 
 .card-color-1-bottom {
-  background: white;
+  background: #FFFFFF;
   color: #73aa65;
   border-style: dotted;
   border-color: #73aa65;
@@ -118,7 +118,7 @@
   background: #4c608c; }
 
 .card-color-2-bottom {
-  background: white;
+  background: #FFFFFF;
   color: #6178aa;
   border-style: dotted;
   border-color: #6178aa;
@@ -142,7 +142,7 @@
   background: #94718a; }
 
 .card-color-3-bottom {
-  background: white;
+  background: #FFFFFF;
   color: #aa8ea2;
   border-style: dotted;
   border-color: #aa8ea2;
