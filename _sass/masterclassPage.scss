@@ -3,22 +3,22 @@
 @import "cardFormatting";
 
 @media (min-width: 768px) {
-    .container {
-        width: 600px;
-    }
+  .container {
+    width: 600px;
+  }
 }
 
 @media (min-width: 992px) {
-    .container {
-        width: 720px;
-    }
+  .container {
+    width: 720px;
+  }
 }
 
 
 @media (min-width: 1200px) {
-    .container {
-        width: 900px;
-    }
+  .container {
+    width: 900px;
+  }
 }
 
 
@@ -28,72 +28,72 @@ $borderRadius: 0.3em;
 
 // Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
 @for $i from 0 through length($cardColors)-1 {
-    $color: nth($cardColors, $i + 1);
+  $color: nth($cardColors, $i + 1);
 
-    .masterclassPageImage-color-#{$i} {
-        background-color: $color;
-        border-radius: $borderRadius;
-        white-space: normal;
-        font-family: $serifHeadingFont;
-        color: #FFFFFF;
-        font-size: $cardHeadingFontSize;
-        font-weight: 400;
-        word-wrap: break-word;
-        height: 300px;
-        text-align: center;
-        padding-top: 125px;
-        margin-bottom: -35px;
-    }
+  .masterclassPageImage-color-#{$i} {
+    background-color: $color;
+    border-radius: $borderRadius;
+    white-space: normal;
+    font-family: $serifHeadingFont;
+    color: #FFFFFF;
+    font-size: $cardHeadingFontSize;
+    font-weight: 400;
+    word-wrap: break-word;
+    height: 300px;
+    text-align: center;
+    padding-top: 125px;
+    margin-bottom: -35px;
+  }
 
-    $buttonBorderWidth: 2px;
-    .masterclassPageButton-color-#{$i} {
-        font-size: $textFontSize;
-        border: $buttonBorderWidth solid $color;
-        background-color: $backgroundColor;
-        color: $color;
-        border-radius: $borderRadius;
-        white-space: nowrap;
-    }
+  $buttonBorderWidth: 2px;
+  .masterclassPageButton-color-#{$i} {
+    font-size: $textFontSize;
+    border: $buttonBorderWidth solid $color;
+    background-color: $backgroundColor;
+    color: $color;
+    border-radius: $borderRadius;
+    white-space: nowrap;
+  }
 
-    .masterclassPageButton-color-#{$i}:hover {
-        border-color: $color;
-        border-width: $buttonBorderWidth;
-        background-color: $color;
-        color: $backgroundColor;
-        text-decoration: none;
-    }
-    .explanationButton-color-#{$i} {
-        @extend .masterclassPageButton-color-#{$i};
-        color: darkgray;
-        border-color: darkgray;
-    }
+  .masterclassPageButton-color-#{$i}:hover {
+    border-color: $color;
+    border-width: $buttonBorderWidth;
+    background-color: $color;
+    color: $backgroundColor;
+    text-decoration: none;
+  }
+  .explanationButton-color-#{$i} {
+    @extend .masterclassPageButton-color-#{$i};
+    color: darkgray;
+    border-color: darkgray;
+  }
 
-    .explanationButton-color-#{$i}:hover {
+  .explanationButton-color-#{$i}:hover {
 
-        $evenDarkerGray: darken(darkgray, 15%);
-        color: $evenDarkerGray;
-        border-color: $evenDarkerGray;
-        background-color: $backgroundColor;
-    }
+    $evenDarkerGray: darken(darkgray, 15%);
+    color: $evenDarkerGray;
+    border-color: $evenDarkerGray;
+    background-color: $backgroundColor;
+  }
 }
 
 .masterclassDescription {
-    font-size: $textFontSize;
-    font-weight: 300;
-    word-spacing: 5px
+  font-size: $textFontSize;
+  font-weight: 300;
+  word-spacing: 5px
 }
 
 .masterclassDescriptionItem {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .teacherLink a:link {
-    color: $cardBlue;
+  color: $cardBlue;
 }
 
 .teacherLink a:hover, .teacherLink a:visited {
-    color: darken($cardBlue, 20%);
-    text-decoration: none;
+  color: darken($cardBlue, 20%);
+  text-decoration: none;
 }
 
 // Font awesome logos
@@ -101,18 +101,18 @@ $facebookBlue: #4267B2;
 $amountToLighten: 15%;
 $logoBorderRadius: 0.1em;
 .fa-facebook-square {
-    color: lighten($facebookBlue, $amountToLighten);
+  color: lighten($facebookBlue, $amountToLighten);
 }
 
 $whatsappGreen: #25D366;
 .fa-whatsapp {
-    color: lighten($whatsappGreen, $amountToLighten);;
+  color: lighten($whatsappGreen, $amountToLighten);
 }
 
 .fa-line {
-    color: lighten($whatsappGreen, $amountToLighten);
+  color: lighten($whatsappGreen, $amountToLighten);
 }
 
 .fa-envelope {
-    color: lighten($masterclassColor, $amountToLighten);
+  color: lighten($masterclassColor, $amountToLighten);
 }

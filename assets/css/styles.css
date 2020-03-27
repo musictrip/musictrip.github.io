@@ -9,8 +9,6 @@ Error: Invalid CSS after "@import "colors"": expected "{", was ";"
 5: @import "startingPage";
 6: @import "nav-bar";
 7: @import "masterclassPage";
-8: @import "blog";
-9: @import "article";
 
 Backtrace:
 styles.scss:4
@@ -37,4 +35,4 @@ styles.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \"colors\"\": expected \"{\", was \";\"\A         on line 4 of styles.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @import \"colors\";\A 5: @import \"startingPage\";\A 6: @import \"nav-bar\";\A 7: @import \"masterclassPage\";\A 8: @import \"blog\";\A 9: @import \"article\";"; }
+  content: "Error: Invalid CSS after \"@import \"colors\"\": expected \"{\", was \";\"\A         on line 4 of styles.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @import \"colors\";\A 5: @import \"startingPage\";\A 6: @import \"nav-bar\";\A 7: @import \"masterclassPage\";"; }
