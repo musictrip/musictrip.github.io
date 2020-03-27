@@ -1,39 +1,31 @@
+
 /*--------------------------------------------------------------
-# Hero Section
+# Blog-cover Section
 --------------------------------------------------------------*/
-#hero {
+#Blog-cover {
   width: 100%;
-  height: 50vh;
-  background: url('../img/CITY.png') top center;
-  background-size: 100%;
+  height: 56vh;
+  background: url('../img/Blog-cover.png') top center;
+  background-size: cover;
   position: relative;
-  margin-bottom: 50px;
+  background-repeat: no-repeat;
 }
 
-#hero:before {
-  background: rgba(248, 247, 233, 0.35);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
-#hero .hero-container {
+#Blog-cover .Blog-cover-container {
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
-  padding-top: 80px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
 
-#hero h1 {
+#Blog-cover h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 300;
@@ -41,44 +33,26 @@
   color: #fff;
 }
 
-#hero h2 {
+#Blog-cover h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 20px;
   font-weight: 300;
 }
 
-#hero .btn-get-started {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px 10px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #fff;
-  color: rgba(112, 185, 176, 0.43);
-  border: 1px solid rgba(112, 185, 176, 0.44);
-}
 
 @media (min-width: 1024px) {
-  #hero {
+  #Blog-cover {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #Blog-cover h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #Blog-cover h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -113,53 +87,67 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
-# About Us
+#new-article
 --------------------------------------------------------------*/
-.about h3 {
+.new-article {
+  margin-top: -60px;
+}
+
+.new-article h3 {
   font-weight: 400;
   font-size: 26px;
 }
 
-.about ul {
+.new-article ul {
   list-style: none;
   padding: 0;
 }
 
-.about ul li {
+.new-article ul li {
   padding-bottom: 10px;
 }
 
-.about ul i {
+.new-article ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #70b9b0;
 }
 
-.about p:last-child {
+.new-article p:last-child {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Call To Action
---------------------------------------------------------------*/
-.call-to-action {
-  background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/b3.png") fixed center center;
-  background-size: 100%;
-  padding: 60px 0;
+.new-article a {
+  color: #eb9c20ff;
 }
 
-.call-to-action h3 {
+
+.new-article a:hover {
+  color: #3e0d08;
+}
+/*--------------------------------------------------------------
+# Call To aboutus
+--------------------------------------------------------------*/
+.call-to-aboutus {
+  background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/b3.png") fixed center center;
+  background-size: 100%;
+
+}
+
+.call-to-aboutus h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-.call-to-action p {
+.call-to-aboutus p {
   color: #fff;
 }
 
-.call-to-action .cta-btn {
+.call-to-aboutus .cta-btn {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -173,7 +161,7 @@ section {
   color: #fff;
 }
 
-.call-to-action .cta-btn:hover {
+.call-to-aboutus .cta-btn:hover {
   background: #70b9b0;
   border: 2px solid #70b9b0;
 }
@@ -259,32 +247,54 @@ section {
   top: calc(50% - 30px);
 }
 
-/*--------------------------------------------------------------
-# Sidebar
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# article
---------------------------------------------------------------*/
-.card-img-top {
-  border-width: 0px;
+
+.entry2 img {
+  margin-bottom: 30px;
 }
 
-.card-text {
-  border-width: 1px;
+.entry2 h5 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 500;
 }
 
-/*--------------------------------------------------------------
-# 文章照片
---------------------------------------------------------------*/
-.blog-img {
-  background: url('../img/CITY.png')
 
-
+.entry2 .p .active {
+  color: #6c5943;
 }
 
-/*--------------------------------------------------------------
-# 排版
---------------------------------------------------------------*/
+.entry2 .p .active:hover {
+  color: #eb9c20ff;
+}
+
+
+
+.entry2 h5 a {
+  color: #000;
+}
+
+.entry2 .excerpt {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.entry2 .post-meta {
+  color: #b3b3b3;
+  font-size: 13px;
+  width: 100%;
+  display: block;
+}
+
+.entry2 .post-meta a {
+  color: #000;
+}
+
+.entry2 .post-meta .author-figure img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+
 .site-section {
   padding: 2.5em 0;
 }
@@ -299,103 +309,34 @@ section {
   padding: 4em 0;
 }
 
+
+.site-section a {
+  color: #eb9c20ff;
+}
+
+
+.site-section a:hover {
+  color: #3e0d08;
+}
+
+
 .section-heading h2 {
   font-weight: 700;
   color: #000;
 }
 
 
-.retro-layout-2 .v-height {
-  height: 250px;
-}
 
-@media (max-width: 991.98px) {
-  .retro-layout-2 .img-1 {
-    height: 200px;
-  }
-}
+.custom-pagination span, .custom-pagination a {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%; }
 
-.retro-layout-2 .h-entry {
-  display: block;
-  position: relative;
-  border-radius: 4px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
-}
-
-.retro-layout-2 .h-entry .post-category {
-  color: #fff;
-}
-
-.retro-layout-2 .h-entry.mb-30 {
-  margin-bottom: 30px;
-}
-
-.retro-layout-2 .h-entry .date {
-  font-size: 15px;
-}
-
-.retro-layout-2 .h-entry.gradient {
-  position: relative;
-}
-
-.retro-layout-2 .h-entry.gradient:before {
-  z-index: 1;
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
-  background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
-
-.retro-layout-2 .text {
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-  padding: 20px;
-  max-width: 350px;
-}
-
-.retro-layout-2 .text h2 {
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-.retro-layout-2 .text span {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.retro-layout-2 .text.text-sm h2 {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.retro-layout-2 .gradient {
-  position: relative;
-}
-
-.retro-layout-2 .gradient:before {
-  z-index: 1;
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
-  background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
+.custom-pagination a {
+  background: #fcf16c;
+  color: #3e0d08; }
+.custom-pagination a:hover {
+  background: #fcfbc2; }

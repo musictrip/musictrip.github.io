@@ -1,27 +1,19 @@
 .navbar-toggler {
-    text-align: right;
-}
+  text-align: right; }
 
-$logoColor: #947c56;
-$notSelectedColor: #eb9c20ff;
 .navbar-light .navbar-nav .nav-link.active {
-    color: #6c5943;
-}
+  color: #6c5943; }
 
 .navbar-light .navbar-nav .nav-link.active:hover {
-    color: #eb9c20ff;
-}
+  color: #eb9c20ff; }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #6c5943;
-}
+  color: #6c5943; }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #eb9c20ff;
-}
+  color: #eb9c20ff; }
 
 .bg-light {
-    color: #fff ;
-}
+  color: #fff; }
 
-
+/*# sourceMappingURL=nav-bar.css.map */

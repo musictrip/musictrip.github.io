@@ -23,7 +23,7 @@
 
 
 $masterclassImageHeight: 250px;
-$textFontSize: 12pt;
+$textFontSize: 11pt;
 $borderRadius: 0.3em;
 
 // Here the +1/-1 is to offset SASS indexing that starts from 1 :-)
@@ -39,6 +39,10 @@ $borderRadius: 0.3em;
         font-size: $cardHeadingFontSize;
         font-weight: 400;
         word-wrap: break-word;
+        height: 300px;
+        text-align: center;
+        padding-top: 125px;
+        margin-bottom: -35px;
     }
 
     $buttonBorderWidth: 2px;

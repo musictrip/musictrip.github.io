@@ -1,8 +1,9 @@
 @import "colors";
 @import "fonts";
 @import "cardFormatting";
-
-$shadowColor: lighten($masterclassColor, 35%);
+@import "blog";
+@import "article";
+$shadowColor: lighten($masterclassColor, 30%);
 $advancedSearchButtonColor: $shadowColor;
 $advancedSearchFontColor: #594949;
 
@@ -25,10 +26,12 @@ $advancedSearchFontColor: #594949;
 /*Search bar and buttons*/
 
 .quicksearch {
-    $radius: 20px;
+    $radius: 16px;
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     border-radius: $radius;
+    height: 2em;
+    font-size: 0.95rem;
 }
 
 
@@ -131,7 +134,8 @@ $buttonBorderWidth: 1px;
 }
 
 .date {
-    font-size: $cardHeadingFontSize - 10px;
+    font-size: $cardHeadingFontSize - 8px;
+    font-weight: 480;
 }
 
 .date-month {
@@ -178,6 +182,9 @@ $buttonBorderWidth: 1px;
     border-width: 0;
     color: $advancedSearchFontColor;
 }
+
+
+
 
 
 
