@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,eAAgB;EACZ,UAAU,EAAE,KAAK;;AAKrB,0CAA2C;EACvC,KAAK,EAAE,OAAO;;AAGlB,gDAAiD;EAC7C,KAAK,EAAE,SAAS;;AAGpB,mCAAoC;EAChC,KAAK,EAAE,OAAO;;AAGlB,yCAA0C;EACtC,KAAK,EAAE,SAAS;;AAGpB,SAAU;EACN,KAAK,EAAE,IAAI",
-"sources": ["nav-bar.scss"],
-"names": [],
-"file": "nav-bar.css"
-}
