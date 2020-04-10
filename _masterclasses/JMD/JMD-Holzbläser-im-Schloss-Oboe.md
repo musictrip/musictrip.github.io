@@ -71,4 +71,3 @@ Tel:+49 178 6599160<br>
 <img src="/assets/img/jnd.jpg" class="img-fluid" alt="...">
 <br>
 <hr>
-更多詳細資料請點選"官方網站"連結 😊

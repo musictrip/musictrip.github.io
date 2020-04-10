@@ -100,4 +100,4 @@ E-Mail (Vesna Mlakar): info@musiktage-festival.com<br>
 
 <br>
 <hr>
-更多詳細資料請點選"官方網站"連結 😊
+

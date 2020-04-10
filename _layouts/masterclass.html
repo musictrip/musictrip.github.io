@@ -10,13 +10,12 @@ lang: zh_TW
 
     <!--Top banner-->
     <div class="p-0">
-        <div class="masterclassPageImage-color-{{ cardColorID }} pr-2 pl-2" >
+        <div class="masterclassPageImage-color-{{ cardColorID }} pr-2 pl-2">
             {{ page.title }}
         </div>
     </div>
+</div>
 
-</div>
-</div>
 <div class="container-fluid">
     <div class="pr-lg-3 pb-lg-5">
         <!--Button group-->
@@ -26,8 +25,8 @@ lang: zh_TW
         <p class="py-3 text-lg-right">
             <a target="_blank" rel="noopener noreferrer" href="{{ page.registrationLink }}"
                class="masterclassPageButton-color-{{ cardColorID }} p-2">報名連結</a>
-        {% endif %}
-        {% if page.masterclassLink %}
+            {% endif %}
+            {% if page.masterclassLink %}
             <a target="_blank" rel="noopener noreferrer" href="{{ page.masterclassLink }}"
                class="masterclassPageButton-color-{{ cardColorID }}    p-2">官方網站</a>
         </p>
@@ -35,97 +34,97 @@ lang: zh_TW
         {% endif %}
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-7 col-sm-6 px-5">
-            <!--Masterclass description-->
-            {% assign masterclassDescriptionOptions = "pt-3" %}
-            <div class="container text-justify px-0 pt-3 masterclassDescription">
-                <div class="row" style="margin: auto">
-                    <div class="col-md-4">
-                        <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</h6>
-                        {% include functions/generateCommaSeperatedList.html list=page.instruments %}
+<div class="container-fluid pb-lg-5">
+    <div class="container pb-lg-5">
+        <div class="row">
+            <div class="col-lg-7 col-sm-6 px-lg-5 px-xs-2">
+                <!--Masterclass description-->
+                {% assign masterclassDescriptionOptions = "pt-3" %}
+                <div class="container text-justify px-0 pt-3 masterclassDescription">
+                    <div class="row" style="margin: auto">
+                        <div class="col-md-4">
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">樂器</h6>
+                            {% include functions/generateCommaSeperatedList.html list=page.instruments %}
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                                時間
+                            </h6>
+                            <p>{% include functions/taiwanDateFormat.html input=page.startDate %}-
+                                {% include functions/taiwanDateFormat.html input=page.endDate %}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
+                                地點
+                            </h6>
+                            <p>{{ page.city }}, {{ page.country }}</p>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
-                            時間
-                        </h6>
-                        <p>{% include functions/taiwanDateFormat.html input=page.startDate %}-
-                            {% include functions/taiwanDateFormat.html input=page.endDate %}</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">
-                            地點
-                        </h6>
-                        <p>{{ page.city }}, {{ page.country }}</p>
-                    </div>
-                </div>
 
 
-                <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</h6>
-                <div class="row" style="margin: auto">
-                    {% for teacher in page.teachers %}
-                    <div class="col-md-4 my-2 teacherLink">
-                        <a target="_blank" rel="noopener noreferrer" href="{{teacher.link}}">{{ teacher.name
-                            }}</a>
+                    <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">授課教授</h6>
+                    <div class="row" style="margin: auto">
+                        {% for teacher in page.teachers %}
+                        <div class="col-md-4 my-2 teacherLink">
+                            <a target="_blank" rel="noopener noreferrer" href="{{teacher.link}}">{{ teacher.name
+                                }}</a>
+                        </div>
+                        {% endfor %}
                     </div>
+
+
+                    <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">費用</h6>
+                    {% for line in page.feeExplanation %}
+                    <p> {{ line }}</p>
                     {% endfor %}
-                </div>
 
 
-                <h6 class="masterclassDescriptionItem {{ masterclassDescriptionOptions }}">費用</h6>
-                {% for line in page.feeExplanation %}
-                <p> {{ line }}</p>
-                {% endfor %}
+                    <div style="font-size:small">
+                        &#10045 以上資料由各音樂營官方網站提供，如資料有出入請以官方網站為主。在這裡我們顯示課程費用以及住宿費用說明，其餘支出(如交通費用,額外伙食費等)皆請自行評估或來信詢問！
+                    </div>
 
 
-                <div style="font-size:small">
-                    &#10045 以上資料由各音樂營官方網站提供，如資料有出入請以官方網站為主。在這裡我們顯示課程費用以及住宿費用說明，其餘支出(如交通費用,額外伙食費等)皆請自行評估或來信詢問！
-                </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title" id="exampleModalLongTitle">費用不包含:</h6>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
 
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6 class="modal-title" id="exampleModalLongTitle">費用不包含:</h6>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-
-                                <p>旅途中花費(如........)</p>
-                                <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
+                                    <p>旅途中花費(如........)</p>
+                                    <p>音樂營活動期間,大部份主辦單位會提供住宿或安排寄宿家庭,相關費用請以各官網顯示價錢為準</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div style="line-height:30px; letter-spacing:8%">
+                        {{ content }}
+                    </div>
+
+                    <div class="row pl-3 mb-4" style="font-size: 1.5rem">
+                        <a href="https://line.me/R/msg/text/?TONEartiv 音樂營分享平台" target="_blank"><i
+                                class="fab fa-line m-2"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{page.url | prepend: site.url }}"><i
+                                class="fab fa-facebook-square m-2"></i></a>
+                        <a href="https://wa.me/?text=TONEartiv 音樂營分享平台 {{page.url | prepend: site.url }}"><i
+                                class="fab fa-whatsapp m-2"></i></a>
+
+                        <a href="mailto:?subject=TONEartiv 音樂營分享平台&body={{page.url | prepend: site.url }}"><i
+                                class="far fa-envelope m-2"></i></a>
+
+                        <!--TODO Wechat-->
+                    </div>
                 </div>
-
-                <div style="line-height:30px; letter-spacing:8%">
-                    {{ content }}
-                </div>
-            </div>
-            <div class="row mt-4" style="font-size: 2em">
-                <a href="https://line.me/R/msg/text/?TONEartiv 音樂營分享平台" target="_blank"><i
-                        class="fab fa-line m-3"></i></a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u={{page.url | prepend: site.url }}"><i
-                        class="fab fa-facebook-square m-3"></i></a>
-                <a href="https://wa.me/?text=TONEartiv 音樂營分享平台 {{page.url | prepend: site.url }}"><i
-                        class="fab fa-whatsapp m-3"></i></a>
-
-                <a href="mailto:?subject=TONEartiv 音樂營分享平台&body={{page.url | prepend: site.url }}"><i
-                        class="far fa-envelope m-3"></i></a>
-
-                <!--TODO Wechat-->
             </div>
         </div>
-
-
     </div>
-
 </div>
 
-{% include quicklinks.html %}
+    {% include quicklinks.html %}

@@ -3,10 +3,8 @@
 # Blog-cover Section
 --------------------------------------------------------------*/
 #Blog-cover {
-  width: 100%;
-  height: 56vh;
-  background: url('../img/Blog-cover.png') top center;
-  background-size: cover;
+  background: url('../img/Blog-cover.png')fixed center top center;
+  background-size: 100%;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -21,7 +19,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -92,29 +89,12 @@ section {
 /*--------------------------------------------------------------
 #new-article
 --------------------------------------------------------------*/
-.new-article {
-  margin-top: -60px;
-}
 
 .new-article h3 {
   font-weight: 400;
   font-size: 26px;
 }
 
-.new-article ul {
-  list-style: none;
-  padding: 0;
-}
-
-.new-article ul li {
-  padding-bottom: 10px;
-}
-
-.new-article ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #70b9b0;
-}
 
 .new-article p:last-child {
   margin-bottom: 0;
@@ -253,7 +233,7 @@ section {
 }
 
 .entry2 h5 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -273,10 +253,6 @@ section {
   color: #000;
 }
 
-.entry2 .excerpt {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .entry2 .post-meta {
   color: #b3b3b3;
