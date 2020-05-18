@@ -2,78 +2,78 @@
 layout: default
 title: 部落格
 ---
-
-<!-- ======= Hero Section ======= -->
-
 <section id="Blog-cover">
     <div class="Blog-cover-container">
         <h1>Blog</h1>
     </div>
 </section>
-<!-- #hero -->
 
-
-<!-- #最重要的一則文章 -->
 <div class="site-wrap">
-    <section id="new-article" class="new-article">
-        <div class="container">
-            <div class="row py-5">
-                <div class="col-lg-6 col-sm-6 pr-3 pl-3 order-1 order-2">
-                    <a href="article.html"><img src="assets/img/Adventure.png"
-                                                class="img-fluid rounded-lg"
-                                                alt="..."></a>
+
+
+    <section id="new-article" class="new-article py-5 mt-lg-5 mt-0">
+        <div class="container" style="padding-bottom: 50px;">
+            <div class="row">
+                {% assign newestPost = site.posts.first %}
+
+                {% if newestPost.image %}
+                <div class="col-lg-4 col-sm-6 pt-4 pr-3 pl-3 order-1 order-2">
+                    <a href="{{ newestPost.url }}">
+                        <img src="{{ newestPost.image }}" class="img-fluid rounded-lg" alt="Link to post">
+                    </a>
                 </div>
-                <div class="col-lg-6 col-sm-6 pl-4 order-1">
-                    <h4>奧地利Bregens音樂節</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore
-                        magna aliqua.
-                    </p>
-                    <a href="#" class="cta-btn">read more</a>
+                {% endif %}
+
+                <div class="col-lg-8 col-sm-6 pt-4 pl-4 order-1">
+                    <h4>{{ newestPost.title }}</h4>
+                    {% if newestPost.summary %}
+                    <p> {{ newestPost.summary}} </p>
+                    {% endif %}
+                    <a href="{{ newestPost.url }}" class="cta-btn">Read more</a>
                 </div>
+
             </div>
         </div>
     </section>
 </div>
 
 
-<!-- #文章們的排版 -->
+    {% assign numberOfPosts = site.posts | size %}
+    {% if numberOfPosts > 1 %}
+    <div class="site-section pt-5 border-top"
+         style="background-color: rgba(246,252,221,0.6);border-width: 5px; border-top-color: #3e3229">
+        <div class="container">
+            <div class="row">
 
-<div class="site-section pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="entry2">
-                    <a href="article.html"><img src="assets/img/b3.png" alt="Image"
-                                                class="img-fluid rounded"></a>
-                    <div>
-                        <h5><a href="article.html">奧地利Bregens音樂節</a></h5>
-                        <div class="post-meta align-items-center text-left clearfix">
-                            <figure class="author-figure mb-0 mr-3 float-left"></figure>
-                            <span class="d-inline-block mt-1">By <a href="#">Carrol Atkinson</a></span>
-                            <span>&nbsp;-&nbsp; July 19, 2019</span>
-                        </div>
-
-                        <p>Loremudantium sed optio, explicabo ad deleniti impedit facilis fugit
-                            recus
-                            beatae quia porro id est.</p>
-                        <p><a href="#">read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 px-3">
-                <div class="entry2">
-                    <a href="article.html"><img src="assets/img/ablog.jpg" alt="Image"
-                                                class="img-fluid rounded"></a>
-                    <div class="excerpt">
-                        <h5><a href="article.html">薩爾茲堡音樂節</a></h5>
-                        <div class="post-meta align-items-center text-left clearfix">
-                            <figure class="author-figure mb-0 mr-3 float-left"></figure>
-                            <span class="d-inline-block mt-1">By <a
-                                    href="#">Carrol Atkinson</a></span>
-                            <span>&nbsp;-&nbsp; July 19, 2019</span>
+                {% for post in site.posts offset:1 %}
+                <div class="col-lg-4 col-md-6 mb-4 px-3">
+                    <div class="entry2">
+                        <a href="{{ post.url }}">
+                            {% if post.image %}
+                            <img src="{{ post.image }}" alt="Link to post" class="img-fluid rounded">
+                            {% else %}
+                            <img src="/assets/img/Adventure.png" alt="Link to post" class="img-fluid rounded">
+                            {% endif %}
+                        </a>
+                        <div class="excerpt">
+                            <h5>
+                                <a href="{{ post.url }}">
+                                    {{ post.title }}
+                                </a>
+                            </h5>
+                            <div class="post-meta align-items-center text-left clearfix">
+                                {% if post.author %}
+                                <span class="d-inline-block mt-1">By {{ post.author }}</span>
+                                <span>&nbsp;-&nbsp;</span>
+                                {% endif %}
+                                <span>{{ post.date | date: "%d.%m.%Y"}}</span>
+                            </div>
+                            <p>
+                                {% if post.summary %}
+                                {{ post.summary }}
+                                {% endif %}
+                            </p>
+                            <p><a href="{{ post.url }}">Read more</a></p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet, conseeleniti impedit liquid, dicta beatae
@@ -82,160 +82,23 @@ title: 部落格
                         <p><a href="#">read more</a></p>
                     </div>
                 </div>
-            </div>
+                {% endfor %} <!-- Iterate over all posts -->
 
-            <div class="col-lg-4 col-md-6 mb-4 px-3">
-                <div class="entry2">
-                    <a href="article.html"><img src="assets/img/ablog.jpg" alt="Image"
-                                                class="img-fluid rounded"></a>
-                    <div class="excerpt">
-
-                        <h5><a href="article.html">瑞士琉森音樂節</a></h5>
-                        <div class="post-meta align-items-center text-left clearfix">
-                            <figure class="author-figure mb-0 mr-3 float-left"></figure>
-                            <span class="d-inline-block mt-1">By <a
-                                    href="#">Carrol Atkinson</a></span>
-                            <span>&nbsp;-&nbsp; July 19, 2019</span>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectet, aliquid, dicta beatae quia porro
-                            id
-                            est.</p>
-                        <p><a href="#">read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 px-3">
-                <div class="entry2">
-                    <a href="article.html"><img src="assets/img/b3.png" alt="Image"
-                                                class="img-fluid rounded"></a>
-                    <div class="excerpt">
-
-                        <h5><a href="article.html">勃登胡音樂節</a></h5>
-                        <div class="post-meta align-items-center text-left clearfix">
-                            <figure class="author-figure mb-0 mr-3 float-left"></figure>
-                            <span class="d-inline-block mt-1">By <a
-                                    href="#">Carrol Atkinson</a></span>
-                            <span>&nbsp;-&nbsp; July 19, 2019</span>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicio, explicabo ad deleniti
-                            impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro
-                            id
-                            est.</p>
-                        <p><a href="#">read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="entry2">
-                    <a href="article.html"><img src="assets/img/ablog.jpg" alt="Image"
-                                                class="img-fluid rounded"></a>
-                    <div class="excerpt">
-
-                        <h5><a href="article.html">奧地利Bregens音樂節</a></h5>
-                        <div class="post-meta align-items-center text-left clearfix">
-                            <figure class="author-figure mb-0 mr-3 float-left"></figure>
-                            <span class="d-inline-block mt-1">By <a
-                                    href="#">Carrol Atkinson</a></span>
-                            <span>&nbsp;-&nbsp; July 19, 2019</span>
-                        </div>
-
-                        <p>每年夏天水上午臺歌劇演出,吸引ra dolor laudantium sed optio, explicabo ad deleniti
-                            impedit
-                            facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id
-                            est.</p>
-                        <p><a href="#">read more</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- #文章頁數 -->
-        <div class="row text-center pt-5">
-            <div class="col-md-12">
-                <div class="custom-pagination">
-                    <span>1</span>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <span>...</span>
-                    <a href="#">15</a>
-                </div>
             </div>
         </div>
     </div>
+    {% endif %}  <!-- Check that number of posts is > 1 -->
 </div>
-<!--
-<!-- #左側文章總攬分類
-<div class="col-md-12 col-lg-4 sidebar pt-5">
 
-    <div class="sidebar-box pl-lg-5">
-        <h3 class="heading">Categories</h3>
-        <ul class="categories">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    音樂人訪談
-                    <span>(22)</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    德國生活&旅遊
-                    <span>(13)</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    國際音樂節
-                    <span>(5)</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    音樂院考試
-                    <span>(10)</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    德文學習
-                    <span>(2)</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>-->
 
-<!--
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
--->
+<!--<section class="call-to-aboutus">-->
+<!--    <div class="container">-->
+<!--        <div class="text-center">-->
+<!--            <h3>About Us</h3>-->
+<!--            <a class="cta-btn" href="#">Call To Action</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+
