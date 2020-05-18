@@ -25,7 +25,9 @@ title: 部落格
                 {% endif %}
 
                 <div class="col-lg-8 col-sm-6 pt-4 pl-4 order-1">
-                    <h4>{{ newestPost.title }}</h4>
+                    <a href="{{ newestPost.url }}">
+                        <h4>{{ newestPost.title }}</h4>
+                    </a>
                     {% if newestPost.summary %}
                     <p> {{ newestPost.summary}} </p>
                     {% endif %}
@@ -38,57 +40,51 @@ title: 部落格
 </div>
 
 
-    {% assign numberOfPosts = site.posts | size %}
-    {% if numberOfPosts > 1 %}
-    <div class="site-section pt-5 border-top"
-         style="background-color: rgba(246,252,221,0.6);border-width: 5px; border-top-color: #3e3229">
-        <div class="container">
-            <div class="row">
+{% assign numberOfPosts = site.posts | size %}
+{% if numberOfPosts > 1 %}
+<div class="site-section pt-5 border-top"
+     style="background-color: rgba(246,252,221,0.6);border-width: 5px; border-top-color: #3e3229">
+    <div class="container">
+        <div class="row">
 
-                {% for post in site.posts offset:1 %}
-                <div class="col-lg-4 col-md-6 mb-4 px-3">
-                    <div class="entry2">
-                        <a href="{{ post.url }}">
-                            {% if post.image %}
-                            <img src="{{ post.image }}" alt="Link to post" class="img-fluid rounded">
-                            {% else %}
-                            <img src="/assets/img/Adventure.png" alt="Link to post" class="img-fluid rounded">
+            {% for post in site.posts offset:1 %}
+            <div class="col-lg-4 col-md-6 mb-4 px-3">
+                <div class="entry2">
+                    <a href="{{ post.url }}">
+                        {% if post.image %}
+                        <img src="{{ post.image }}" alt="Link to post" class="img-fluid rounded">
+                        {% else %}
+                        <img src="/assets/img/Adventure.png" alt="Link to post" class="img-fluid rounded">
+                        {% endif %}
+                    </a>
+                    <div class="excerpt">
+                        <h5>
+                            <a href="{{ post.url }}">
+                                {{ post.title }}
+                            </a>
+                        </h5>
+                        <div class="post-meta align-items-center text-left clearfix">
+                            {% if post.author %}
+                            <span class="d-inline-block mt-1">By {{ post.author }}</span>
+                            <span>&nbsp;-&nbsp;</span>
                             {% endif %}
-                        </a>
-                        <div class="excerpt">
-                            <h5>
-                                <a href="{{ post.url }}">
-                                    {{ post.title }}
-                                </a>
-                            </h5>
-                            <div class="post-meta align-items-center text-left clearfix">
-                                {% if post.author %}
-                                <span class="d-inline-block mt-1">By {{ post.author }}</span>
-                                <span>&nbsp;-&nbsp;</span>
-                                {% endif %}
-                                <span>{{ post.date | date: "%d.%m.%Y"}}</span>
-                            </div>
-                            <p>
-                                {% if post.summary %}
-                                {{ post.summary }}
-                                {% endif %}
-                            </p>
-                            <p><a href="{{ post.url }}">Read more</a></p>
+                            <span>{{ post.date | date: "%d.%m.%Y"}}</span>
                         </div>
-
-                        <p>Lorem ipsum dolor sit amet, conseeleniti impedit liquid, dicta beatae
-                            quia
-                            porro id est.</p>
-                        <p><a href="#">read more</a></p>
+                        <p>
+                            {% if post.summary %}
+                            {{ post.summary }}
+                            {% endif %}
+                        </p>
+                        <p><a href="{{ post.url }}">Read more</a></p>
                     </div>
                 </div>
-                {% endfor %} <!-- Iterate over all posts -->
-
             </div>
+            {% endfor %} <!-- Iterate over all posts -->
+
         </div>
     </div>
-    {% endif %}  <!-- Check that number of posts is > 1 -->
 </div>
+{% endif %}  <!-- Check that number of posts is > 1 -->
 
 
 <!--<section class="call-to-aboutus">-->
