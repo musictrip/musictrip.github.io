@@ -132,5 +132,5 @@ tags: interview
 <br>
 <hr>
 
-下一篇文章: [第74屆布雷根茲音樂節湖上歌劇(下)](https://toneartiv.com/2020/04/15/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
+下一篇文章: [第74屆布雷根茲音樂節湖上歌劇(下)](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
 <hr>
