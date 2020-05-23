@@ -5,8 +5,8 @@ layout: default
     <section class="site-section">
         <div class="container-fluid px-lg-5">
             <div class="row blog-entries element-animate">
-                <div class="col-md-12 col-lg-8 main-content px-lg-5 pt-3">
-                    <div class="post-content-body">
+                <div class="col-md-12 col-lg-8 main-content px-lg-5 pt-4 pb-5" style="line-height: 1.85em">
+                    <div class="post-content-body pb-5">
                         <h3 class="pb-2">{{ page.title }}</h3>
                         <div class="post-meta align-items-center text-left clearfix">
                             {% if page.author %}
@@ -16,6 +16,20 @@ layout: default
                             <span>{{ page.date | date: "%d.%m.%Y"}}</span>
                         </div>
                         {{ content }}
+                        <div class="row pl-3 mb-4" style="font-size: 1.5rem">
+                            <a href="https://line.me/R/msg/text/?TONEartiv 音樂營分享平台" target="_blank"><i
+                                    class="fab fa-line m-2"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}"><i
+                                    class="fab fa-facebook-square m-2"></i></a>
+                            <a href="https://wa.me/?text=TONEartiv 音樂營分享平台 {{ page.url | prepend: site.url }}"><i
+                                    class="fab fa-whatsapp m-2"></i></a>
+
+                            <a href="mailto:?subject=TONEartiv 音樂營分享平台&body={{ page.url | prepend: site.url }}"><i
+                                    class="far fa-envelope m-2"></i></a>
+                            <p style="font-size: 11px">*文章為Toneartiv版權所有，歡迎分享但需標明出處。感謝您的配合😉</p>
+
+                            <!--TODO Wechat-->
+                        </div>
                     </div>
                 </div>
 
@@ -26,40 +40,35 @@ layout: default
                     <div class="sidebar-box pl-lg-5">
                         <h3 class="heading">Categories</h3>
                         <ul class="categories">
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                     音樂人訪談
-                                    <span>(22)</span>
+                                    <span>(0)</span>
                                 </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
-                                    <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
-                            </li>
+                            </li>-->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                     德國生活&旅遊
-                                    <span>(13)</span>
+                                    <span>(0)</span>
                                 </a>
-                                <div class="dropdown-menu">
+                                <!--<div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Link 1</a>
                                     <a class="dropdown-item" href="#">Link 2</a>
                                     <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
+                                </div>-->
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                     國際音樂節
-                                    <span>(5)</span>
+                                    <span>(2)</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="https://toneartiv.com/2020/04/15/rigoletto-stag">第74屆布雷根茲音樂節湖上歌劇「弄臣」(上)</a>
+                                    <a class="dropdown-item" href="https://toneartiv.com/2020/04/15/rigoletto-story">第74屆布雷根茲音樂節湖上歌劇「弄臣」(下)</a>
                                     <a class="dropdown-item" href="#">Link 3</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                     音樂院考試
                                     <span>(10)</span>
@@ -80,7 +89,7 @@ layout: default
                                     <a class="dropdown-item" href="#">Link 2</a>
                                     <a class="dropdown-item" href="#">Link 3</a>
                                 </div>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <!-- END sidebar-box -->

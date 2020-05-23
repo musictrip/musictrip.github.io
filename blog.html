@@ -11,20 +11,20 @@ title: 部落格
 <div class="site-wrap">
 
 
-    <section id="new-article" class="new-article py-5 mt-lg-5 mt-0">
-        <div class="container" style="padding-bottom: 50px;">
+   <section id="new-article" class="new-article py-5 mt-lg-5 mt-0">
+        <div class="container border-bottom" style="padding-bottom: 50px">
             <div class="row">
                 {% assign newestPost = site.posts.first %}
 
                 {% if newestPost.image %}
-                <div class="col-lg-4 col-sm-6 pt-4 pr-3 pl-3 order-1 order-2">
+                <div class="col-lg-5 col-sm-6 pt-4 pr-3 pl-3 order-1 order-2">
                     <a href="{{ newestPost.url }}">
                         <img src="{{ newestPost.image }}" class="img-fluid rounded-lg" alt="Link to post">
                     </a>
                 </div>
                 {% endif %}
 
-                <div class="col-lg-8 col-sm-6 pt-4 pl-4 order-1">
+                <div class="col-lg-7 col-sm-6 pt-4 pr-4 pl-4 order-1">
                     <a href="{{ newestPost.url }}">
                         <h4>{{ newestPost.title }}</h4>
                     </a>
@@ -36,14 +36,13 @@ title: 部落格
 
             </div>
         </div>
-    </section>
-</div>
+    </section>-->
+</div>-->
 
 
 {% assign numberOfPosts = site.posts | size %}
 {% if numberOfPosts > 1 %}
-<div class="site-section pt-5 border-top"
-     style="background-color: rgba(246,252,221,0.6);border-width: 5px; border-top-color: #3e3229">
+<div class="site-section pt-5">
     <div class="container">
         <div class="row">
 

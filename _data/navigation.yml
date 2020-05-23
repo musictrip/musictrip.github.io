@@ -6,4 +6,5 @@
   link: /recommend
 - name: 聯絡
   link: /contacts
-
+- name: Blog
+  link: /blog
