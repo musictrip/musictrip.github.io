@@ -1,7 +1,7 @@
 ---
 title: 第74屆布雷根茲音樂節湖上歌劇(上)
 summary: 19年夏天，位屬於奧地利的波登湖畔(Bodensee)來了一位不速之客，悠哉地浸泡在湖裡，圓滾滾的大眼睛，時而炯炯有神時而閉目養神....
-image: /assets/img/Bregenzer Festspiele - Anja Köhler.jpg
+image: /assets/img/Blog-Rigoletto/Bregenzer Festspiele - Anja Köhler.jpg
 author: Yating Chen
 tags: interview
 ---
@@ -17,7 +17,7 @@ tags: interview
 <br>
 <br>
 
-<img src="/assets/img/Bregenzer Festspiele - Anja Köhler.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/Bregenzer Festspiele - Anja Köhler.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Anja Köhler</p>
 <br>
 
@@ -47,7 +47,7 @@ tags: interview
 <br>
 <br>
 <br>
-<img src="/assets/img/rigioletto-pic.yating.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/rigioletto-pic.yating.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Yating Chen</p>
 
 <br>
@@ -73,7 +73,7 @@ tags: interview
 它能夠朝著主舞台伸展，作為一個橋樑，讓演員自由地穿梭在舞台間，也會隨著劇情而改變場景，例如: 右手舞臺在第一幕化作為弄臣Rigoletto的女兒Gilda的家(如圖)
 <br>
 <br>
-<img src="/assets/img/karl_forster4m.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/karl_forster4m.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
 <br>
 <br>
@@ -86,7 +86,7 @@ tags: interview
 在網站中可以看見，這個長期固定於水中的舞台設備(下圖)，一部分位於水底下作為地基，一部分位於水面上作為後台，裡面有茶水間、音效室、監控臺、更衣室、道具服裝室、辦公室等。
 <br>
 <br>
-<img src="/assets/img/rigoletto-festeanlage.png" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/rigoletto-festeanlage.png" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©vtour.bregenzerfestspiele.com</p>
 
 早期的樂團也必須坐在後台裡，透過螢幕與前台演出配合，但由於後台實在太過悶熱，也因此在2017年演出歌劇「卡門」時，
@@ -98,14 +98,14 @@ tags: interview
 
 下圖則是燈光與揚聲器位置，可以從官網360度攝影中察看位於觀眾席中的音響位置。
 <br>
-<img src="/assets/img/rigoletto-Tonundlicht.png" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/rigoletto-Tonundlicht.png" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©vtour.bregenzerfestspiele.com</p>
 <br>
 
 想知道更多的資訊可以進入[Rötgenblick(透視圖)](https://vtour.bregenzerfestspiele.com/) 一探究竟！每一張圖片都有詳細解說，亦可360度觀賞。
 <br>
 <br>
-<img src="/assets/img/rigoletto-konstuktur.png" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/rigoletto-konstuktur.png" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©vtour.bregenzerfestspiele.com</p>
 <br>
 透過這般複雜且精密的機械設備，並與藝術設計完美結合，無論是撇頭微笑、驚訝張嘴、俏皮逗趣、憤怒悲傷，各式的表情都難不倒這位龐大的小丑。
@@ -124,8 +124,17 @@ tags: interview
 甚至有多位技術人員化為群眾演員在舞台上協助場景變換。
 <br>
 <br>
+<p style="font-weight: bold">開放遊客參觀</p>
+目前這個舞台是對外開放的，民眾不需要購票便能夠進出觀眾席欣賞舞台。在演出期間則會在彩排時或是歌劇演出前幾個小時清場。
+從以下的連結也能夠觀賞浮動舞台現況:  
+
+[舞台現況](https://bregenzerfestspiele.com/de/webcam)
+
 <hr>
 <br>
+<img src="/assets/img/Blog-Rigoletto/corona_fotoplakat_rigoletto2021_neu.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">© bregenzerfestspiele.com</p>
+
 布雷根茲音樂節-湖上歌劇「弄臣」製作團隊: <br>
 
 音樂總監 Enrique Mazzola, Daniele Squeo<br>

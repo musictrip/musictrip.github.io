@@ -1,7 +1,7 @@
 ---
 title: 第74屆布雷根茲音樂節湖上歌劇(下)
 summary: 一齣以詛咒毀滅為收場的悲劇，為何在宣傳照上呈現的是繽紛色彩？湖上的小丑又將會帶來什麼樣貌？
-image: /assets/img/20190712_fotoprobe_anja_koehler.jpg
+image: /assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler.jpg
 author: Yating Chen
 ---
 這篇文章會稍微描述那些還存在我記憶中的演出片段，如果想了解舞台是怎麼一回事，可以先回頭看上一篇文章介紹😊
@@ -20,7 +20,7 @@ author: Yating Chen
 出那無助和晴天霹靂的心情寫照，彷彿已經預告Rigoletto的結局。
 <br>
 
-<img src="/assets/img/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">Bregenzer Festspiele -© Ralph Larmann</p>
 <br>
 <br>
@@ -50,7 +50,7 @@ author: Yating Chen
 (圖: Gilda和她的父親Rigoletto)
 <br>
 <br>
-<img src="/assets/img/© Bild: APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/© Bild: APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">© Bild: APA/DIETMAR STIPLOVSEK</p>
 <br>
 自幼失去母親的Gilda，更是受到父親加倍的保護及疼愛，Rigoletto禁止她與其他人接觸，並請來了一位女管家幫忙照看女兒，就深怕她被混亂的社會欺騙。
@@ -65,7 +65,7 @@ author: Yating Chen
 <br>
 明亮的熱氣球，就好像從湖上升起的月亮，清新皎潔，Gilda彷彿逃離了父親的束縛，沉浸在自己浪漫的世界中。<br>
 <br>
-<img src="/assets/img/Rigoletto-picture alliance-rtn - radio t.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/Rigoletto-picture alliance-rtn - radio t.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©alliance/rtn - radio t.</p>
 
 <br>
@@ -75,9 +75,8 @@ author: Yating Chen
 有興趣的朋友也可上youtube找演出介紹影片唷！)
 <br>
 <br>
-<img src="/assets/img/karl-forster09m.jpg" class="img-fluid rounded" alt="...">
-<p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
-(圖: 第二幕當Gilda被綁架時)
+<img src="/assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">©.Bregenzer Festspiele - Anja Koehler</p>
 <br>
 <br>
 <br>
@@ -86,6 +85,9 @@ author: Yating Chen
 把那個原來帶著微笑的可愛小丑，一點一點的變成邪惡可怕的樣貌，一回過神，才發現天色已經完全變暗。
 朝臣們為了反擊弄臣長期以來對他們的輕蔑嘲諷，決定整他一下，但卻將Gilda誤以為是弄臣的情婦而綁架她，並送給Mantova公爵，
 大夥帶著她坐上熱氣球並再次升起。<br>
+<img src="/assets/img/Blog-Rigoletto/karl-forster09m.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
+(圖: 第二幕當Gilda被綁架時)
 <br>
 在弄臣Rigoletto得知Mantova公爵侵犯了自己的愛女後，
 弄臣內心憤怒不已，女兒驚恐的從公爵的住處衝出，看見自己的父親，才了解並坦白自己的隱瞞。
@@ -93,7 +95,7 @@ author: Yating Chen
 
 東窗事發後，弄臣報復Mantova的 心意已決，第二幕劇情結束在充滿復仇的氛圍中。<br>
 <br>
-<img src="/assets/img/20190712_fotoprobe_anja_koehler25.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler25.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Anja Koehler</p>
 <hr>
 <br>
@@ -139,7 +141,7 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 他們正唱著非常經典的四重唱"Bella figlia dell'amore"《美麗的愛之女》
 <br>
 <br>
-<img src="/assets/img/Bregenzer Festspiele -Karl Forster.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/Bregenzer Festspiele -Karl Forster.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
 
 <br>
@@ -174,9 +176,12 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 <br>
 <br>
 <br>
-<img src="/assets/img/rigioletto-©Sams.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/rigioletto-©Sams.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Sams</p>
 <hr>
+<br>
+<br>
+<br>
 雖然故事結束在沈重的悲劇中，但現在回想起來，記憶中繽紛的色彩確實平衡了不少悲傷的情緒。
 馬戲團與歌劇的結合，給了這部歌劇新的視野，但卻也同時完整地保留了原劇的本質，不因為繽紛的演出而失焦，可以說是令人印象深刻的製作。
 <br>
@@ -187,7 +192,10 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 <br>
 原訂2020年續演的 歌劇「弄臣 」因疫情關係必須取消活動，並將演出時間更改至2021年7月22日至8月22日。
 演出時間和場次可連結 [bregenzerfestspiele官網](https://bregenzerfestspiele.com/en/node/1400) 查詢
+<img src="/assets/img/Blog-Rigoletto/rigoletto.png" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">©.Bregenzer Festspiele</p>
 <br>
 <br>
 <br>
 <br>
+<hr>
