@@ -1,14 +1,11 @@
-
 /*--------------------------------------------------------------
 # Blog-cover Section
 --------------------------------------------------------------*/
 #Blog-cover {
-  background: url('../img/Blog-cover.png')fixed center top center;
+  background: url("../img/Blog-cover.png") fixed center top center;
   background-size: 100%;
   position: relative;
-  background-repeat: no-repeat;
-}
-
+  background-repeat: no-repeat; }
 
 #Blog-cover .Blog-cover-container {
   position: absolute;
@@ -19,113 +16,86 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
+  text-align: center; }
 
 #Blog-cover h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 300;
   line-height: 56px;
-  color: #fff;
-}
+  color: #fff; }
 
 #Blog-cover h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 20px;
-  font-weight: 300;
-}
-
+  font-weight: 300; }
 
 @media (min-width: 1024px) {
   #Blog-cover {
-    background-attachment: fixed;
-  }
-}
-
+    background-attachment: fixed; } }
 @media (max-width: 768px) {
   #Blog-cover h1 {
     font-size: 28px;
-    line-height: 36px;
-  }
+    line-height: 36px; }
+
   #Blog-cover h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
+    margin-bottom: 30px; } }
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
-}
+  padding: 60px 0; }
 
 .section-bg {
-  background-color: #f2f9f8;
-}
+  background-color: #f2f9f8; }
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #555;
-}
+  color: #555; }
 
 .section-title p {
-  margin-bottom: 0;
-}
-
-
+  margin-bottom: 0; }
 
 /*--------------------------------------------------------------
 #new-article
 --------------------------------------------------------------*/
-
 .new-article h3 {
   font-weight: 400;
-  font-size: 26px;
-}
-
+  font-size: 26px; }
 
 .new-article p:last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .new-article a {
-  color: #eb9c20ff;
-}
-
+  color: #eb9c20ff; }
 
 .new-article a:hover {
-  color: #3e0d08;
-}
+  color: #3e0d08; }
+
 /*--------------------------------------------------------------
 # Call To aboutus
 --------------------------------------------------------------*/
 .call-to-aboutus {
   background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/b3.png") fixed center center;
-  background-size: 100%;
-
-}
+  background-size: 100%; }
 
 .call-to-aboutus h3 {
   color: #fff;
   font-size: 28px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .call-to-aboutus p {
-  color: #fff;
-}
+  color: #fff; }
 
 .call-to-aboutus .cta-btn {
   font-family: "Lato", sans-serif;
@@ -138,27 +108,23 @@ section {
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
-  color: #fff;
-}
+  color: #fff; }
 
 .call-to-aboutus .cta-btn:hover {
   background: #70b9b0;
-  border: 2px solid #70b9b0;
-}
+  border: 2px solid #70b9b0; }
 
 /*--------------------------------------------------------------
 # Our Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-  padding: 60px 0;
-}
+  padding: 60px 0; }
 
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 0 35px 0;
   list-style: none;
-  text-align: center;
-}
+  text-align: center; }
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
@@ -172,17 +138,14 @@ section {
   text-transform: uppercase;
   background: white;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
+  transition: all 0.3s ease-in-out; }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #70b9b0;
-  color: #fff;
-}
+  color: #fff; }
 
 .portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
+  margin-right: 0; }
 
 .portfolio .portfolio-item {
   background: #073839;
@@ -190,9 +153,7 @@ section {
   min-height: 200px;
   position: relative;
   border-radius: 4px;
-  margin: 0 0 30px 0;
-}
-
+  margin: 0 0 30px 0; }
 
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
@@ -200,107 +161,74 @@ section {
   text-align: center;
   top: 10%;
   left: 0;
-  right: 0;
-}
+  right: 0; }
 
 .portfolio .portfolio-item .portfolio-info h3 {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .portfolio .portfolio-item .portfolio-info h3 a {
   color: #fff;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .portfolio .portfolio-item .portfolientry2o-info a i {
   color: #70b9b0;
-  font-size: 24px;
-}
+  font-size: 24px; }
 
 .portfolio .portfolio-item:hover img {
   opacity: 0.4;
-  transform: scale(1.1);
-}
+  transform: scale(1.1); }
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-  top: calc(50% - 30px);
-}
-
+  top: calc(50% - 30px); }
 
 .entry2 img {
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .entry2 h5 {
   font-size: 20px;
-  font-weight: 500;
-}
-
+  font-weight: 500; }
 
 .entry2 .p .active {
-  color: #6c5943;
-}
+  color: #6c5943; }
 
 .entry2 .p .active:hover {
-  color: #eb9c20ff;
-}
-
-
+  color: #eb9c20ff; }
 
 .entry2 h5 a {
-  color: #000;
-}
-
+  color: #000; }
 
 .entry2 .post-meta {
   color: #b3b3b3;
   font-size: 13px;
   width: 100%;
-  display: block;
-}
+  display: block; }
 
 .entry2 .post-meta a {
-  color: #000;
-}
+  color: #000; }
 
 .entry2 .post-meta .author-figure img {
   width: 30px;
-  border-radius: 50%;
-}
-
+  border-radius: 50%; }
 
 .site-section {
-  padding: 2.5em 0;
-}
+  padding: 2.5em 0; }
 
 @media (min-width: 768px) {
   .site-section {
-    padding: 5em 0;
-  }
-}
-
+    padding: 5em 0; } }
 .site-section.site-section-sm {
-  padding: 4em 0;
-}
-
+  padding: 4em 0; }
 
 .site-section a {
-  color: #eb9c20ff;
-}
-
+  color: #eb9c20ff; }
 
 .site-section a:hover {
-  color: #3e0d08;
-}
-
+  color: #3e0d08; }
 
 .section-heading h2 {
   font-weight: 700;
-  color: #000;
-}
-
-
+  color: #000; }
 
 .custom-pagination span, .custom-pagination a {
   text-align: center;
@@ -313,5 +241,8 @@ section {
 .custom-pagination a {
   background: #fcf16c;
   color: #3e0d08; }
+
 .custom-pagination a:hover {
   background: #fcfbc2; }
+
+/*# sourceMappingURL=blog.css.map */

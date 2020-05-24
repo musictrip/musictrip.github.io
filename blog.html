@@ -28,6 +28,13 @@ title: 部落格
                     <a href="{{ newestPost.url }}">
                         <h4>{{ newestPost.title }}</h4>
                     </a>
+                    <div class="post-meta align-items-center text-left clearfix pb-4">
+                        {% if newestPost.author %}
+                        <span class="d-inline-block">By {{ newestPost.author }}</span>
+                        <span>&nbsp;-&nbsp;</span>
+                        {% endif %}
+                        <span>{{ newestPost.date | date: "%d.%m.%Y"}}</span>
+                    </div>
                     {% if newestPost.summary %}
                     <p> {{ newestPost.summary}} </p>
                     {% endif %}
@@ -57,14 +64,13 @@ title: 部落格
                         {% endif %}
                     </a>
                     <div class="excerpt">
-                        <h5>
-                            <a href="{{ post.url }}">
-                                {{ post.title }}
-                            </a>
-                        </h5>
-                        <div class="post-meta align-items-center text-left clearfix">
+                        <a href="{{ post.url }}">
+                            <h5>{{ post.title }}</h5>
+                        </a>
+
+                        <div class="post-meta align-items-center text-left clearfix pt-1">
                             {% if post.author %}
-                            <span class="d-inline-block mt-1">By {{ post.author }}</span>
+                            <span class="d-inline-block">By {{ post.author }}</span>
                             <span>&nbsp;-&nbsp;</span>
                             {% endif %}
                             <span>{{ post.date | date: "%d.%m.%Y"}}</span>
