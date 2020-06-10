@@ -1,0 +1,52 @@
+---
+title: 德國各大音樂節(南部)
+summary: 
+image: 
+author: Toneartiv編輯
+---
+
+<br>
+1
+Nürnberg
+Internationalen Orgelwoche Nürnberg 
+68. Musikfest ION
+https://musikfest-ion.de/ueber-uns/geschichte-der-ion.html
+<br>
+<br>
+2
+https://www.bayreuther-festspiele.de/
+<hr>
+3
+München 
+UniCredit Festspiel-Nacht
+https://www.hypovereinsbank.de/hvb/ueber-uns/kultur-gesellschaft/festspielnacht
+
+4
+Münchner Opernfestspiele
+München | Deutschland
+https://www.staatsoper.de/festspiele/
+<br>
+<br>
+
+5
+Herrenchiemsee Festspiele
+14.06.2020 bis 26.06.2020
+Das Eröffnungskonzert wird vom 14.7.20 auf den 1.11.20 verschoben. Infos zu den weiteren Konzerten folgen.
+Herrenchiemsee | Deutschland
+https://festspielguide.de/deutschland-sued/entry/1548/
+<hr>
+
+6
+Ludwigsburg
+https://www.schlossfestspiele.de/de/festspiele/aktuelles/index.htm
+
+
+7
+新音樂
+Eclat in Stuttgart
+http://eclat.org/eclat-home.html
+
+8
+Bodenseefestival
+FN
+https://bodenseefestival.de/

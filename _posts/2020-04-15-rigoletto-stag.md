@@ -1,6 +1,6 @@
 ---
-title: 第74屆布雷根茲音樂節湖上歌劇(上)
-summary: 19年夏天，位屬於奧地利的波登湖畔(Bodensee)來了一位不速之客，悠哉地浸泡在湖裡，圓滾滾的大眼睛，時而炯炯有神時而閉目養神....
+title: 2019布雷根茲音樂節湖上歌劇(上)
+summary: 位屬於奧地利的波登湖畔(Bodensee)來了一位不速之客，悠哉地浸泡在湖裡，圓滾滾的大眼睛，時而炯炯有神時而閉目養神....
 image: /assets/img/Blog-Rigoletto/Bregenzer Festspiele - Anja Köhler.jpg
 author: Yating Chen
 tags: interview
@@ -70,8 +70,16 @@ tags: interview
 <br>
 <br>
 小丑的右手有著柔軟的指關節，能夠靈活地伸展(做個蓮花指或是對著觀眾比中指都難不倒它)，
-它能夠朝著主舞台伸展，作為一個橋樑，讓演員自由地穿梭在舞台間，也會隨著劇情而改變場景，例如: 右手舞臺在第一幕化作為弄臣Rigoletto的女兒Gilda的家(如圖)
+它能夠朝著主舞台伸展，作為一個橋樑，讓演員自由地穿梭在舞台間，如圖:
 <br>
+<br>
+<img src="/assets/img/Blog-Rigoletto/anja_koehler19.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">©.Bregenzer Festspiele - Anja Koehler</p>
+<br>
+
+也會隨著劇情而改變場景，例如: 右手舞臺在第一幕化作為弄臣Rigoletto的女兒Gilda的家
+<br>
+圖左為女主角Gilda(女高音); 圖右為 弄臣Rigoletto(男中音)
 <br>
 <img src="/assets/img/Blog-Rigoletto/karl_forster4m.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
@@ -120,6 +128,11 @@ tags: interview
 聲樂家們除了要有高水準的專業聲樂技巧外，更要能夠在各種不同的天氣因素下正常演出，包含演出彩排時遇到飄雨或陣雨，有時也可能會面臨必須在低溫的環境中演出。
 依照劇情需求有些歌手甚至需跳水、跳躍、攀爬、吊鋼索或甚至濳水，因此想成為角色是必須要確定自己沒有懼高症或怕水等問題。 」
 <br>
+<br>
+<img src="/assets/img/Blog-Rigoletto/bo4_karl_forster15.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
+<br>
+<br>
 舞台小丑的一舉一動都需經由多位專業技術員以及安全人員檢查，在演出前無數次的彩排和修正，以確保各項設備的安全，演出同時更是360度監控舞台每個細節。
 甚至有多位技術人員化為群眾演員在舞台上協助場景變換。
 <br>
@@ -132,8 +145,6 @@ tags: interview
 
 <hr>
 <br>
-<img src="/assets/img/Blog-Rigoletto/corona_fotoplakat_rigoletto2021_neu.jpg" class="img-fluid rounded" alt="...">
-<p style="font-size: 10px">© bregenzerfestspiele.com</p>
 
 布雷根茲音樂節-湖上歌劇「弄臣」製作團隊: <br>
 
@@ -151,5 +162,5 @@ tags: interview
 <br>
 <hr>
 
-下一篇文章: [第74屆布雷根茲音樂節湖上歌劇(下)](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
+下一篇文章: [2019布雷根茲音樂節湖上歌劇(下)](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
 <hr>

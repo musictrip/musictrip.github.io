@@ -1,18 +1,17 @@
 ---
-title: 第74屆布雷根茲音樂節湖上歌劇(下)
+title: 2019布雷根茲音樂節湖上歌劇(下)
 summary: 一齣以詛咒毀滅為收場的悲劇，為何在宣傳照上呈現的是繽紛色彩？湖上的小丑又將會帶來什麼樣貌？
-image: /assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler.jpg
+image: /assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg
 author: Yating Chen
 ---
 這篇文章會稍微描述那些還存在我記憶中的演出片段，如果想了解舞台是怎麼一回事，可以先回頭看上一篇文章介紹😊
-[第74屆布雷根茲音樂節湖上歌劇(上)](https://toneartiv.com/2020/04/15/rigoletto-stag) 
+[2019布雷根茲音樂節湖上歌劇(上)](https://toneartiv.com/2020/04/15/rigoletto-stag) 
 <br>
 <hr>
-<br>
-
 有讀過或看過這部歌劇的朋友就會知道，這其實是一齣以詛咒毀滅為收場的悲劇。在前往Bregenz觀賞歌劇前，有過許多疑惑，包括
 導演將如何詮釋這樣一部沈重的作品？如何在這樣風光明媚的湖畔邊，將氣氛凝聚在角色身上？
 而那關於宣傳照上的繽紛色彩和看似馬戲團的演出又是怎麼一回事？如何將這個正在安靜微笑的小丑呈現黑暗悲傷樣貌？<br>
+<br>
 <br>
 <br>
 <p style="font-weight: bold">序曲</p>
@@ -25,10 +24,15 @@ author: Yating Chen
 <br>
 <br>
 <p style="font-weight: bold">沉重的序曲後緊接著第一幕歡樂的開場</p>
-編劇在此加入非常大量的馬戲團素材和繽紛的色彩，透過雜耍與特技演員活潑的肢體表現出舞會中的多采多姿。
+輕快的節奏很快地打破了序曲的緊張氣氛，舞台編劇在開場加入大量的馬戲團素材和繽紛的色彩，透過雜耍與特技演員活潑的肢體表現出舞會中的多采多姿。
 曼托瓦(Mantova)公爵正在自己的寢宮中舉行舞會，沉迷於女色的公爵正在調戲著參加舞會的有夫之婦。舞台小丑，張開了偌大的嘴巴，公爵帶著被調戲的女人進到嘴裡，
-接著一陣掙扎後，小丑閉上眼閤上了嘴，像是表達著「啊！又有一個女人被花心的公爵吃掉了...」
+接著一陣掙扎後，小丑緩緩的閉上嘴巴，彷彿在表達著「啊！又有一個女人被花心的公爵給吞噬了。」
 <br>
+<br>
+<br>
+<img src="/assets/img/Blog-Rigoletto/bo4_karl_forster13.jpg" class="img-fluid rounded" alt="...">
+<p style="font-size: 10px">Bregenzer Festspiele -© Karl Forster</p>
+
 <br>
 視線轉到舞台中間，以取悅Mantova公爵為職務的弄臣Rigoletto也沒有閒著，他正在諷刺著那些曾被"帶綠帽"的男賓客們，冷血且毫不留情的嘲笑著。
 而這也引來蒙特羅內伯爵(Monterone)的不滿，由於伯爵的女兒也曾受公爵的侮辱，身為人父的伯爵(Monterone)再也忍無可忍，便對著口出穢言的弄臣下了詛咒。
@@ -50,7 +54,7 @@ author: Yating Chen
 (圖: Gilda和她的父親Rigoletto)
 <br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/© Bild: APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">
+<img src="/assets/img/Blog-Rigoletto/APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">© Bild: APA/DIETMAR STIPLOVSEK</p>
 <br>
 自幼失去母親的Gilda，更是受到父親加倍的保護及疼愛，Rigoletto禁止她與其他人接觸，並請來了一位女管家幫忙照看女兒，就深怕她被混亂的社會欺騙。
@@ -84,10 +88,11 @@ author: Yating Chen
 馬戲團的演員再次加入演出，幾位特技演員化為宮廷裡的侍衛，輕輕的，安靜且俐落地爬上爬下更換場景，他們拆除了舞台小丑的大鼻子、挖去了小丑的眼珠子，
 把那個原來帶著微笑的可愛小丑，一點一點的變成邪惡可怕的樣貌，一回過神，才發現天色已經完全變暗。
 朝臣們為了反擊弄臣長期以來對他們的輕蔑嘲諷，決定整他一下，但卻將Gilda誤以為是弄臣的情婦而綁架她，並送給Mantova公爵，
-大夥帶著她坐上熱氣球並再次升起。<br>
+大夥帶著她坐上熱氣球並再次升起。(圖: 第二幕當Gilda被綁架)<br>
+<br>
 <img src="/assets/img/Blog-Rigoletto/karl-forster09m.jpg" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
-(圖: 第二幕當Gilda被綁架時)
+<br>
 <br>
 在弄臣Rigoletto得知Mantova公爵侵犯了自己的愛女後，
 弄臣內心憤怒不已，女兒驚恐的從公爵的住處衝出，看見自己的父親，才了解並坦白自己的隱瞞。
@@ -145,7 +150,7 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
 
 <br>
-天色已晚，四重唱結束後，昏暗的舞台，只留下微微的燭光，照在酒館的位置。<br>
+天色已晚，四重唱結束後，昏暗的舞台只留下在酒館的微微燭光。<br>
 <br>
 喝醉的公爵和殺手的妹妹Maddalena尋歡後入睡。<br>
 絕望的Gilda心已碎、不敢置信的離開了。<br>
@@ -185,17 +190,14 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 雖然故事結束在沈重的悲劇中，但現在回想起來，記憶中繽紛的色彩確實平衡了不少悲傷的情緒。
 馬戲團與歌劇的結合，給了這部歌劇新的視野，但卻也同時完整地保留了原劇的本質，不因為繽紛的演出而失焦，可以說是令人印象深刻的製作。
 <br>
-<br>
-精彩的演出要用文字表達相當不容易，舞台上發生的事還有舞台下的感受，其實得靠大家親自體會和欣賞，這才是藝術真正的價值。
-寫下文章是希望透過簡單的介紹，讓大家了解到不同的歌劇舞台詮釋，如果有機會到歐洲自由行，不防也將這個特別的景點納入筆記中 😊
+然而這樣精彩的演出要透過文字完整的表達是不容易的，寫下文章是希望透過簡單的介紹，帶大家認識不同的歌劇舞台詮釋。
+如果有機會到歐洲自由行，不妨也將這個特別的景點納入筆記中 😊
 <br> 
 <br>
-原訂2020年續演的 歌劇「弄臣 」因疫情關係必須取消活動，並將演出時間更改至2021年7月22日至8月22日。
-演出時間和場次可連結 [bregenzerfestspiele官網](https://bregenzerfestspiele.com/en/node/1400) 查詢
-<img src="/assets/img/Blog-Rigoletto/rigoletto.png" class="img-fluid rounded" alt="...">
-<p style="font-size: 10px">©.Bregenzer Festspiele</p>
 <br>
 <br>
 <br>
-<br>
+<hr>
+
+下一篇文章: [布雷根茲音樂節購票資訊](https://www.toneartiv.com/2020/06/01/bregenz-musikfestival) 提供給有計劃前往2021布雷根茲音樂節的朋友  
 <hr>
