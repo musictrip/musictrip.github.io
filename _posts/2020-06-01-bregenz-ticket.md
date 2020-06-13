@@ -20,7 +20,9 @@ author: Yating Chen
 <p style="font-size: 10px">©Toneartiv</p>
 <br>
 <br>
-<h5 style="background-color: #eee2c5;" class="p-2">  票價 & 說明 </h5>
+<p style="font-weight: bold;background-color: #006E6D; color: white" class="p-2"> 退票或改票 </p>
+
+<p style="font-weight: bold;background-color:  #e75b4e;color: white" class="p-2"> 票價 & 說明</p>
 <br>
 * 優惠 | **26歲**以下的學生可享有布雷根茨音樂節活動的優惠門票。價格：正常票價的75％，但不得低於8歐元。
 **每場活動都有一定數量的學生優惠**，如果第5、6和7類(5、6、7 Category)門票尚有空位，皆可提供學生票;
@@ -28,6 +30,7 @@ author: Yating Chen
 **第1和第2類的票則不提供學生優惠。**<br>
 --- 以上優惠僅適用於持有有效學生證明者 (國際學生證亦可) --- 
 <br>
+
 更多優惠和規定請查閱[官網](https://bregenzerfestspiele.com/de/node/1313)
 <br>
 <br>
@@ -41,6 +44,7 @@ author: Yating Chen
 <img src="/assets/img/Blog-Rigoletto/sitzplan.png" class="img-fluid rounded" alt="...">
 <p style="font-size: 10px">©.Bregenzer Festspiele </p>
 <br>
+
 此外，也需注意**不同時間**的票價也會有所不同唷！👇<br>
 
 
@@ -61,8 +65,10 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 5 Category: 87 EUR | ​6 Category: 72 EUR | 7 Category: 50 EUR<br>
 <br>
 <br>
-<br>
-<h5 style="background-color: #eee2c5;" class="p-2">  退票及改票 </h5>
+<br> 
+<p style="font-weight: bold;background-color: #fbf1c7;" class="p-2"> 退票或改票 </p>
+<p style="font-weight: bold;background-color: #006E6D; color: white" class="p-2"> 退票或改票 </p>
+
 <br>
 
 布雷根茲音樂節的湖，可能會有面臨天氣因素必須取消演出的狀況，但倘若只是微微飄雨，演出則不會被中斷或取消。
@@ -81,8 +87,8 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 
 <br>
 
+<p style="font-weight: bold;background-color: #ffff99;" class="p-2"> 購票教學(手機頁面版)</p>
 
-<h5 style="background-color: #eee2c5;" class="p-2">  購票教學(手機頁面版) </h5>
 <br>
 這裡用手機板的作為簡單的示範影片，但個人比較推薦大家使用電腦版或平板的購票系統唷！他們的操作程序大同小異，
 但電腦版較能夠清楚的選擇座位及閱讀內文<br>
@@ -118,7 +124,8 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 <div style="color: #c50a2b">👉 有興趣參加上述音樂節導覽，並需要中文翻譯陪同的朋友，非常歡迎您來信與我們聯繫 🙋</div>
 <br>
 <br>
-<h5 style="background-color: #eee2c5;" class="p-2">觀賞歌劇演出之小提醒 </h5>
+<p style="font-weight: bold;background-color: #eee2c5;" class="p-2"> 觀賞歌劇演出之小提醒 </p>
+
 <br>
 請務必留意門票上所顯示的開演時間，如果沒有特殊因素，湖上歌劇院(Seebühne)觀眾席一般在 **<font color="black">演出前一小時會開放觀眾入場</font>**。
 現場會有指示牌，您需依照購票上的座位由該位置的入口進場，工作人員也會引導觀眾找到自己的位置。

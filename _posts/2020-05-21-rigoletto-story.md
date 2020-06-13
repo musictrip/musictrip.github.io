@@ -14,7 +14,7 @@ author: Yating Chen
 <br>
 <br>
 <br>
-<p style="font-weight: bold">序曲</p>
+<p style="font-weight: bold;background-color: #eee2c5;" class="p-2"> 序曲</p>
 弄臣Rigoletto帶著氣球飛在空中的正奮力的往前，彷彿追尋著什麼，但卻在途中被突如其來的龐大手指擊落水中。就像是威爾第在「弄臣」序曲中，透過音符所表達
 出那無助和晴天霹靂的心情寫照，彷彿已經預告Rigoletto的結局。
 <br>
@@ -23,7 +23,7 @@ author: Yating Chen
 <p style="font-size: 10px">Bregenzer Festspiele -© Ralph Larmann</p>
 <br>
 <br>
-<p style="font-weight: bold">沉重的序曲後緊接著第一幕歡樂的開場</p>
+<p style="font-weight: bold;background-color: #eee2c5;" class="p-2"> 沉重的序曲後緊接著第一幕歡樂的開場</p>
 輕快的節奏很快地打破了序曲的緊張氣氛，舞台編劇在開場加入大量的馬戲團素材和繽紛的色彩，透過雜耍與特技演員活潑的肢體表現出舞會中的多采多姿。
 曼托瓦(Mantova)公爵正在自己的寢宮中舉行舞會，沉迷於女色的公爵正在調戲著參加舞會的有夫之婦。舞台小丑，張開了偌大的嘴巴，公爵帶著被調戲的女人進到嘴裡，
 接著一陣掙扎後，小丑緩緩的閉上嘴巴，彷彿在表達著「啊！又有一個女人被花心的公爵給吞噬了。」
@@ -84,7 +84,8 @@ author: Yating Chen
 <br>
 <br>
 <br>
-<p style="font-weight: bold">誤會、綁架、欺瞞、復仇、第二幕怒火中燒的舞台</p>
+<p style="font-weight: bold;background-color: #eee2c5;" class="p-2"> 誤會、綁架、欺瞞、復仇、第二幕怒火中燒的舞台</p>
+
 馬戲團的演員再次加入演出，幾位特技演員化為宮廷裡的侍衛，輕輕的，安靜且俐落地爬上爬下更換場景，他們拆除了舞台小丑的大鼻子、挖去了小丑的眼珠子，
 把那個原來帶著微笑的可愛小丑，一點一點的變成邪惡可怕的樣貌，一回過神，才發現天色已經完全變暗。
 朝臣們為了反擊弄臣長期以來對他們的輕蔑嘲諷，決定整他一下，但卻將Gilda誤以為是弄臣的情婦而綁架她，並送給Mantova公爵，
@@ -105,7 +106,8 @@ author: Yating Chen
 <hr>
 <br>
 <br>
-<p style="font-weight: bold">第三幕風雲變色，哭泣的小丑 </p>
+<p style="font-weight: bold;background-color: #eee2c5;" class="p-2"> 第三幕風雲變色，哭泣的小丑</p>
+
 天色已晚，Mantova公爵來到了第一幕出現的殺手和殺手的妹妹Maddalena所開的酒館，許多穿著火辣的女人們慢慢爬向公爵，撫媚地玩弄著。
 (場景中出現一群女人並不是按照原劇本上演出，所以我想在這裡把它解讀為，這是一個公爵的內心世界、飢渴與醉生夢死。
 編劇藉由火辣裝扮的女人們，狠狠地表露出他沈迷於女色的內心，具有強烈的批判感。)<br>
