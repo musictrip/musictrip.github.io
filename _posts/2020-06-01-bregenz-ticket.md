@@ -116,7 +116,9 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 時間 : 19:00 及 19:30<br>
 票價 : 7.50 EUR <br>
 導覽語言: 僅提供德語介紹<br>
-<div style="color: #e91338">👉 有興趣參加上述音樂節導覽，並需要中文翻譯陪同的朋友，非常歡迎您來信與我們聯繫 🙋</div>
+<br>
+--- 有興趣參加上述音樂節導覽，並需要中文翻譯陪同的朋友，非常歡迎您來信與我們聯繫 ---
+<br>
 <br>
 <br>
 <p style="font-weight: bold;background-color: #5aaa9b; color: white" class="p-2"> 觀賞歌劇演出之小提醒 </p>
@@ -158,16 +160,14 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 補充: 隨身包包是可以帶進場的，由於天氣溫差變化大，如需要毛毯或圍巾也可以攜帶唷！
 <br>
 <br>
+<br>
+<br>
+<br>
 <hr>
 <br>
-
 購票前不知道究竟該選哪個位置？還是對觀眾席的視野有疑惑嗎？
 進入 [2019布雷根茲音樂節湖上歌劇(上)](https://toneartiv.com/2020/04/15/rigoletto-stag) 
-帶您透過官方網站貼心的設計，一起「場堪」奧地利這座美麗的湖上歌劇院吧🌟
-<br>
-<br>
-<br>
-<br>
+帶您透過官方網站貼心的設計，一起「場堪」奧地利這座美麗的湖上歌劇院吧🌟!<br>
 <hr>
 
 
