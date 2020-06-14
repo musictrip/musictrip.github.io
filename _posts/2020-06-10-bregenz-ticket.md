@@ -95,8 +95,9 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 但電腦版較能夠清楚的選擇座位及閱讀內文<br>
 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nALtrijSWlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nALtrijSWlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <br>
 
 <br>
