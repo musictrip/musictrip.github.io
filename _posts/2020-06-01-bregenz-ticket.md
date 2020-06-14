@@ -64,6 +64,10 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 <br>
 <br>
 <br> 
+[購票連結](https://bregenzerfestspiele.com/en/spielplan)
+<br>
+<br> 
+<br>  
 <p style="font-weight: bold;background-color: #5aaa9b; color: white" class="p-2"> 退票或改票 </p>
 
 <br>
