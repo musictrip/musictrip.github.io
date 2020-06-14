@@ -1,11 +1,11 @@
 ---
-title: 2019布雷根茲音樂節湖上歌劇(下)
+title: 2019布雷根茲音樂節歌劇【弄臣】
 summary: 一齣以詛咒毀滅為收場的悲劇，為何在宣傳照上呈現的是繽紛色彩？湖上的小丑又將會帶來什麼樣貌？
 image: /assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg
 author: Yating Chen
 ---
 這篇文章會稍微描述那些還存在我記憶中的演出片段，如果想了解舞台是怎麼一回事，可以先回頭看上一篇文章介紹😊
-[2019布雷根茲音樂節湖上歌劇(上)](https://toneartiv.com/2020/04/15/rigoletto-stag) 
+[2019布雷根茲音樂節【湖上歌劇舞台】](https://toneartiv.com/2020/04/15/rigoletto-stag) 
 <br>
 <hr>
 有讀過或看過這部歌劇的朋友就會知道，這其實是一齣以詛咒毀滅為收場的悲劇。在前往Bregenz觀賞歌劇前，有過許多疑惑，包括
@@ -19,7 +19,7 @@ author: Yating Chen
 出那無助和晴天霹靂的心情寫照，彷彿已經預告Rigoletto的結局。
 <br>
 
-<img src="/assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg" class="img-fluid rounded" alt="...">
+[<img src="/assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">Bregenzer Festspiele -© Ralph Larmann</p>
 <br>
 <br>
@@ -30,7 +30,8 @@ author: Yating Chen
 <br>
 <br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/bo4_karl_forster13.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/bo4_karl_forster13.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">Bregenzer Festspiele -© Karl Forster</p>
 
 <br>
@@ -54,7 +55,8 @@ author: Yating Chen
 (圖: Gilda和她的父親Rigoletto)
 <br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/APA-DIETMAR STIPLOVSEK.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">© Bild: APA/DIETMAR STIPLOVSEK</p>
 <br>
 自幼失去母親的Gilda，更是受到父親加倍的保護及疼愛，Rigoletto禁止她與其他人接觸，並請來了一位女管家幫忙照看女兒，就深怕她被混亂的社會欺騙。
@@ -69,7 +71,8 @@ author: Yating Chen
 <br>
 明亮的熱氣球，就好像從湖上升起的月亮，清新皎潔，Gilda彷彿逃離了父親的束縛，沉浸在自己浪漫的世界中。<br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/Rigoletto-picture alliance-rtn - radio t.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/Rigoletto-picture alliance-rtn - radio t.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">©alliance/rtn - radio t.</p>
 
 <br>
@@ -91,7 +94,8 @@ author: Yating Chen
 朝臣們為了反擊弄臣長期以來對他們的輕蔑嘲諷，決定整他一下，但卻將Gilda誤以為是弄臣的情婦而綁架她，並送給Mantova公爵，
 大夥帶著她坐上熱氣球並再次升起。(圖: 第二幕當Gilda被綁架)<br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/karl-forster09m.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/karl-forster09m.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
 <br>
 <br>
@@ -101,7 +105,8 @@ author: Yating Chen
 
 東窗事發後，弄臣報復Mantova的 心意已決，第二幕劇情結束在充滿復仇的氛圍中。<br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler25.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/20190712_fotoprobe_anja_koehler25.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">©.Bregenzer Festspiele - Anja Koehler</p>
 <hr>
 <br>
@@ -141,49 +146,59 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 
 <hr>
 <br>
-接著，來到歌劇中非常經典的一個場景: 弄臣為了讓女兒對公爵死心，照著計畫帶著女兒來到酒館，並躲在一處偷看公爵正在調戲Maddalena，於是有了這段非常經典的四重唱。
+接著，來到歌劇中非常經典的一個場景: 弄臣為了讓女兒對公爵死心，照著計畫帶著女兒來到酒館，並躲在一處偷看公爵正在調戲Maddalena，
+於是有了這段>非常經典的四重唱。
 <br>
 <br>
 如圖下，左方(舞台小丑的眼睛裡)是 弄臣(Rigoletto)和女兒 吉爾達(Gilda); 右側則是正沉醉在美色中的Mantova公爵以及殺手的妹妹Maddalena，
-他們正唱著非常經典的四重唱"Bella figlia dell'amore"《美麗的愛之女》
+他們正唱著非常經典的四重唱<font style="font-weight: bold">Bella figlia dell'amore《美麗的愛之女》</font>
 <br>
 <br>
-<img src="/assets/img/Blog-Rigoletto/Bregenzer Festspiele -Karl Forster.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/Bregenzer Festspiele -Karl Forster.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">©.Bregenzer Festspiele - Karl Forster</p>
 
 <br>
 天色已晚，四重唱結束後，昏暗的舞台只留下在酒館的微微燭光。<br>
 <br>
-喝醉的公爵和殺手的妹妹Maddalena尋歡後入睡。<br>
-絕望的Gilda心已碎、不敢置信的離開了。<br>
-弄臣拖著疲憊的身軀給了殺手第一筆錢並告訴他，事成之後會親自來取公爵的屍體並且付完全部的錢。<br>
-殺手的妹妹Maddalena，卻愛上了公爵，並乞求著哥哥別殺掉公爵。<br>
-殺手冷靜地磨著手上那把刀。<br>
+喝醉的公爵和殺手的妹妹Maddalena尋歡後入睡<br>
+絕望的Gilda心已碎、不敢置信的離開了<br>
+弄臣拖著疲憊的身軀給了殺手第一筆錢並告訴他，事成之後會親自來取公爵的屍體並且付完全部的錢<br>
+殺手的妹妹Maddalena，卻愛上了公爵，並乞求著哥哥別殺掉公爵<br>
+殺手冷靜地磨著手上那把刀<br>
+<br>
 <br>
 (在高潮迭起的劇情後，安靜了下來，波登湖上沒有月光，只有偶爾一陣微微的風，猶如暴風雨前的寧靜，7000名觀眾屏氣凝神。)
 <br>
+<br>
 本應按照父親的計畫，將自己女扮男裝後離開傷心之地的Gilda，在離開前偷偷跑回酒館，但卻在無意間偷聽到兄妹之間的對話。
-殺手妹妹Maddalena正在向哥哥求情，希望哥哥能夠饒公爵一命。而殺手也答應妹妹:「 如果在午夜12點時前，酒館有客人上門，就把那個人殺了當公爵的替死鬼。」<br>
+殺手妹妹Maddalena正在向哥哥求情，希望哥哥能夠饒公爵一命。<br>
+而殺手也答應妹妹:「 如果在午夜12點時前，酒館有客人上門，就把那個人殺了當公爵的替死鬼。」<br>
 <br>
 <br>
 <hr>
 霎時，閃電打破了寧靜，震耳欲聾的雷聲伴隨而來。閃電與雷鳴越來越強烈，眼看外頭風雨交加，怎麼可能會有人上酒館呢？
 而就在殺手的妹妹Maddalena焦急的同時，傳來了敲門的聲音。<br>
-(非常喜歡這段威爾第寫的音樂，將雷鳴、閃電、焦慮以及女主角赴死的決心都寫到音樂裡了)
+<br>
+(個人非常喜歡這段威爾第寫的音樂，將雷鳴、閃電、焦慮以及女主角赴死的決心等畫面，寫進了音樂裡)
 <br>
 <br>
 第三次敲門響起時，門打開了，而站在門口的正是女扮男裝的Gilda。舞台上小丑變成了骷髏頭，雙眼大量的水柱流出，有如瀑布般的淚水注入湖水中。
 可憐的女孩Gilda被殺死了，殺手將她裝入白色布袋裡，等著弄臣來取。
 <br>
-午夜時分，弄臣再次回到了酒館，並帶走了白布袋，正要親手將布袋丟入湖中的他，赫然聽見熟悉的旋律，而旋律正是公爵所唱的《善變的女人》。
-這時公爵正在舞台小丑的頭上，甦醒的公爵，在舒適的吊床上，翹這二郎腿哼著旋律<br>
+<br>
+<br>
+
+午夜時分，弄臣再次回到了酒館，並帶走了白布袋，正要親手將布袋丟入湖中的他，赫然聽見熟悉的旋律。
+這時的公爵出現在舞台小丑的頭頂上，剛甦醒的他，舒適的趟在吊床上，翹這二郎腿，正哼唱著《善變的女人》旋律<br>
+<br>
 此時，以為計畫得逞的弄臣打開布袋才發現，袋子裡竟然是自己的寶貝女兒...痛苦又懊悔的弄臣，心碎的抱著Gilda，而女兒也用最後一口氣向父親道別。
 多麼令人心碎的旋律和歌詞啊！
 原來，這就是那可怕的詛咒<br>
+弄臣緊抱著女兒，舞台燈光漸暗，歌劇結束在令人鼻酸的一幕
 <br>
-<br>
-<br>
-<img src="/assets/img/Blog-Rigoletto/rigioletto-©Sams.jpg" class="img-fluid rounded" alt="...">
+
+[<img src="/assets/img/Blog-Rigoletto/rigioletto-©Sams.jpg" class="img-fluid rounded" alt="...">](https://bregenzerfestspiele.com/de/programm/rigoletto-2021)
 <p style="font-size: 10px">©.Bregenzer Festspiele - Sams</p>
 <hr>
 <br>

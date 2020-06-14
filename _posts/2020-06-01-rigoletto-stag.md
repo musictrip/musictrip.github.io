@@ -1,5 +1,5 @@
 ---
-title: 2019布雷根茲音樂節湖上歌劇(上)
+title: 2019布雷根茲音樂節【湖上歌劇舞台】
 summary: 位屬於奧地利的波登湖畔(Bodensee)來了一位不速之客，悠哉地浸泡在湖裡，圓滾滾的大眼睛，時而炯炯有神時而閉目養神....
 image: /assets/img/Blog-Rigoletto/Bregenzer Festspiele - Anja Köhler.jpg
 author: Yating Chen
@@ -13,7 +13,7 @@ tags: interview
 <br>
 <br>
 他，是第74屆布雷根茲音樂節的湖上舞台(Seebühne)場景，也是這屆音樂節眾所矚目的焦點。<br>
-在這個舞台上，將演出義大利作曲家威爾第(Giuseppe Verdi)的歌劇作品 – 弄臣(Rigoletto)
+在這個舞台上，將演出義大利作曲家<font style="font-weight: bold">威爾第(Giuseppe Verdi)的歌劇作品 – 弄臣(Rigoletto)</font>
 <br>
 <br>
 
@@ -51,7 +51,7 @@ tags: interview
 <p style="font-size: 10px">©.Yating Chen</p>
 
 <br>
-不過，這個巨大的小丑並非用來取代 Rigoletto 這個角色的演出，而是藉由舞台小丑誇張的情緒表徵，呈現劇情當下的氛圍，引領觀眾快速掌握故事的發展。
+不過，這個<font style="font-weight: bold">巨大的小丑並非用來取代 Rigoletto 這個角色的演出，而是藉由舞台小丑誇張的情緒表徵，呈現劇情當下的氛圍，引領觀眾快速掌握故事的發展。</font>
 此外，透過如此有生命力的舞台製作，即使是在廣闊的湖景上演出，也能夠將觀眾的注意力集中於舞台，讓視覺及聽覺達到最飽滿的境界。
 <br>
 <br>
@@ -123,7 +123,7 @@ tags: interview
 <br>
 <br>
 <hr>
-<p style="font-weight: bold">後台</p>
+<h5>後台</h5>
 在這樣舞台以及劇本的安排下，歌劇選角的門檻相對高了非常多。劇院導演Schmidt女士在訪問中也表示:「 面對這樣特殊的演出場地，當然也增加了選角的困難度。
 聲樂家們除了要有高水準的專業聲樂技巧外，更要能夠在各種不同的天氣因素下正常演出，包含演出彩排時遇到飄雨或陣雨，有時也可能會面臨必須在低溫的環境中演出。
 依照劇情需求有些歌手甚至需跳水、跳躍、攀爬、吊鋼索或甚至濳水，因此想成為角色是必須要確定自己沒有懼高症或怕水等問題。 」
@@ -137,16 +137,15 @@ tags: interview
 甚至有多位技術人員化為群眾演員在舞台上協助場景變換。
 <br>
 <br>
-<p style="font-weight: bold">開放遊客參觀</p>
-目前這個舞台是對外開放的，民眾不需要購票便能夠進出觀眾席欣賞舞台。在演出期間則會在彩排時或是歌劇演出前幾個小時清場。
-從以下的連結也能夠觀賞浮動舞台現況:  
+<h5>開放遊客參觀</h5>
+目前這個舞台是<font style="font-weight: bold">免費</font>對外開放的，民眾不需要購票便能夠進出觀眾席欣賞舞台。在演出期間則會在彩排時或是歌劇演出前幾個小時清場。
+想場堪一下目前舞台的現場狀況嗎? 從以下的官網連結也能夠觀賞Rigoletto大頭的現況唷
 
-[舞台現況](https://bregenzerfestspiele.com/de/webcam)
+[🤡 舞台現況](https://bregenzerfestspiele.com/de/webcam)
 
 <hr>
 <br>
-
-布雷根茲音樂節-湖上歌劇「弄臣」製作團隊: <br>
+<h5>布雷根茲音樂節-湖上歌劇「弄臣」製作團隊:</h5>
 
 音樂總監 Enrique Mazzola, Daniele Squeo<br>
 導演    Philipp Stölzl<br>
@@ -162,5 +161,5 @@ tags: interview
 <br>
 <hr>
 
-下一篇文章: [2019布雷根茲音樂節湖上歌劇(下)](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
+下一篇文章 [2019布雷根茲音樂節歌劇【弄臣】](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
 <hr>
