@@ -161,5 +161,5 @@ tags: interview
 <br>
 <hr>
 
-下一篇文章 [2019布雷根茲音樂節歌劇【弄臣】](https://www.toneartiv.com/2020/05/21/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
+下一篇文章 [2019布雷根茲音樂節歌劇【弄臣】](https://www.toneartiv.com/2020/06/01/rigoletto-story) 將與大家分享個人印象深刻的幾段歌劇情節  
 <hr>
