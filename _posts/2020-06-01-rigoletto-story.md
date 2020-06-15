@@ -216,5 +216,5 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 <br>
 <hr>
 
-下一篇文章: [布雷根茲音樂節購票資訊](https://www.toneartiv.com/2020/06/10/bregenz-musikfestival) 提供給有計劃前往2021布雷根茲音樂節的朋友  
+下一篇文章: [布雷根茲音樂節購票資訊](https://www.toneartiv.com/2020/06/10/bregenz-tickets) 提供給有計劃前往2021布雷根茲音樂節的朋友  
 <hr>
