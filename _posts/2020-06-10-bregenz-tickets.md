@@ -172,7 +172,7 @@ Festspiel-Lounge: 378 EUR * | Premium Ticket: 278 EUR * <br>
 <br>
 購票前不知道究竟該選哪個位置？還是對觀眾席的視野有疑惑嗎？
 
-進入 [2019布雷根茲音樂節【湖上歌劇舞台】](https://toneartiv.com/2020/06/01/rigoletto-stag) 
+進入 [2019布雷根茲音樂節【湖上歌劇舞台】](https://toneartiv.com/2020/06/01/rigoletto-stage) 
 帶您透過官方網站貼心的設計，一起「場堪」奧地利這座美麗的湖上歌劇院吧🌟!<br>
 <br>
 <hr>

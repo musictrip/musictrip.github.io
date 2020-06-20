@@ -5,7 +5,7 @@ image: /assets/img/Blog-Rigoletto/Lightpower-Rigiletto-Bregenz-Ralph-Larmann.jpg
 author: Yating Chen
 ---
 這篇文章會稍微描述那些還存在我記憶中的演出片段，如果想了解舞台是怎麼一回事，可以先回頭看上一篇文章介紹😊
-[2019布雷根茲音樂節【湖上歌劇舞台】](https://toneartiv.com/2020/06/01/rigoletto-stag) 
+[2019布雷根茲音樂節【湖上歌劇舞台】](https://toneartiv.com/2020/06/01/rigoletto-stage) 
 <br>
 <hr>
 有讀過或看過這部歌劇的朋友就會知道，這其實是一齣以詛咒毀滅為收場的悲劇。在前往Bregenz觀賞歌劇前，有過許多疑惑，包括
