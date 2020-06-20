@@ -211,7 +211,11 @@ muta d'accento e di pensier言不由衷，反覆無常<br>
 如果有機會到歐洲自由行，不妨也將這個特別的景點納入筆記中 😊
 <br> 
 <br>
-<br>
+附上官網所提供的預告片👇<br>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HJbkK-2gf9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p style="font-size: 10px">©.Bregenzer Festspiele</p><br>
 <br>
 <br>
 <hr>
