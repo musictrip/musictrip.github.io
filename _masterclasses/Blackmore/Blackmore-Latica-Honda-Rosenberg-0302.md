@@ -35,9 +35,6 @@ masterclassLink: https://blackmore-academy.com/zh/
 <hr/>
 <br>
 
-
-
-
 ###### __簡介__<br>  
 <br>
 Blackmore國際音樂學院致力於培養各地年輕有天賦的音樂家們，透過密集的器樂培訓課程、樂團面試培訓課程、比賽和入學前的培訓，為將來的音樂生涯鋪路。

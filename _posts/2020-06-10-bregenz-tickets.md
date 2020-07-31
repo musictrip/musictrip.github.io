@@ -29,7 +29,7 @@ author: Yating Chen
 --- 以上優惠僅適用於持有有效學生證明者 (國際學生證亦可) --- 
 <br>
 
-更多優惠和規定請查閱[官網](https://bregenzerfestspiele.com/de/node/1313)
+更多優惠和規定請查閱[官網](https://bregenzerfestspiele.com/en#)
 <br>
 <br>
 * 年齡限制 | 孩童需年滿6歲或以上（需要年齡證明）才能入場 <br>
