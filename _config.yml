@@ -29,6 +29,9 @@ twitter:
 
 lang: zh_TW
 
+disqus_shortname: toneartiv
+
+
 # Build settings
 markdown: kramdown
 theme: minima
