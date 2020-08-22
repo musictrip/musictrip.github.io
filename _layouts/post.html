@@ -16,6 +16,23 @@ layout: default
                             <span>{{ page.date | date: "%d.%m.%Y"}}</span>
                         </div>
                         {{ content }}
+
+                        {% if site.disqus_shortname %}
+                        <div id="disqus_thread"></div>
+                        <script type="text/javascript">
+                            var disqus_shortname  = '{{ site.disqus_shortname }}';
+                            var disqus_identifier = '{{ page.id }}';
+                            var disqus_title      = {{ page.title | jsonify }};
+
+                            (function() {
+                                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
+                        {% endif %}
+
                         <div class="row pl-3 mb-4" style="font-size: 1.5rem">
                             <a href="https://line.me/R/msg/text/?TONEartiv 音樂營分享平台" target="_blank"><i
                                     class="fab fa-line m-2"></i></a>
@@ -29,8 +46,14 @@ layout: default
 
                             <!--TODO Wechat-->
                         </div>
+
+
                     </div>
                 </div>
+
+
+
+
 
                 <!-- END main-content -->
 
@@ -74,32 +97,7 @@ layout: default
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="https://toneartiv.com/2020/08/16/podcast">古典樂迷們不能錯過的【Podcast頻道】</a>
                                 </div>
-                                <!--<div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">奧地利‧Bregenz</a>
-                                </div>-->
                             </li>
-                            <!--<li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                    音樂院考試
-                                    <span>(10)</span>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
-                                    <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                    德文學習
-                                    <span>(2)</span>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
-                                    <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
-                            </li> -->
                         </ul>
                     </div>
                     <!-- END sidebar-box -->
